@@ -1,69 +1,68 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) {
-        List<Pregunta> preguntas = cargarPreguntas("src/preguntas.txt");
+        List<Pregunta> preguntas = LectorXML.leerPreguntasDesdeXML("src/preguntas.xml");
         if (preguntas.isEmpty()) {
             System.out.println("No se pudieron cargar preguntas.");
             return;
         }
 
         Scanner scanner = new Scanner(System.in);
-        Collections.shuffle(preguntas);  // Baraja las preguntas
-        int puntuacion = 0;
+        Collections.shuffle(preguntas);
 
-        for (Pregunta p : preguntas) {
+        int totalPreguntas = 0;
+        int aciertos = 0;
+        int fallos = 0;
+        boolean fin = false;
+
+        Iterator<Pregunta> iter = preguntas.iterator();
+
+        while (!fin && iter.hasNext()) {
+            Pregunta p = iter.next();
+            totalPreguntas++;
+
+            System.out.println("\n--- Pregunta " + totalPreguntas + " ---");
             System.out.println(p.enunciado);
+            char letra = 'a';
             for (String opcion : p.opciones) {
-                System.out.println(opcion); // Las letras ya están incluidas
+                System.out.println(" " + opcion);
+                letra++;
             }
 
-            System.out.print("Tu respuesta (a/b/c/d): ");
+            System.out.print("Tu respuesta (a/b/c/d o 0 para salir): ");
             String respuestaUsuario = scanner.nextLine().trim().toLowerCase();
+
+            if (respuestaUsuario.equals("0")) {
+                fin = true;
+                break;
+            }
 
             if (p.esCorrecta(respuestaUsuario)) {
                 System.out.println("✅ ¡Correcto!");
-                puntuacion++;
+                aciertos++;
             } else {
                 System.out.println("❌ Incorrecto. La respuesta correcta era: " + p.respuestaCorrecta);
+                fallos++;
             }
 
-            System.out.println("📝 Explicación: " + p.explicacion + "\n");
+            System.out.println("📝 Explicación: " + p.explicacion);
         }
 
-        System.out.println("Tu puntuación final: " + puntuacion + " / " + preguntas.size());
+        // Calcular nota final
+        double puntuacionCruda = aciertos - (fallos / 3.0);
+        if (puntuacionCruda < 0) puntuacionCruda = 0;
+
+        double notaFinal = (puntuacionCruda * 10.0) / totalPreguntas;
+        if (notaFinal > 10) notaFinal = 10;
+
+        // Resultado final
+        System.out.println("\n=== Resultados ===");
+        System.out.println("Preguntas respondidas: " + totalPreguntas);
+        System.out.println("Aciertos: " + aciertos);
+        System.out.println("Fallos: " + fallos);
+        System.out.printf("Nota final: %.2f\n", notaFinal);
+
         scanner.close();
-    }
-
-    public static List<Pregunta> cargarPreguntas(String archivo) {
-        List<Pregunta> preguntas = new ArrayList<>();
-
-        try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                if (linea.trim().isEmpty() || linea.startsWith("#")) continue;
-
-                String enunciado = linea;
-                String[] opciones = new String[4];
-                for (int i = 0; i < 4; i++) {
-                    opciones[i] = br.readLine();
-                }
-
-                String correcta = br.readLine().replace("Respuesta correcta: ", "").trim().toLowerCase();
-                String explicacion = br.readLine();
-
-                preguntas.add(new Pregunta(enunciado, opciones, correcta, explicacion));
-
-                br.readLine(); // salta línea en blanco
-            }
-        } catch (IOException e) {
-            System.out.println("Error leyendo archivo: " + e.getMessage());
-        }
-
-        return preguntas;
     }
 }
