@@ -8,6 +8,10 @@ public class Main {
             return;
         }
 
+        // Total de preguntas en el archivo XML
+        int totalPreguntasDisponibles = preguntas.size();
+        System.out.println("Total de preguntas disponibles: " + totalPreguntasDisponibles);
+
         Scanner scanner = new Scanner(System.in);
         Collections.shuffle(preguntas);
 

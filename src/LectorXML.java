@@ -1,8 +1,8 @@
-import org.w3c.dom.*;
-import javax.xml.parsers.*;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import javax.xml.parsers.*;
+import org.w3c.dom.*;
 
 public class LectorXML {
 
@@ -26,7 +26,9 @@ public class LectorXML {
 
                     String enunciado = elementoPregunta.getElementsByTagName("enunciado").item(0).getTextContent();
 
-                    NodeList opcionesNodos = elementoPregunta.getElementsByTagName("opcion");
+                    Element opcionesElement = (Element) elementoPregunta.getElementsByTagName("opciones").item(0);
+                    NodeList opcionesNodos = opcionesElement.getElementsByTagName("opcion");
+
                     String[] opciones = new String[opcionesNodos.getLength()];
                     for (int j = 0; j < opcionesNodos.getLength(); j++) {
                         opciones[j] = opcionesNodos.item(j).getTextContent();
