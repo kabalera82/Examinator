@@ -4482,4 +4482,444 @@
     <respuesta>d</respuesta>
     <explicacion>El bucle `for` comienza en 1 y se ejecuta mientras `i` sea menor o igual a 3, incrementando `i` en cada iteración. La salida es "1 2 3".</explicacion>
 </pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la primera fase del ciclo de vida del software?</enunciado>
+    <opciones>
+        <opcion>a) Pruebas</opcion>
+        <opcion>b) Mantenimiento</opcion>
+        <opcion>c) Análisis de requisitos</opcion>
+        <opcion>d) Implementación</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>La primera fase del ciclo de vida del software es el análisis de requisitos, donde se identifican las necesidades y expectativas del cliente para el sistema.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué tipo de dato debe tener una variable para almacenar el valor de una letra?</enunciado>
+    <opciones>
+        <opcion>a) boolean</opcion>
+        <opcion>b) double</opcion>
+        <opcion>c) int</opcion>
+        <opcion>d) char</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>El tipo de dato `char` se utiliza para almacenar un único carácter, como una letra.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué tipo de dato en Java se usa para representar valores decimales?</enunciado>
+    <opciones>
+        <opcion>a) char</opcion>
+        <opcion>b) boolean</opcion>
+        <opcion>c) double</opcion>
+        <opcion>d) int</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El tipo de dato `double` se utiliza para representar números decimales en Java.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la convención para nombrar una variable en Java?</enunciado>
+    <opciones>
+        <opcion>a) Puede comenzar con un número</opcion>
+        <opcion>b) Debe contener espacios entre palabras</opcion>
+        <opcion>c) Siempre debe estar en mayúsculas</opcion>
+        <opcion>d) Comienza con una letra minúscula y usa camelCase</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>La convención en Java es que los nombres de las variables comiencen con una letra minúscula y usen camelCase para separar palabras.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes opciones es un tipo de dato primitivo en Java?</enunciado>
+    <opciones>
+        <opcion>a) String</opcion>
+        <opcion>b) Integer</opcion>
+        <opcion>c) char</opcion>
+        <opcion>d) Array</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>`char` es un tipo de dato primitivo en Java que se utiliza para representar un único carácter.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Para qué se usa la palabra clave final en Java?</enunciado>
+    <opciones>
+        <opcion>a) Para iniciar un bucle</opcion>
+        <opcion>b) Para definir una constante</opcion>
+        <opcion>c) Para declarar un tipo de dato entero</opcion>
+        <opcion>d) Para cerrar una clase</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>La palabra clave `final` se utiliza para declarar constantes en Java, es decir, valores que no pueden cambiar después de ser inicializados.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué valor puede almacenar un dato de tipo boolean en Java?</enunciado>
+    <opciones>
+        <opcion>a) true o false</opcion>
+        <opcion>b) Solo caracteres ASCII</opcion>
+        <opcion>c) Cualquier número entero</opcion>
+        <opcion>d) Cualquier valor de texto</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>Un dato de tipo `boolean` en Java solo puede almacenar los valores `true` o `false`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es el operador correcto para realizar una multiplicación en Java?</enunciado>
+    <opciones>
+        <opcion>a) &</opcion>
+        <opcion>b) /</opcion>
+        <opcion>c) *</opcion>
+        <opcion>d) %</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El operador `*` se utiliza para realizar multiplicaciones en Java.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué es el "casteo" en Java?</enunciado>
+    <opciones>
+        <opcion>a) Crear una nueva clase</opcion>
+        <opcion>b) Cambiar el nombre de una variable</opcion>
+        <opcion>c) Convertir un tipo de dato en otro</opcion>
+        <opcion>d) Ejecutar un programa</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El "casteo" en Java se refiere a convertir un tipo de dato en otro, ya sea de forma implícita o explícita.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es el valor de la variable resultado después de esta operación? `int resultado = 10 / 3;`</enunciado>
+    <opciones>
+        <opcion>a) 0</opcion>
+        <opcion>b) 3</opcion>
+        <opcion>c) 10</opcion>
+        <opcion>d) 3.33</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>En Java, la división entre enteros devuelve un resultado entero. Por lo tanto, `10 / 3` da como resultado `3`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la función de System.out.println en Java?</enunciado>
+    <opciones>
+        <opcion>a) Define una variable</opcion>
+        <opcion>b) Ejecuta el programa</opcion>
+        <opcion>c) Almacena datos en la memoria</opcion>
+        <opcion>d) Imprime texto en la consola y luego inserta una nueva línea</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>`System.out.println` se utiliza para imprimir texto en la consola y, al finalizar, inserta automáticamente una nueva línea.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes opciones es un ejemplo de ejercicio práctico de entrada y salida de datos en Java?</enunciado>
+    <opciones>
+        <opcion>a) Definir una variable sin mostrarla en pantalla</opcion>
+        <opcion>b) Imprimir "Hola, mundo!"</opcion>
+        <opcion>c) Declarar una clase sin métodos</opcion>
+        <opcion>d) Calcular el promedio de tres números ingresados por el usuario</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>Un ejercicio práctico de entrada y salida de datos en Java podría ser calcular el promedio de tres números ingresados por el usuario, ya que implica leer datos y mostrar resultados.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué resultado genera el siguiente código? `System.out.println("Hola, mundo!");`</enunciado>
+    <opciones>
+        <opcion>a) Imprime "Hola, mundo!" en la consola</opcion>
+        <opcion>b) Lanza un error de compilación</opcion>
+        <opcion>c) Almacena "Hola, mundo!" en una variable</opcion>
+        <opcion>d) No hace nada</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>El código `System.out.println("Hola, mundo!");` imprime el texto "Hola, mundo!" en la consola y luego inserta una nueva línea.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Para qué se usa la clase Scanner en Java?</enunciado>
+    <opciones>
+        <opcion>a) Para leer datos de entrada desde la consola</opcion>
+        <opcion>b) Para imprimir texto en la consola</opcion>
+        <opcion>c) Para crear nuevos métodos</opcion>
+        <opcion>d) Para realizar operaciones matemáticas complejas</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>La clase `Scanner` se utiliza para leer datos de entrada desde la consola, como números, cadenas o caracteres.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes líneas de código es correcta para crear un objeto Scanner?</enunciado>
+    <opciones>
+        <opcion>a) Scanner entrada = Scanner(System.out);</opcion>
+        <opcion>b) Scanner entrada = new Scanner(System.in);</opcion>
+        <opcion>c) entrada Scanner = new (System.in);</opcion>
+        <opcion>d) Scanner entrada = Scanner();</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>La forma correcta de crear un objeto `Scanner` es `Scanner entrada = new Scanner(System.in);`, donde `System.in` representa la entrada estándar (teclado).</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué método se usa para leer una cadena de texto ingresada por el usuario con Scanner?</enunciado>
+    <opciones>
+        <opcion>a) nextDouble()</opcion>
+        <opcion>b) nextInt()</opcion>
+        <opcion>c) nextLine()</opcion>
+        <opcion>d) nextChar()</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El método `nextLine()` de la clase `Scanner` se utiliza para leer una línea completa de texto ingresada por el usuario.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es el propósito de System.out.print en comparación con System.out.println?</enunciado>
+    <opciones>
+        <opcion>a) Imprime texto en mayúsculas automáticamente</opcion>
+        <opcion>b) Solo imprime números</opcion>
+        <opcion>c) Imprime texto sin añadir una nueva línea al final</opcion>
+        <opcion>d) Almacena datos en una variable</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>`System.out.print` imprime texto en la consola sin añadir una nueva línea al final, a diferencia de `System.out.println` que sí lo hace.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cómo se puede capturar un número entero ingresado por el usuario en la consola usando Scanner?</enunciado>
+    <opciones>
+        <opcion>a) entrada.nextDouble();</opcion>
+        <opcion>b) entrada.nextInt();</opcion>
+        <opcion>c) entrada.readInt();</opcion>
+        <opcion>d) entrada.nextLine();</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>El método `nextInt()` de la clase `Scanner` se utiliza para capturar un número entero ingresado por el usuario.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué ocurrirá si el usuario ingresa un valor no numérico cuando se espera un número entero con nextInt()?</enunciado>
+    <opciones>
+        <opcion>a) Se lanza una excepción InputMismatchException</opcion>
+        <opcion>b) Se ignora el valor ingresado</opcion>
+        <opcion>c) Se produce un error de compilación</opcion>
+        <opcion>d) Se captura el valor sin problemas</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>Si el usuario ingresa un valor no numérico cuando se espera un número entero con `nextInt()`, se lanza una excepción `InputMismatchException`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la salida del siguiente código? `System.out.print("Java "); System.out.print("es"); System.out.println("genial!");`</enunciado>
+    <opciones>
+        <opcion>a) genial!</opcion>
+        <opcion>b) Java es genial!</opcion>
+        <opcion>c) Java es genial!</opcion>
+        <opcion>d) Java es genial!</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>El código imprime "Java es genial!" en una sola línea. `System.out.print` no añade una nueva línea, mientras que `System.out.println` sí lo hace al final.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es el resultado de la expresión 10 % 3 en Java?</enunciado>
+    <opciones>
+        <opcion>a) 1</opcion>
+        <opcion>b) 0</opcion>
+        <opcion>c) 10</opcion>
+        <opcion>d) 3</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>El operador `%` devuelve el residuo de la división. En este caso, `10 % 3` da como resultado `1`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué hace el operador % en Java?</enunciado>
+    <opciones>
+        <opcion>a) Compara dos valores</opcion>
+        <opcion>b) Suma dos números</opcion>
+        <opcion>c) Multiplica dos números</opcion>
+        <opcion>d) Devuelve el residuo de una división</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>El operador `%` en Java devuelve el residuo de una división entre dos números.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué hace el operador += en Java?</enunciado>
+    <opciones>
+        <opcion>a) Asigna un valor absoluto a una variable</opcion>
+        <opcion>b) Resta un valor a una variable</opcion>
+        <opcion>c) Suma un valor a una variable y asigna el resultado a esa misma variable</opcion>
+        <opcion>d) Multiplica dos valores</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El operador `+=` suma un valor a una variable y asigna el resultado a esa misma variable. Por ejemplo, `x += 5` es equivalente a `x = x + 5`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>Si x = 5, ¿cuál es el valor de x después de ejecutar x++?</enunciado>
+    <opciones>
+        <opcion>a) 6</opcion>
+        <opcion>b) 4</opcion>
+        <opcion>c) 7</opcion>
+        <opcion>d) 5</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>El operador `x++` incrementa el valor de `x` en 1 después de usar su valor actual. Por lo tanto, si `x = 5`, después de `x++`, el valor de `x` será `6`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la diferencia entre x++ y ++x en Java?</enunciado>
+    <opciones>
+        <opcion>a) No hay diferencia</opcion>
+        <opcion>b) x++ siempre es más rápido</opcion>
+        <opcion>c) x++ incrementa después de usar el valor, mientras que ++x incrementa antes de usar el valor</opcion>
+        <opcion>d) ++x es solo para valores negativos</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El operador `x++` incrementa el valor de `x` después de usarlo, mientras que `++x` incrementa el valor de `x` antes de usarlo.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué operador se usa para verificar si dos valores son iguales en una expresión lógica?</enunciado>
+    <opciones>
+        <opcion>a) !=</opcion>
+        <opcion>b) ==</opcion>
+        <opcion>c) +=</opcion>
+        <opcion>d) =</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>El operador `==` se utiliza para comparar si dos valores son iguales en una expresión lógica.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué valor tiene la variable resultado después de la siguiente operación? `int resultado = 20 / 4 * 2 + 3;`</enunciado>
+    <opciones>
+        <opcion>a) 15</opcion>
+        <opcion>b) 13</opcion>
+        <opcion>c) 10</opcion>
+        <opcion>d) 11</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>La operación se evalúa como `20 / 4 = 5`, luego `5 * 2 = 10`, y finalmente `10 + 3 = 13`. Por lo tanto, el valor de `resultado` es `13`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de los siguientes operadores se usa para negar una expresión booleana?</enunciado>
+    <opciones>
+        <opcion>a) &&</opcion>
+        <opcion>b) %</opcion>
+        <opcion>c) ||</opcion>
+        <opcion>d) !</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>El operador `!` se utiliza para negar una expresión booleana, invirtiendo su valor.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>Si `x = 10`, ¿qué resultado tiene `x -= 3;`?</enunciado>
+    <opciones>
+        <opcion>a) x = 7</opcion>
+        <opcion>b) x = 3</opcion>
+        <opcion>c) x = 13</opcion>
+        <opcion>d) x = 10</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>La operación `x -= 3` es equivalente a `x = x - 3`. Si `x` comienza con el valor `10`, el resultado será `7`.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué valor tiene la expresión `true || false` en Java?</enunciado>
+    <opciones>
+        <opcion>a) null</opcion>
+        <opcion>b) false</opcion>
+        <opcion>c) true</opcion>
+        <opcion>d) No se puede determinar</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>La expresión `true || false` evalúa a `true` porque el operador `||` (OR lógico) devuelve `true` si al menos una de las condiciones es verdadera.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué es un algoritmo?</enunciado>
+    <opciones>
+        <opcion>a) Una secuencia de instrucciones para resolver un problema</opcion>
+        <opcion>b) Un conjunto de variables</opcion>
+        <opcion>c) Un lenguaje de programación</opcion>
+        <opcion>d) Un tipo de bucle en programación</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>Un algoritmo es una secuencia de pasos o instrucciones diseñadas para resolver un problema o realizar una tarea específica.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de estos ejemplos representa la conversión de pseudocódigo en código Java? Pseudocódigo: "Iniciar -> definir variable x = 10 -> mostrar x -> Fin"</enunciado>
+    <opciones>
+        <opcion>a) System.out.println(x);</opcion>
+        <opcion>b) variable x</opcion>
+        <opcion>c) int x = 10; System.out.println(x);</opcion>
+        <opcion>d) print(x)</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>El pseudocódigo se traduce a `int x = 10; System.out.println(x);` en Java, donde se define una variable y se imprime su valor.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes opciones describe mejor un pseudocódigo?</enunciado>
+    <opciones>
+        <opcion>a) Texto sin estructura</opcion>
+        <opcion>b) Código en lenguaje Java</opcion>
+        <opcion>c) Un diagrama de flujo</opcion>
+        <opcion>d) Representación simplificada y detallada de los pasos de un algoritmo</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>El pseudocódigo es una representación simplificada y detallada de los pasos de un algoritmo, escrita en un lenguaje natural o semiformal.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes estructuras es común en un pseudocódigo?</enunciado>
+    <opciones>
+        <opcion>a) if-else, for, while</opcion>
+        <opcion>b) HTML tags</opcion>
+        <opcion>c) Start, Process, End</opcion>
+        <opcion>d) public static void</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>En pseudocódigo, las estructuras comunes incluyen "Start", "Process" y "End" para representar el inicio, el proceso y el final de un algoritmo.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué es lo primero que se debe hacer antes de escribir un algoritmo en Java?</enunciado>
+    <opciones>
+        <opcion>a) Configurar una base de datos</opcion>
+        <opcion>b) Escribir un pseudocódigo para planificar los pasos</opcion>
+        <opcion>c) Traducir el algoritmo a otro idioma</opcion>
+        <opcion>d) Ejecutar el código</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>Escribir un pseudocódigo ayuda a planificar la lógica del algoritmo antes de implementarlo en un lenguaje de programación como Java.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál es la función del pseudocódigo en el desarrollo de un algoritmo?</enunciado>
+    <opciones>
+        <opcion>a) Ayudar a los desarrolladores a visualizar la lógica antes de programar</opcion>
+        <opcion>b) Evitar escribir código</opcion>
+        <opcion>c) Hacer el código final más rápido</opcion>
+        <opcion>d) Crear gráficos en tiempo real</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>El pseudocódigo permite a los desarrolladores visualizar y estructurar la lógica de un algoritmo antes de implementarlo en un lenguaje de programación.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Qué estructura de control de flujo se usa para tomar decisiones en Java?</enunciado>
+    <opciones>
+        <opcion>a) if-else</opcion>
+        <opcion>b) while</opcion>
+        <opcion>c) switch</opcion>
+        <opcion>d) for</opcion>
+    </opciones>
+    <respuesta>a</respuesta>
+    <explicacion>La estructura `if-else` se utiliza para tomar decisiones en Java, ejecutando diferentes bloques de código según se cumpla o no una condición.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de los siguientes es un ejemplo de pseudocódigo para sumar dos números y mostrar el resultado?</enunciado>
+    <opciones>
+        <opcion>a) Sumar dos números y mostrar el resultado</opcion>
+        <opcion>b) Inicio -> a = 5, b = 3 -> c = a + b -> Mostrar c -> Fin</opcion>
+        <opcion>c) if a + b then print c</opcion>
+        <opcion>d) int a = 5; int b = 3; int c = a + b; System.out.println(c);</opcion>
+    </opciones>
+    <respuesta>b</respuesta>
+    <explicacion>El pseudocódigo correcto es: "Inicio -> a = 5, b = 3 -> c = a + b -> Mostrar c -> Fin", ya que describe los pasos de forma clara y estructurada.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>Al convertir un algoritmo en código Java, ¿cuál es el paso principal?</enunciado>
+    <opciones>
+        <opcion>a) Cambiar todos los nombres de las variables</opcion>
+        <opcion>b) Crear una interfaz de usuario</opcion>
+        <opcion>c) Dividir el código en múltiples clases</opcion>
+        <opcion>d) Traducir el pseudocódigo a instrucciones de Java utilizando sintaxis correcta</opcion>
+    </opciones>
+    <respuesta>d</respuesta>
+    <explicacion>El paso principal al convertir un algoritmo en código Java es traducir el pseudocódigo a instrucciones de Java utilizando la sintaxis correcta.</explicacion>
+</pregunta>
+<pregunta>
+    <enunciado>¿Cuál de las siguientes es una práctica común en ejercicios de lógica básica en Java?</enunciado>
+    <opciones>
+        <opcion>a) Definir solo variables estáticas</opcion>
+        <opcion>b) Crear clases abstractas</opcion>
+        <opcion>c) Utilizar estructuras condicionales y bucles para resolver problemas simples</opcion>
+        <opcion>d) No usar métodos en absoluto</opcion>
+    </opciones>
+    <respuesta>c</respuesta>
+    <explicacion>En ejercicios de lógica básica en Java, es común utilizar estructuras condicionales y bucles para resolver problemas simples, ya que permiten controlar el flujo del programa.</explicacion>
+</pregunta>
 </preguntas>
