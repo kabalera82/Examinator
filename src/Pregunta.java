@@ -1,17 +1,23 @@
+import java.util.List;
+
 public class Pregunta {
+    public String id; // Campo para almacenar el ID de la pregunta
     public String enunciado;
-    public String[] opciones;
+    public List<String> opciones;
     public String respuestaCorrecta;
     public String explicacion;
 
-    public Pregunta(String enunciado, String[] opciones, String respuestaCorrecta, String explicacion) {
+    // Constructor
+    public Pregunta(String id, String enunciado, List<String> opciones, String respuestaCorrecta, String explicacion) {
+        this.id = id;
         this.enunciado = enunciado;
         this.opciones = opciones;
-        this.respuestaCorrecta = respuestaCorrecta.toLowerCase();
+        this.respuestaCorrecta = respuestaCorrecta;
         this.explicacion = explicacion;
     }
 
+    // Método para verificar si la respuesta es correcta
     public boolean esCorrecta(String respuestaUsuario) {
-        return respuestaCorrecta.equals(respuestaUsuario);
+        return respuestaCorrecta.equalsIgnoreCase(respuestaUsuario);
     }
 }

@@ -1,50 +1,40 @@
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.parsers.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.*;
 
 public class LectorXML {
-
     public static List<Pregunta> leerPreguntasDesdeXML(String rutaArchivo) {
         List<Pregunta> preguntas = new ArrayList<>();
-
         try {
             File archivo = new File(rutaArchivo);
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(archivo);
-            doc.getDocumentElement().normalize();
+            Document documento = builder.parse(archivo);
 
-            NodeList listaPreguntas = doc.getElementsByTagName("pregunta");
-
+            NodeList listaPreguntas = documento.getElementsByTagName("pregunta");
             for (int i = 0; i < listaPreguntas.getLength(); i++) {
-                Node nodo = listaPreguntas.item(i);
+                Element elementoPregunta = (Element) listaPreguntas.item(i);
 
-                if (nodo.getNodeType() == Node.ELEMENT_NODE) {
-                    Element elementoPregunta = (Element) nodo;
+                String id = elementoPregunta.getAttribute("id");
+                String enunciado = elementoPregunta.getElementsByTagName("enunciado").item(0).getTextContent();
 
-                    String enunciado = elementoPregunta.getElementsByTagName("enunciado").item(0).getTextContent();
-
-                    Element opcionesElement = (Element) elementoPregunta.getElementsByTagName("opciones").item(0);
-                    NodeList opcionesNodos = opcionesElement.getElementsByTagName("opcion");
-
-                    String[] opciones = new String[opcionesNodos.getLength()];
-                    for (int j = 0; j < opcionesNodos.getLength(); j++) {
-                        opciones[j] = opcionesNodos.item(j).getTextContent();
-                    }
-
-                    String respuesta = elementoPregunta.getElementsByTagName("respuesta").item(0).getTextContent().trim().toLowerCase();
-                    String explicacion = elementoPregunta.getElementsByTagName("explicacion").item(0).getTextContent();
-
-                    preguntas.add(new Pregunta(enunciado, opciones, respuesta, explicacion));
+                NodeList opcionesNodos = elementoPregunta.getElementsByTagName("opcion");
+                List<String> opciones = new ArrayList<>();
+                for (int j = 0; j < opcionesNodos.getLength(); j++) {
+                    opciones.add(opcionesNodos.item(j).getTextContent());
                 }
+
+                String respuestaCorrecta = elementoPregunta.getElementsByTagName("respuesta").item(0).getTextContent();
+                String explicacion = elementoPregunta.getElementsByTagName("explicacion").item(0).getTextContent();
+
+                preguntas.add(new Pregunta(id, enunciado, opciones, respuestaCorrecta, explicacion));
             }
-
         } catch (Exception e) {
-            System.out.println("❌ Error al leer XML: " + e.getMessage());
+            System.err.println("Error al leer el archivo XML: " + e.getMessage());
         }
-
         return preguntas;
     }
 }

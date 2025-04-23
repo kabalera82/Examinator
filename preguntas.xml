@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <preguntas>
-    <pregunta id="1">
+    <pregunta>
         <enunciado>¿Qué clase se utiliza para leer datos desde consola?</enunciado>
         <opciones>
             <opcion>a) InputReader</opcion>
@@ -11,7 +12,7 @@
         <respuesta>b</respuesta>
         <explicacion>Scanner es la clase comúnmente usada para leer datos desde consola en Java.</explicacion>
     </pregunta>
-    <pregunta id="2">
+    <pregunta>
         <enunciado>¿Qué clase en Java se utiliza para recibir entrada de datos desde la consola?</enunciado>
         <opciones>
             <opcion>a) System.out</opcion>
@@ -23,7 +24,7 @@
         <explicacion>`Scanner` es la clase más común para leer datos desde la consola. Se usa junto con `System.in`, por ejemplo: `Scanner sc = new Scanner(System.in);`</explicacion>
     </pregunta>
 
-    <pregunta id="3">
+    <pregunta>
         <enunciado>¿Cómo se declara un array en Java?</enunciado>
         <opciones>
             <opcion>a) array[] nombre = new array[10];</opcion>
@@ -35,7 +36,7 @@
         <explicacion>La forma correcta de declarar un array en Java es `int[] nombre = new int[10];`.</explicacion>
     </pregunta>
 
-    <pregunta id="4">
+    <pregunta>
         <enunciado>¿Qué valor tiene vector.length si declaramos int[] vector = new int[5];?</enunciado>
         <opciones>
             <opcion>a) 4</opcion>
@@ -47,7 +48,7 @@
         <explicacion>El atributo `length` de un array devuelve la cantidad de elementos que puede almacenar, en este caso 5.</explicacion>
     </pregunta>
 
-    <pregunta id="5">
+    <pregunta>
         <enunciado>¿Qué método de la clase Arrays se usa para ordenar un array en Java?</enunciado>
         <opciones>
             <opcion>a) sort()</opcion>
@@ -59,7 +60,7 @@
         <explicacion>El método `Arrays.sort()` se utiliza para ordenar un array en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="6">
+    <pregunta>
         <enunciado>¿Qué método de la clase String permite extraer una subcadena?</enunciado>
         <opciones>
             <opcion>a) extract()</opcion>
@@ -71,7 +72,7 @@
         <explicacion>El método `substring()` permite extraer una subcadena de un objeto String.</explicacion>
     </pregunta>
 
-    <pregunta id="7">
+    <pregunta>
         <enunciado>¿Qué devuelve el método compareTo() de la clase String?</enunciado>
         <opciones>
             <opcion>a) true si los Strings son iguales</opcion>
@@ -83,7 +84,7 @@
         <explicacion>El método `compareTo()` devuelve un número que indica el orden lexicográfico entre dos cadenas.</explicacion>
     </pregunta>
 
-    <pregunta id="8">
+    <pregunta>
         <enunciado>¿Qué diferencia hay entre equals() y == en la comparación de Strings?</enunciado>
         <opciones>
             <opcion>a) == compara referencias y equals() el contenido</opcion>
@@ -94,7 +95,7 @@
         <respuesta>a</respuesta>
         <explicacion>`==` compara referencias en memoria, mientras que `equals()` compara el contenido de los Strings.</explicacion>
     </pregunta>
-    <pregunta id="9">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?</enunciado>
         <opciones>
             <opcion>a) Deben tener el mismo nombre y mismos parámetros</opcion>
@@ -106,7 +107,7 @@
         <explicacion>Los métodos sobrecargados tienen el mismo nombre pero diferentes listas de parámetros (número o tipo).</explicacion>
     </pregunta>
 
-    <pregunta id="10">
+    <pregunta>
         <enunciado>¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?</enunciado>
         <opciones>
             <opcion>a) public</opcion>
@@ -117,7 +118,7 @@
         <respuesta>b</respuesta>
         <explicacion>El modificador `private` restringe el acceso a los métodos o atributos solo dentro de la misma clase.</explicacion>
     </pregunta>
-    <pregunta id="11">
+    <pregunta>
         <enunciado>¿Cuál será la salida del siguiente código?
                     public class Test{
                         public static void main (String [] args){
@@ -139,7 +140,7 @@
         <explicacion>El código imprime 0 1 2 porque el bucle while incrementa i desde 0 hasta 2, deteniéndose cuando i es igual a 3.</explicacion>
     </pregunta>
 
-    <pregunta id="12">
+    <pregunta>
         <enunciado>¿Cuál es la estructura correcta para declarar una matriz 3x3 en Java?</enunciado>
         <opciones>
             <opcion>a) int[][] matriz = new int(3,3);</opcion>
@@ -151,7 +152,7 @@
         <explicacion>La forma correcta de declarar una matriz en Java es `int matriz[][] = new int[3][3];`.</explicacion>
     </pregunta>
 
-    <pregunta id="13">
+    <pregunta>
         <enunciado>¿Qué método de la clase Arrays se usa para copiar un array en otro?</enunciado>
         <opciones>
             <opcion>a) copy()</opcion>
@@ -163,7 +164,7 @@
         <explicacion>El método `System.arraycopy()` se utiliza para copiar elementos de un array a otro.</explicacion>
     </pregunta>
 
-    <pregunta id="14">
+    <pregunta>
         <enunciado>¿Qué devuelve el método length de un array?</enunciado>
         <opciones>
             <opcion>a) La cantidad de elementos</opcion>
@@ -175,7 +176,7 @@
         <explicacion>El método `length` devuelve la cantidad total de elementos que puede almacenar el array.</explicacion>
     </pregunta>
 
-    <pregunta id="15">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?</enunciado>
         <opciones>
             <opcion>a) Deben tener el mismo nombre y mismos parámetros</opcion>
@@ -187,7 +188,7 @@
         <explicacion>Los métodos sobrecargados tienen el mismo nombre pero diferentes listas de parámetros (número o tipo).</explicacion>
     </pregunta>
 
-    <pregunta id="16">
+    <pregunta>
         <enunciado>¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?</enunciado>
         <opciones>
             <opcion>a) public</opcion>
@@ -198,7 +199,7 @@
         <respuesta>b</respuesta>
         <explicacion>El modificador `private` restringe el acceso a los métodos o atributos solo dentro de la misma clase.</explicacion>
     </pregunta>
-    <pregunta id="17">
+    <pregunta>
         <enunciado>Cual será la salida del siguiente codigo
             public class Test{
                 public static void main(String args[]){
@@ -223,7 +224,7 @@
         <explicacion>La primera condición if (x &gt; 2) es verdadera porque 5 &lt; 2 Dentro del primer if, la segunda condición if (x &lt; 10) también es verdadera porque 5 &lt; 10. Por lo tanto, se ejecuta System.out.println("A"); y se imprime A</explicacion>
     </pregunta>
     
-    <pregunta id="18">
+    <pregunta>
         <enunciado>¿Cuál es la diferencia entre while y do-while?</enunciado>
         <opciones>
             <opcion>a) while evalúa la condición al final del bucle, do-while al inicio</opcion>
@@ -235,7 +236,7 @@
         <explicacion>En un bucle `while`, la condición se evalúa antes de ejecutar el bloque de código, mientras que en un bucle `do-while`, la condición se evalúa después, garantizando que el bloque se ejecute al menos una vez.</explicacion>
     </pregunta>
 
-    <pregunta id="19">
+    <pregunta>
         <enunciado>En la estructura switch, ¿qué sucede si no se incluye la sentencia break en cada case?</enunciado>
         <opciones>
             <opcion>a) El programa lanza un error</opcion>
@@ -247,7 +248,7 @@
         <explicacion>Si no se incluye un `break`, el programa ejecutará todos los casos consecutivos después de encontrar un caso válido, hasta encontrar un `break` o finalizar el bloque `switch`.</explicacion>
     </pregunta>
 
-    <pregunta id="20">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes estructuras de control permite iteraciones?</enunciado>
         <opciones>
             <opcion>a) if</opcion>
@@ -259,7 +260,7 @@
         <explicacion>La estructura `while` permite iteraciones, ya que repite un bloque de código mientras se cumpla una condición. Las demás estructuras no están diseñadas para iterar.</explicacion>
     </pregunta>
 
-    <pregunta id="21">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes estructuras de control se utiliza para tomar decisiones en un programa Java?</enunciado>
         <opciones>
             <opcion>a) for</opcion>
@@ -270,7 +271,7 @@
         <respuesta>c</respuesta>
         <explicacion>`if-else` es la estructura condicional que permite tomar decisiones según se cumpla o no una condición. Las otras son estructuras de repetición.</explicacion>
     </pregunta>
-    <pregunta id="22">
+    <pregunta>
         <enunciado>¿Qué palabra clave se utiliza para declarar una constante en Java?</enunciado>
         <opciones>
             <opcion>a) const</opcion>
@@ -282,7 +283,7 @@
         <explicacion>La palabra 'final' se utiliza para declarar constantes en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="23">
+    <pregunta>
         <enunciado>¿Cuál es el tipo de datos para números enteros más pequeño en Java?</enunciado>
         <opciones>
             <opcion>a) byte</opcion>
@@ -293,7 +294,7 @@
         <respuesta>a</respuesta>
         <explicacion>El tipo 'byte' usa solo 1 byte de memoria y va de -128 a 127.</explicacion>
     </pregunta>
-    <pregunta id="24">
+    <pregunta>
         <enunciado>¿Cuál es la diferencia entre break y continue en un bucle?</enunciado>
         <opciones>
             <opcion>a) break detiene la ejecución del bucle y continue solo salta una iteración</opcion>
@@ -304,7 +305,7 @@
         <respuesta>a</respuesta>
         <explicacion>`break` detiene completamente la ejecución del bucle, mientras que `continue` salta la iteración actual y pasa a la siguiente.</explicacion>
     </pregunta>
-    <pregunta id="25">
+    <pregunta>
         <enunciado>¿Cuál es el valor predeterminado de un boolean en Java?</enunciado>
         <opciones>
             <opcion>a) true</opcion>
@@ -316,7 +317,7 @@
         <explicacion>En Java, las variables boolean por defecto se inicializan como false.</explicacion>
     </pregunta>
 
-    <pregunta id="26">
+    <pregunta>
         <enunciado>¿Qué es la herencia en Java?</enunciado>
         <opciones>
             <opcion>a) Permite a una clase heredar métodos y atributos.</opcion>
@@ -328,7 +329,7 @@
         <explicacion>La herencia permite que una clase (subclase) herede métodos y atributos de otra clase (superclase), promoviendo la reutilización de código.</explicacion>
     </pregunta>
 
-    <pregunta id="27">
+    <pregunta>
         <enunciado>¿Qué palabra clave se usa para heredar de una clase?</enunciado>
         <opciones>
             <opcion>a) this</opcion>
@@ -340,7 +341,7 @@
         <explicacion>La palabra clave `extends` se utiliza para heredar de una clase base en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="28">
+    <pregunta>
         <enunciado>¿Qué se puede heredar de una superclase?</enunciado>
         <opciones>
             <opcion>a) Atributos públicos</opcion>
@@ -352,7 +353,7 @@
         <explicacion>Se pueden heredar atributos y métodos públicos y protegidos, pero no los privados. `super` permite acceder a los miembros heredados.</explicacion>
     </pregunta>
 
-    <pregunta id="29">
+    <pregunta>
         <enunciado>¿Qué afirmaciones son verdaderas sobre super?</enunciado>
         <opciones>
             <opcion>a) Se usa para acceder a métodos de la superclase.</opcion>
@@ -364,7 +365,7 @@
         <explicacion>`super` se utiliza para acceder a métodos y atributos de la superclase, y debe ser la primera línea en un constructor al invocar al constructor de la superclase.</explicacion>
     </pregunta>
 
-    <pregunta id="30">
+    <pregunta>
         <enunciado>¿Qué es una clase abstracta?</enunciado>
         <opciones>
             <opcion>a) Puede tener métodos sin implementar.</opcion>
@@ -375,7 +376,7 @@
         <respuesta>a, c</respuesta>
         <explicacion>Una clase abstracta puede tener métodos sin implementar y no puede ser instanciada directamente. Puede contener métodos concretos y no siempre debe extenderse.</explicacion>
     </pregunta>
-    <pregunta id="31">
+    <pregunta>
         <enunciado>¿Qué operador se utiliza para comparar igualdad en Java?</enunciado>
         <opciones>
             <opcion>a) =</opcion>
@@ -386,7 +387,7 @@
         <respuesta>b</respuesta>
         <explicacion>'==' se usa para comparar valores primitivos. Para objetos, se recomienda usar equals().</explicacion>
     </pregunta>
-    <pregunta id="32">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes no es una palabra reservada en Java?</enunciado>
         <opciones>
             <opcion>a) static</opcion>
@@ -397,7 +398,7 @@
         <respuesta>d</respuesta>
         <explicacion>'define' no es una palabra reservada en Java, aunque lo es en otros lenguajes como C.</explicacion>
     </pregunta>
-    <pregunta id="33">
+    <pregunta>
         <enunciado>¿Qué clase se utiliza para leer datos desde consola?</enunciado>
         <opciones>
             <opcion>a) InputReader</opcion>
@@ -408,7 +409,7 @@
         <respuesta>b</respuesta>
         <explicacion>Scanner es la clase comúnmente usada para leer datos desde consola en Java.</explicacion>
     </pregunta>
-    <pregunta id="34">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes estructuras es una clase contenedora?</enunciado>
         <opciones>
             <opcion>a) Array</opcion>
@@ -419,7 +420,7 @@
         <respuesta>b</respuesta>
         <explicacion>List es una interfaz de colección que representa una lista ordenada de elementos.</explicacion>
     </pregunta>
-    <pregunta id="35">
+    <pregunta>
         <enunciado>¿Cuál es la salida de System.out.println(3 + "4")?</enunciado>
         <opciones>
             <opcion>a) 7</opcion>
@@ -430,7 +431,7 @@
         <respuesta>b</respuesta>
         <explicacion>Se concatena 3 con el String "4", dando como resultado "34".</explicacion>
     </pregunta>
-    <pregunta id="36">
+    <pregunta>
         <enunciado>¿Qué significa que Java sea un lenguaje fuertemente tipado?</enunciado>
         <opciones>
             <opcion>a) Que se puede cambiar el tipo de una variable libremente.</opcion>
@@ -442,7 +443,7 @@
         <explicacion>En Java todos los tipos deben ser declarados explícitamente y no se permite el cambio de tipo implícito en la mayoría de los casos.</explicacion>
     </pregunta>
 
-    <pregunta id="37">
+    <pregunta>
         <enunciado>Los operadores lógicos operan con valores booleanos, resultando:</enunciado>
         <opciones>
             <opcion>a) Valores enteros.</opcion>
@@ -454,7 +455,7 @@
         <explicacion>Los operadores lógicos trabajan únicamente con valores booleanos (true o false).</explicacion>
     </pregunta>
 
-    <pregunta id="38">
+    <pregunta>
         <enunciado>La evaluación de una expresión relacional puede generar un valor de tipo:</enunciado>
         <opciones>
             <opcion>a) Entero</opcion>
@@ -466,7 +467,7 @@
         <explicacion>Las expresiones relacionales devuelven un valor booleano (true o false).</explicacion>
     </pregunta>
 
-    <pregunta id="39">
+    <pregunta>
         <enunciado>La expresión 3==3 &amp;&amp; 2&lt;3 &amp;&amp; 1!=2 resulta:</enunciado>
         <opciones>
             <opcion>a) Cierto</opcion>
@@ -478,7 +479,7 @@
         <explicacion>Todas las comparaciones son verdaderas, por tanto el resultado es true (cierto).</explicacion>
     </pregunta>
 
-    <pregunta id="40">
+    <pregunta>
         <enunciado>La siguiente expresión, donde interviene la variable booleana a: 3!=3 || a || 1&lt;2, resulta:</enunciado>
         <opciones>
             <opcion>a) Dependerá del valor a</opcion>
@@ -490,7 +491,7 @@
         <explicacion>Aunque 3!=3 es falso, 1&amp;;2 es verdadero, por lo que el resultado es true (corto circuito lógico).</explicacion>
     </pregunta>
 
-    <pregunta id="41">
+    <pregunta>
         <enunciado>Elige los valores de las variables enteras (a, b y c) que permiten que la evaluación de la siguiente expresión sea cierta: a&lt;b &amp;&amp; b!=c &amp;&amp; b&lt;=c:</enunciado>
         <opciones>
             <opcion>a) a = 1, b = 1, c = 2</opcion>
@@ -501,7 +502,7 @@
         <respuesta>d</respuesta>
         <explicacion>1&lt;2 (true), 2!=3 (true), 2&lt;=3 (true). Esta es la única opción que cumple todas las condiciones.</explicacion>
     </pregunta>
-    <pregunta id="42">
+    <pregunta>
         <enunciado>El bloque de instrucciones de una sentencia if se ejecutará:</enunciado>
         <opciones>
             <opcion>a) Siempre</opcion>
@@ -513,7 +514,7 @@
         <explicacion>Solo se ejecuta si la condición del if se evalúa como true.</explicacion>
     </pregunta>
 
-    <pregunta id="43">
+    <pregunta>
         <enunciado>En una sentencia if-else los bloques de instrucciones (bloque true y bloque false) pueden ejecutarse:</enunciado>
         <opciones>
             <opcion>a) Simultáneamente</opcion>
@@ -525,7 +526,7 @@
         <explicacion>En un if-else siempre se ejecuta uno de los dos bloques, pero nunca ambos.</explicacion>
     </pregunta>
 
-    <pregunta id="44">
+    <pregunta>
         <enunciado>¿Qué valor toma la variable a en la siguiente expresión: a = 1&lt;2 ? 3 : 4?</enunciado>
         <opciones>
             <opcion>a) 1</opcion>
@@ -537,7 +538,7 @@
         <explicacion>Como 1&lt;2 es true, se ejecuta el primer valor: 3.</explicacion>
     </pregunta>
 
-    <pregunta id="45">
+    <pregunta>
         <enunciado>La cláusula default en la sentencia switch es:</enunciado>
         <opciones>
             <opcion>a) Obligatoria y tiene que ser la última que aparezca</opcion>
@@ -549,7 +550,7 @@
         <explicacion>default es opcional y puede colocarse en cualquier lugar del switch.</explicacion>
     </pregunta>
 
-    <pregunta id="46">
+    <pregunta>
         <enunciado>Realiza una traza del siguiente fragmento de código y selecciona el valor que toma finalmente la variable a:
             a = 0;
             switch (a + 1) {
@@ -573,7 +574,7 @@
         <respuesta>d</respuesta>
         <explicacion>a comienza con el valor 0. Al evaluar switch (a + 1), el resultado es 1, por lo que entra en el case 1. y continua por la ausencia de break. suma 1 y sale resultado a = 4</explicacion>
     </pregunta>
-    <pregunta id="47">
+    <pregunta>
         <enunciado>¿Qué es una clase en Java?</enunciado>
         <opciones>
             <opcion>a) Un objeto instanciado.</opcion>
@@ -584,7 +585,7 @@
         <respuesta>b</respuesta>
         <explicacion>Una clase es un molde o plantilla que define las propiedades y comportamientos de los objetos que se crean a partir de ella.</explicacion>
     </pregunta>
-    <pregunta id="48">
+    <pregunta>
         <enunciado>¿Qué significa encapsulación?</enunciado>
         <opciones>
             <opcion>a) Ocultar detalles internos de la implementación.</opcion>
@@ -596,7 +597,7 @@
         <explicacion>La encapsulación consiste en ocultar los detalles internos de una clase y exponer solo lo necesario a través de métodos públicos, mejorando la modularidad y seguridad del código.</explicacion>
     </pregunta>
 
-    <pregunta id="49">
+    <pregunta>
         <enunciado>¿Qué palabra clave se usa para crear objetos?</enunciado>
         <opciones>
             <opcion>a) class</opcion>
@@ -607,7 +608,7 @@
         <respuesta>c</respuesta>
         <explicacion>La palabra clave `new` se utiliza para instanciar un objeto en Java, invocando su constructor.</explicacion>
     </pregunta>
-    <pregunta id="50">
+    <pregunta>
         <enunciado>¿Qué es un atributo de una clase?</enunciado>
         <opciones>
             <opcion>a) Una función que realiza operaciones.</opcion>
@@ -619,7 +620,7 @@
         <explicacion>Un atributo es una variable que almacena información sobre el estado de un objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="51">
+    <pregunta>
         <enunciado>¿Qué hace la palabra clave this en Java?</enunciado>
         <opciones>
             <opcion>a) Hace referencia a la clase padre.</opcion>
@@ -631,7 +632,7 @@
         <explicacion>La palabra clave `this` se utiliza para referirse al objeto actual dentro de un método o constructor.</explicacion>
     </pregunta>
 
-    <pregunta id="52">
+    <pregunta>
         <enunciado>¿Qué afirmaciones sobre constructores son verdaderas?</enunciado>
         <opciones>
             <opcion>a) Pueden tener el mismo nombre que la clase.</opcion>
@@ -643,7 +644,7 @@
         <explicacion>Los constructores tienen el mismo nombre que la clase y pueden sobrecargarse, pero no tienen valor de retorno.</explicacion>
     </pregunta>
 
-    <pregunta id="53">
+    <pregunta>
         <enunciado>¿Qué sucede si no se define un constructor en una clase?</enunciado>
         <opciones>
             <opcion>a) Java genera uno por defecto (heredado de la clase Object).</opcion>
@@ -655,7 +656,7 @@
         <explicacion>Si no se define un constructor, Java genera uno por defecto que no realiza ninguna acción específica.</explicacion>
     </pregunta>
 
-    <pregunta id="54">
+    <pregunta>
         <enunciado>¿Qué métodos son conocidos como getters y setters?</enunciado>
         <opciones>
             <opcion>a) Métodos que inicializan objetos.</opcion>
@@ -667,7 +668,7 @@
         <explicacion>Los getters y setters son métodos que permiten acceder y modificar los atributos privados de una clase.</explicacion>
     </pregunta>
 
-    <pregunta id="55">
+    <pregunta>
         <enunciado>¿Qué afirmaciones sobre objetos en Java son ciertas?</enunciado>
         <opciones>
             <opcion>a) Los objetos pueden tener métodos y atributos.</opcion>
@@ -678,7 +679,7 @@
         <respuesta>a</respuesta>
         <explicacion>Los objetos en Java pueden tener métodos y atributos, y pueden contener otros objetos o implementar interfaces.</explicacion>
     </pregunta>
-    <pregunta id="56">
+    <pregunta>
         <enunciado>¿Qué significa encapsulación?</enunciado>
         <opciones>
             <opcion>a) Ocultar detalles internos de la implementación.</opcion>
@@ -689,7 +690,7 @@
         <respuesta>a</respuesta>
         <explicacion>La encapsulación consiste en ocultar los detalles internos de una clase y exponer solo lo necesario a través de métodos públicos, mejorando la modularidad y seguridad del código.</explicacion>
     </pregunta>
-    <pregunta id="57">
+    <pregunta>
         <enunciado>¿Qué es una clase en Java?</enunciado>
         <opciones>
             <opcion>a) Un objeto instanciado.</opcion>
@@ -701,7 +702,7 @@
         <explicacion>Una clase es un molde o plantilla que define las propiedades y comportamientos de los objetos que se crean a partir de ella.</explicacion>
     </pregunta>
 
-    <pregunta id="58">
+    <pregunta>
         <enunciado>¿Qué es un atributo de una clase?</enunciado>
         <opciones>
             <opcion>a) Una función que realiza operaciones.</opcion>
@@ -713,7 +714,7 @@
         <explicacion>Un atributo es una variable que almacena información sobre el estado de un objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="59">
+    <pregunta>
         <enunciado>¿Qué hace la palabra clave this en Java?</enunciado>
         <opciones>
             <opcion>a) Hace referencia a la clase padre.</opcion>
@@ -725,7 +726,7 @@
         <explicacion>La palabra clave `this` se utiliza para referirse al objeto actual dentro de un método o constructor.</explicacion>
     </pregunta>
 
-    <pregunta id="60">
+    <pregunta>
         <enunciado>¿Qué afirmaciones sobre constructores son verdaderas?</enunciado>
         <opciones>
             <opcion>a) Pueden tener el mismo nombre que la clase.</opcion>
@@ -737,7 +738,7 @@
         <explicacion>Los constructores tienen el mismo nombre que la clase y pueden sobrecargarse, pero no tienen valor de retorno.</explicacion>
     </pregunta>
 
-    <pregunta id="61">
+    <pregunta>
         <enunciado>¿Qué sucede si no se define un constructor en una clase?</enunciado>
         <opciones>
             <opcion>a) Java genera uno por defecto (heredado de la clase Object).</opcion>
@@ -749,7 +750,7 @@
         <explicacion>Si no se define un constructor, Java genera uno por defecto que no realiza ninguna acción específica.</explicacion>
     </pregunta>
 
-    <pregunta id="62">
+    <pregunta>
         <enunciado>¿Qué métodos son conocidos como getters y setters?</enunciado>
         <opciones>
             <opcion>a) Métodos que inicializan objetos.</opcion>
@@ -761,7 +762,7 @@
         <explicacion>Los getters y setters son métodos que permiten acceder y modificar los atributos privados de una clase.</explicacion>
     </pregunta>
 
-    <pregunta id="63">
+    <pregunta>
         <enunciado>¿Qué afirmaciones sobre objetos en Java son ciertas?</enunciado>
         <opciones>
             <opcion>a) Los objetos pueden tener métodos y atributos.</opcion>
@@ -772,7 +773,7 @@
         <respuesta>a</respuesta>
         <explicacion>Los objetos en Java pueden tener métodos y atributos, y pueden contener otros objetos o implementar interfaces.</explicacion>
     </pregunta>
-    <pregunta id="64">
+    <pregunta>
         <enunciado>¿Cuál es el operador lógico 'AND' en Java?</enunciado>
         <opciones>
             <opcion>a) &amp;</opcion>
@@ -784,7 +785,7 @@
         <explicacion>En Java '&amp;&amp;' es el operador lógico AND que evalúa condiciones booleanas.</explicacion>
     </pregunta>
 
-    <pregunta id="65">
+    <pregunta>
         <enunciado>¿Qué instrucción se usa para ejecutar código solo si una condición es verdadera?</enunciado>
         <opciones>
             <opcion>a) while</opcion>
@@ -796,7 +797,7 @@
         <explicacion>'if' evalúa condiciones booleanas para decidir si ejecutar un bloque de código.</explicacion>
     </pregunta>
 
-    <pregunta id="66">
+    <pregunta>
         <enunciado>Un bucle do-while se ejecutará, como mínimo:</enunciado>
         <opciones>
             <opcion>a) Cero veces</opcion>
@@ -808,7 +809,7 @@
         <explicacion>El bucle do-while ejecuta primero el bloque de código y luego evalúa la condición. Por tanto, se ejecuta al menos una vez.</explicacion>
     </pregunta>
 
-    <pregunta id="67">
+    <pregunta>
         <enunciado>El uso de llaves para encerrar el bloque de instrucciones de un bucle:</enunciado>
         <opciones>
             <opcion>a) Es siempre opcional</opcion>
@@ -820,7 +821,7 @@
         <explicacion>Si el bucle contiene solo una instrucción, las llaves son opcionales, aunque su uso es recomendable para claridad.</explicacion>
     </pregunta>
 
-    <pregunta id="68">
+    <pregunta>
         <enunciado>La instrucción que permite detener completamente las iteraciones de un bucle es:</enunciado>
         <opciones>
             <opcion>a) stop</opcion>
@@ -832,7 +833,7 @@
         <explicacion>La instrucción `break` finaliza inmediatamente la ejecución del bucle en curso.</explicacion>
     </pregunta>
 
-    <pregunta id="69">
+    <pregunta>
         <enunciado>En un bucle for, la inicialización, condición e incremento son:</enunciado>
         <opciones>
             <opcion>a) Todos obligatorios</opcion>
@@ -844,7 +845,7 @@
         <explicacion>Técnicamente, los tres componentes del bucle for son opcionales en Java, aunque se usan por claridad y control.</explicacion>
     </pregunta>
 
-    <pregunta id="70">
+    <pregunta>
         <enunciado>En el caso de que una función devuelva un valor, ¿cuál es la recomendación con respecto a la instrucción return?</enunciado>
         <opciones>
             <opcion>a) Utilizar tantos como hagan falta</opcion>
@@ -856,7 +857,7 @@
         <explicacion>Usar un solo `return` mejora la legibilidad del código y facilita el mantenimiento y la depuración.</explicacion>
     </pregunta>
 
-    <pregunta id="71">
+    <pregunta>
         <enunciado>¿Cuáles de las siguientes operaciones se pueden implementar fácilmente mediante funciones recursivas?</enunciado>
         <opciones>
             <opcion>a) an = a × an-1</opcion>
@@ -868,7 +869,7 @@
         <explicacion>Todas estas definiciones son recursivas y pueden implementarse eficazmente con funciones recursivas.</explicacion>
     </pregunta>
 
-    <pregunta id="72">
+    <pregunta>
         <enunciado>En los identificadores de las funciones, al igual que en los de las variables, se recomienda utilizar la siguiente nomenclatura:</enunciado>
         <opciones>
             <opcion>a) suma_notas_alumnos()</opcion>
@@ -880,7 +881,7 @@
         <explicacion>La convención de Java para nombres de métodos es camelCase: se empieza en minúscula y cada palabra adicional inicia con mayúscula.</explicacion>
     </pregunta>
 
-    <pregunta id="73">
+    <pregunta>
         <enunciado>¿Qué palabra clave define un método que no devuelve valor?</enunciado>
         <opciones>
             <opcion>a) void</opcion>
@@ -892,7 +893,7 @@
         <explicacion>'void' se utiliza para indicar que un método no retorna ningún valor.</explicacion>
     </pregunta>
 
-    <pregunta id="74">
+    <pregunta>
         <enunciado>¿Cómo se llama un método dentro de una clase en Java?</enunciado>
         <opciones>
             <opcion>a) función</opcion>
@@ -904,7 +905,7 @@
         <explicacion>En Java, una función que está dentro de una clase se denomina 'método'.</explicacion>
     </pregunta>
 
-    <pregunta id="75">
+    <pregunta>
         <enunciado>Los parámetros en la llamada a una función en Java pueden ser opcionales si:</enunciado>
         <opciones>
             <opcion>a) Todos los parámetros son del mismo tipo</opcion>
@@ -916,7 +917,7 @@
         <explicacion>En Java, no existen parámetros opcionales de forma directa. Hay que simularlo con sobrecarga de métodos.</explicacion>
     </pregunta>
 
-    <pregunta id="76">
+    <pregunta>
         <enunciado>Una variable local (declarada dentro de una función) puede usarse:</enunciado>
         <opciones>
             <opcion>a) En cualquier lugar del código</opcion>
@@ -928,7 +929,7 @@
         <explicacion>Las variables locales solo existen dentro del bloque donde fueron declaradas.</explicacion>
     </pregunta>
 
-    <pregunta id="77">
+    <pregunta>
         <enunciado>El tipo devuelto de todas las funciones definidas en nuestro programa tiene que ser siempre:</enunciado>
         <opciones>
             <opcion>a) int</opcion>
@@ -940,7 +941,7 @@
         <explicacion>El tipo de retorno puede ser cualquiera, no solo los mencionados. Incluso pueden devolver objetos o listas.</explicacion>
     </pregunta>
 
-    <pregunta id="78">
+    <pregunta>
         <enunciado>¿Qué instrucción permite a una función devolver un valor?</enunciado>
         <opciones>
             <opcion>a) value</opcion>
@@ -952,7 +953,7 @@
         <explicacion>'return' es la instrucción que se utiliza para devolver un valor desde una función.</explicacion>
     </pregunta>
 
-    <pregunta id="79">
+    <pregunta>
         <enunciado>La forma de distinguir entre dos o más funciones sobrecargadas es:</enunciado>
         <opciones>
             <opcion>a) Mediante su nombre</opcion>
@@ -964,7 +965,7 @@
         <explicacion>Java permite la sobrecarga si cambian el número o tipo de los parámetros, no el nombre ni el tipo de retorno.</explicacion>
     </pregunta>
 
-    <pregunta id="80">
+    <pregunta>
         <enunciado>¿Cuál es la definición de una función recursiva?</enunciado>
         <opciones>
             <opcion>a) Es aquella que se invoca desde dentro de su propio bloque de instrucciones</opcion>
@@ -976,7 +977,7 @@
         <explicacion>Una función recursiva es aquella que se llama a sí misma dentro de su propia definición.</explicacion>
     </pregunta>
 
-    <pregunta id="81">
+    <pregunta>
         <enunciado>El paso de parámetros a una función en Java es siempre:</enunciado>
         <opciones>
             <opcion>a) Un paso de parámetros por copia</opcion>
@@ -988,7 +989,7 @@
         <explicacion>En Java, los tipos primitivos se pasan por valor (copia). En objetos se pasa una copia de la referencia.</explicacion>
     </pregunta>
 
-    <pregunta id="82">
+    <pregunta>
         <enunciado>La comparación del contenido (los elementos) de dos tablas se realiza utilizando:</enunciado>
         <opciones>
             <opcion>a) Arrays.compare()</opcion>
@@ -1000,7 +1001,7 @@
         <explicacion>El método `Arrays.equals()` compara el contenido de dos arrays elemento por elemento. El operador `==` compara referencias, no contenido.</explicacion>
     </pregunta>
 
-    <pregunta id="83">
+    <pregunta>
         <enunciado>¿Qué condición tiene que cumplir una tabla para que podamos realizar búsquedas dicotómicas en ella?</enunciado>
         <opciones>
             <opcion>a) Que esté ordenada</opcion>
@@ -1012,7 +1013,7 @@
         <explicacion>La búsqueda binaria o dicotómica solo es válida si el array está previamente ordenado. No importa el tipo de datos.</explicacion>
     </pregunta>
 
-    <pregunta id="84">
+    <pregunta>
         <enunciado>¿Cuál es la principal diferencia entre Arrays.copyOf() y System.arraycopy()?</enunciado>
         <opciones>
             <opcion>a) No existe diferencia alguna, ambos métodos son idénticos</opcion>
@@ -1024,7 +1025,7 @@
         <explicacion>`Arrays.copyOf()` crea automáticamente un nuevo array y copia los elementos. `System.arraycopy()` copia entre arrays ya existentes.</explicacion>
     </pregunta>
 
-    <pregunta id="85">
+    <pregunta>
         <enunciado>¿Cómo se declara un array de enteros en Java?</enunciado>
         <opciones>
             <opcion>a) int array = new int[];</opcion>
@@ -1036,7 +1037,7 @@
         <explicacion>La forma correcta de declarar un array en Java es `int[] nombreArray;`, con el tipo seguido por corchetes.</explicacion>
     </pregunta>
 
-    <pregunta id="86">
+    <pregunta>
         <enunciado>Una tabla puede almacenar datos de distintos tipos, como por ejemplo enteros, booleanos, reales, etcétera:</enunciado>
         <opciones>
             <opcion>a) Cierto, las tablas siempre pueden almacenar datos de distintos tipos</opcion>
@@ -1048,7 +1049,7 @@
         <explicacion>En Java, los arrays son homogéneos: todos los elementos deben ser del mismo tipo.</explicacion>
     </pregunta>
 
-    <pregunta id="87">
+    <pregunta>
         <enunciado>En Java, la numeración de los índices que determina la identificación de cada elemento de una tabla comienza en:</enunciado>
         <opciones>
             <opcion>a) Cero</opcion>
@@ -1060,7 +1061,7 @@
         <explicacion>Los arrays en Java comienzan siempre en el índice 0.</explicacion>
     </pregunta>
 
-    <pregunta id="88">
+    <pregunta>
         <enunciado>Si en una tabla de 10 elementos utilizamos el elemento con índice 11 (que se encuentra fuera de rango):</enunciado>
         <opciones>
             <opcion>a) Al salir del rango de la longitud, Java redimensiona la tabla de forma automática</opcion>
@@ -1072,7 +1073,7 @@
         <explicacion>Acceder a un índice fuera del rango produce una excepción `ArrayIndexOutOfBoundsException`.</explicacion>
     </pregunta>
 
-    <pregunta id="89">
+    <pregunta>
         <enunciado>¿Qué método de la clase Arrays permite realizar una búsqueda dicotómica en una tabla?</enunciado>
         <opciones>
             <opcion>a) Arrays.search()</opcion>
@@ -1084,7 +1085,7 @@
         <explicacion>El método `Arrays.binarySearch()` realiza una búsqueda binaria, pero solo si el array está previamente ordenado.</explicacion>
     </pregunta>
 
-    <pregunta id="90">
+    <pregunta>
         <enunciado>Con respecto a las tablas, el operador new:</enunciado>
         <opciones>
             <opcion>a) Destruye, crea y redimensiona tablas</opcion>
@@ -1096,7 +1097,7 @@
         <explicacion>El operador `new` se usa para crear nuevas instancias de arrays, no para destruir.</explicacion>
     </pregunta>
 
-    <pregunta id="91">
+    <pregunta>
         <enunciado>La forma de invocar al recolector de basura es:</enunciado>
         <opciones>
             <opcion>a) Mediante System.garbageCollector()</opcion>
@@ -1108,7 +1109,7 @@
         <explicacion>El recolector de basura puede sugerirse con `System.gc()`, pero no se garantiza su ejecución inmediata.</explicacion>
     </pregunta>
 
-    <pregunta id="92">
+    <pregunta>
         <enunciado>La forma de conocer la longitud de una tabla t es mediante:</enunciado>
         <opciones>
             <opcion>a) t.size</opcion>
@@ -1120,7 +1121,7 @@
         <explicacion>En Java, la propiedad `length` permite conocer el tamaño de un array.</explicacion>
     </pregunta>
 
-    <pregunta id="93">
+    <pregunta>
         <enunciado>¿Cuál es el índice del primer elemento de un array en Java?</enunciado>
         <opciones>
             <opcion>a) 0</opcion>
@@ -1132,7 +1133,7 @@
         <explicacion>Los arrays en Java siempre comienzan en el índice 0.</explicacion>
     </pregunta>
 
-    <pregunta id="94">
+    <pregunta>
         <enunciado>La forma de concatenar dos cadenas es mediante:</enunciado>
         <opciones>
             <opcion>a) El operador +</opcion>
@@ -1144,7 +1145,7 @@
         <explicacion>En Java puedes concatenar cadenas usando `+`, `+=` o `concat()`; todas son válidas para unir Strings.</explicacion>
     </pregunta>
 
-    <pregunta id="95">
+    <pregunta>
         <enunciado>El método que permite eliminar los caracteres blancos del principio y el final de una cadena es:</enunciado>
         <opciones>
             <opcion>a) isWhiteSpace()</opcion>
@@ -1156,7 +1157,7 @@
         <explicacion>`strip()` elimina los espacios en blanco al inicio y al final de la cadena, incluido soporte para Unicode.</explicacion>
     </pregunta>
 
-    <pregunta id="96">
+    <pregunta>
         <enunciado>Existe una relación entre las cadenas (clase String) y las tablas de caracteres (char[]). ¿Qué métodos permiten convertir un String en un char[]?</enunciado>
         <opciones>
             <opcion>a) toCharArray()</opcion>
@@ -1168,7 +1169,7 @@
         <explicacion>`toCharArray()` convierte una cadena String en un array de caracteres (char[]).</explicacion>
     </pregunta>
 
-    <pregunta id="97">
+    <pregunta>
         <enunciado>En Java, al igual que en otros muchos lenguajes de programación, las secuencias de escape se escriben mediante:</enunciado>
         <opciones>
             <opcion>a) Dos puntos (:)</opcion>
@@ -1180,7 +1181,7 @@
         <explicacion>Las secuencias de escape en Java usan la barra invertida `\`, como en `\n`, `\t`, etc.</explicacion>
     </pregunta>
 
-    <pregunta id="98">
+    <pregunta>
         <enunciado>La clase Character se encuentra ubicada en el paquete:</enunciado>
         <opciones>
             <opcion>a) java.util</opcion>
@@ -1192,7 +1193,7 @@
         <explicacion>La clase `Character` pertenece al paquete `java.lang`, que se importa automáticamente.</explicacion>
     </pregunta>
 
-    <pregunta id="99">
+    <pregunta>
         <enunciado>La aritmética de caracteres permite que exista una fuerte relación entre el tipo char y el tipo int. Sabiendo que el carácter ‘a’ tiene una representación numérica de 0x61, ¿cómo conseguiremos mostrar el carácter ‘i’ por consola, a partir de la siguiente variable?
             int codepoint = 0x61;</enunciado>
         <opciones>
@@ -1205,7 +1206,7 @@
         <explicacion>'a' (0x61) más 8 en valor decimal nos da 'i'. El casting `(char)` convierte el valor numérico en carácter.</explicacion>
     </pregunta>
 
-    <pregunta id="100">
+    <pregunta>
         <enunciado>Marca la opción que devuelve true:</enunciado>
         <opciones>
             <opcion>a) Character.isLetter('2');</opcion>
@@ -1217,7 +1218,7 @@
         <explicacion>'2' no es letra, pero sí es dígito. `isLetterOrDigit()` devuelve true si el carácter es letra o número.</explicacion>
     </pregunta>
 
-    <pregunta id="101">
+    <pregunta>
         <enunciado>Señala qué opción es cierta:</enunciado>
         <opciones>
             <opcion>a) ‘a’ es un carácter</opcion>
@@ -1229,7 +1230,7 @@
         <explicacion>'a' entre comillas simples es un `char`. "a" (comillas dobles) es un String, por lo tanto no es un carácter.</explicacion>
     </pregunta>
 
-    <pregunta id="102">
+    <pregunta>
         <enunciado>La forma correcta de comparar alfabéticamente dos cadenas es mediante:</enunciado>
         <opciones>
             <opcion>a) El operador ==</opcion>
@@ -1241,7 +1242,7 @@
         <explicacion>En realidad, el método correcto es `equals()` de la clase String, no `equal()` ni el operador `==`.</explicacion>
     </pregunta>
 
-    <pregunta id="103">
+    <pregunta>
         <enunciado>La forma de extraer el cuarto carácter de la cadena contenida en la variable cad es mediante:</enunciado>
         <opciones>
             <opcion>a) cad.indexOf(3)</opcion>
@@ -1253,7 +1254,7 @@
         <explicacion>`charAt(3)` accede al carácter en la posición 4, ya que los índices comienzan en 0.</explicacion>
     </pregunta>
 
-    <pregunta id="104">
+    <pregunta>
         <enunciado>¿Qué clase se utiliza para trabajar con cadenas en Java?</enunciado>
         <opciones>
             <opcion>a) char</opcion>
@@ -1265,7 +1266,7 @@
         <explicacion>La clase `String` permite manipular secuencias de texto en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="105">
+    <pregunta>
         <enunciado>¿Cuál es el método para obtener la longitud de una cadena?</enunciado>
         <opciones>
             <opcion>a) length()</opcion>
@@ -1277,7 +1278,7 @@
         <explicacion>`length()` devuelve el número de caracteres que tiene un objeto `String`.</explicacion>
     </pregunta>
 
-    <pregunta id="106">
+    <pregunta>
         <enunciado>¿Qué palabra clave se usa para definir una clase en Java?</enunciado>
         <opciones>
             <opcion>a) object</opcion>
@@ -1289,7 +1290,7 @@
         <explicacion>La palabra clave `class` se utiliza para declarar una nueva clase en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="107">
+    <pregunta>
         <enunciado>¿Qué tipo de método se llama sin necesidad de crear una instancia?</enunciado>
         <opciones>
             <opcion>a) privado</opcion>
@@ -1301,7 +1302,7 @@
         <explicacion>Los métodos `static` se pueden invocar directamente desde la clase, sin necesidad de crear un objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="108">
+    <pregunta>
         <enunciado>Dos clases se consideran vecinas siempre y cuando:</enunciado>
         <opciones>
             <opcion>a) Sean visibles</opcion>
@@ -1313,7 +1314,7 @@
         <explicacion>Las clases se consideran vecinas si pertenecen al mismo paquete.</explicacion>
     </pregunta>
 
-    <pregunta id="109">
+    <pregunta>
         <enunciado>Un miembro cuyo modificador de acceso es private será visible desde:</enunciado>
         <opciones>
             <opcion>a) Todas las clases vecinas</opcion>
@@ -1325,7 +1326,7 @@
         <explicacion>Los miembros `private` solo son accesibles dentro de la clase donde se declaran.</explicacion>
     </pregunta>
 
-    <pregunta id="110">
+    <pregunta>
         <enunciado>Si desde un constructor queremos invocar a otro constructor de la misma clase, tendremos que usar:</enunciado>
         <opciones>
             <opcion>a) set()</opcion>
@@ -1337,7 +1338,7 @@
         <explicacion>`this()` se utiliza para llamar a otro constructor de la misma clase.</explicacion>
     </pregunta>
 
-    <pregunta id="111">
+    <pregunta>
         <enunciado>Si por error dejamos un objeto sin ninguna referencia, siempre podremos volver a referenciarlo mediante:</enunciado>
         <opciones>
             <opcion>a) La referencia this</opcion>
@@ -1349,7 +1350,7 @@
         <explicacion>Si no existen referencias a un objeto, este es elegible para recolección de basura y no puede ser accedido nuevamente.</explicacion>
     </pregunta>
 
-    <pregunta id="112">
+    <pregunta>
         <enunciado>¿Qué hace el operador new?</enunciado>
         <opciones>
             <opcion>a) Construye un objeto, invoca al constructor y devuelve su referencia</opcion>
@@ -1361,7 +1362,7 @@
         <explicacion>El operador `new` crea una nueva instancia de una clase e invoca su constructor.</explicacion>
     </pregunta>
 
-    <pregunta id="113">
+    <pregunta>
         <enunciado>Cuando hablamos de miembros de una clase, nos estamos refiriendo a:</enunciado>
         <opciones>
             <opcion>a) Todos los atributos</opcion>
@@ -1373,7 +1374,7 @@
         <explicacion>Se consideran miembros todos los atributos y métodos definidos en una clase.</explicacion>
     </pregunta>
 
-    <pregunta id="114">
+    <pregunta>
         <enunciado>En la definición de una clase, los únicos modificadores de acceso que se pueden utilizar son:</enunciado>
         <opciones>
             <opcion>a) public</opcion>
@@ -1385,7 +1386,7 @@
         <explicacion>Una clase en Java puede ser `public` o tener acceso por defecto (sin modificador). `private` no se permite para clases top-level.</explicacion>
     </pregunta>
 
-    <pregunta id="115">
+    <pregunta>
         <enunciado>¿Qué diferencia un atributo estático definido en una clase de otro que no lo es?</enunciado>
         <opciones>
             <opcion>a) El atributo estático es visible por todas las clases vecinas, mientras que el no estático solo será visible para las clases que usen importación</opcion>
@@ -1397,7 +1398,7 @@
         <explicacion>Los atributos estáticos pertenecen a la clase y solo hay una copia compartida, mientras que los no estáticos son propios de cada objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="116">
+    <pregunta>
         <enunciado>¿Qué efecto tienen las siguientes líneas de código?
             Cliente c;
             c.nombre = "Pepita";</enunciado>
@@ -1411,7 +1412,7 @@
         <explicacion>`Cliente c;` declara una referencia pero no crea un objeto. No se puede acceder a atributos sin instanciar con `new`.</explicacion>
     </pregunta>
 
-    <pregunta id="117">
+    <pregunta>
         <enunciado>La ocultación de atributos puede definirse como:</enunciado>
         <opciones>
             <opcion>a) El proceso en el que un atributo pasa de ser público a privado</opcion>
@@ -1423,7 +1424,7 @@
         <explicacion>La ocultación ocurre cuando una variable local tiene el mismo nombre que un atributo de clase, ocultándolo dentro de su bloque.</explicacion>
     </pregunta>
 
-    <pregunta id="118">
+    <pregunta>
         <enunciado>La selección dinámica de métodos:</enunciado>
         <opciones>
             <opcion>a) Se produce cuando una variable cambia de valor durante la ejecución de un programa</opcion>
@@ -1435,7 +1436,7 @@
         <explicacion>Esto se llama polimorfismo. Se ejecuta el método correspondiente al tipo real del objeto, no al tipo de la variable.</explicacion>
     </pregunta>
 
-    <pregunta id="119">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para llamar al constructor de la superclase</opcion>
@@ -1447,7 +1448,7 @@
         <explicacion>`super()` se usa para invocar explícitamente al constructor de la superclase desde una subclase.</explicacion>
     </pregunta>
 
-    <pregunta id="120">
+    <pregunta>
         <enunciado>Sobre una subclase es correcto afirmar que:</enunciado>
         <opciones>
             <opcion>a) Tiene menos atributos que su superclase</opcion>
@@ -1459,7 +1460,7 @@
         <explicacion>Una subclase hereda los miembros públicos y protegidos, pero no los privados.</explicacion>
     </pregunta>
 
-    <pregunta id="121">
+    <pregunta>
         <enunciado>En relación con las clases abstractas es correcto señalar que:</enunciado>
         <opciones>
             <opcion>a) Implementan todos sus métodos</opcion>
@@ -1471,7 +1472,7 @@
         <explicacion>Las clases abstractas pueden tener métodos implementados, pero deben incluir al menos un método abstracto.</explicacion>
     </pregunta>
 
-    <pregunta id="122">
+    <pregunta>
         <enunciado>¿En qué consiste la sustitución u overriding?</enunciado>
         <opciones>
             <opcion>a) En sustituir un método heredado por otro implementado en la propia clase</opcion>
@@ -1483,7 +1484,7 @@
         <explicacion>Overriding es redefinir un método heredado en la subclase, respetando su firma.</explicacion>
     </pregunta>
 
-    <pregunta id="123">
+    <pregunta>
         <enunciado>Sobre la clase Object es cierto indicar que:</enunciado>
         <opciones>
             <opcion>a) Es abstracta</opcion>
@@ -1495,7 +1496,7 @@
         <explicacion>Todas las clases en Java heredan directa o indirectamente de `Object`.</explicacion>
     </pregunta>
 
-    <pregunta id="124">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</enunciado>
         <opciones>
             <opcion>a) Hay que implementarlo, ya que es abstracto</opcion>
@@ -1507,7 +1508,7 @@
         <explicacion>Aunque `equals()` está implementado en `Object`, conviene sobreescribirlo para personalizar la comparación.</explicacion>
     </pregunta>
 
-    <pregunta id="125">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para mostrar la información que nos interesa de un objeto</opcion>
@@ -1519,7 +1520,7 @@
         <explicacion>`toString()` devuelve una representación textual del objeto. Se puede sobrescribir para personalizarla.</explicacion>
     </pregunta>
 
-    <pregunta id="126">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</enunciado>
         <opciones>
             <opcion>a) Convierte los objetos en clases</opcion>
@@ -1531,7 +1532,7 @@
         <explicacion>`getClass()` devuelve un objeto de tipo `Class` que representa la clase real del objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="127">
+    <pregunta>
         <enunciado>Una clase puede heredar:</enunciado>
         <opciones>
             <opcion>a) De una clase</opcion>
@@ -1550,7 +1551,7 @@
             'extends' se usa para heredar una clase en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="128">
+    <pregunta>
         <enunciado>¿Qué método se usa para llamar al constructor de la superclase?</enunciado>
         <opciones>
             <opcion>a) super()</opcion>
@@ -1562,7 +1563,7 @@
         <explicacion>'super()' se usa para llamar al constructor de la clase base.</explicacion>
     </pregunta>
 
-    <pregunta id="129">
+    <pregunta>
         <enunciado>Sobre una subclase es correcto afirmar que:</enunciado>
         <opciones>
             <opcion>a) Tiene menos atributos que su superclase.</opcion>
@@ -1574,7 +1575,7 @@
         <explicacion>Una subclase hereda los miembros públicos y protegidos de su superclase, no los privados.</explicacion>
     </pregunta>
 
-    <pregunta id="130">
+    <pregunta>
         <enunciado>En relación con las clases abstractas es correcto señalar que:</enunciado>
         <opciones>
             <opcion>a) Implementan todos sus métodos.</opcion>
@@ -1586,7 +1587,7 @@
         <explicacion>Las clases abstractas pueden tener métodos implementados y atributos, pero deben tener al menos un método abstracto.</explicacion>
     </pregunta>
 
-    <pregunta id="131">
+    <pregunta>
         <enunciado>¿En qué consiste la sustitución u overriding?</enunciado>
         <opciones>
             <opcion>a) En sustituir un método heredado por otro implementado en la propia clase.</opcion>
@@ -1598,7 +1599,7 @@
         <explicacion>Overriding es redefinir un método heredado en una subclase con una nueva implementación.</explicacion>
     </pregunta>
 
-    <pregunta id="132">
+    <pregunta>
         <enunciado>Sobre la clase Object es cierto indicar que:</enunciado>
         <opciones>
             <opcion>a) Es abstracta.</opcion>
@@ -1610,7 +1611,7 @@
         <explicacion>Object es la superclase de todas las clases en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="133">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</enunciado>
         <opciones>
             <opcion>a) Hay que implementarlo, ya que es abstracto.</opcion>
@@ -1622,7 +1623,7 @@
         <explicacion>Se hereda de Object, pero se recomienda sobrescribirlo para una comparación personalizada.</explicacion>
     </pregunta>
 
-    <pregunta id="134">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para mostrar la información que nos interesa de un objeto.</opcion>
@@ -1634,7 +1635,7 @@
         <explicacion>toString() sirve para devolver una representación textual personalizada de un objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="135">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</enunciado>
         <opciones>
             <opcion>a) Convierte los objetos en clases.</opcion>
@@ -1646,7 +1647,7 @@
         <explicacion>getClass() devuelve la clase real del objeto en tiempo de ejecución.</explicacion>
     </pregunta>
 
-    <pregunta id="136">
+    <pregunta>
         <enunciado>Una clase puede heredar:</enunciado>
         <opciones>
             <opcion>a) De una clase.</opcion>
@@ -1658,7 +1659,7 @@
         <explicacion>En Java solo se permite heredar de una única clase (herencia simple).</explicacion>
     </pregunta>
 
-    <pregunta id="137">
+    <pregunta>
         <enunciado>La selección dinámica de métodos:</enunciado>
         <opciones>
             <opcion>a) Se produce cuando una variable cambia de valor durante la ejecución de un programa.</opcion>
@@ -1670,7 +1671,7 @@
         <explicacion>Esto es polimorfismo: permite ejecutar la versión del método correspondiente al tipo real del objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="138">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para llamar al constructor de la superclase.</opcion>
@@ -1682,7 +1683,7 @@
         <explicacion>super() se usa para llamar al constructor de la clase base desde una subclase.</explicacion>
     </pregunta>
 
-    <pregunta id="139">
+    <pregunta>
         <enunciado>¿Cuál es el tipo de retorno del método main en Java?</enunciado>
         <opciones>
             <opcion>a) void</opcion>
@@ -1694,7 +1695,7 @@
         <explicacion>El método main debe ser public static void main(String[] args), por eso retorna void.</explicacion>
     </pregunta>
 
-    <pregunta id="140">
+    <pregunta>
         <enunciado>¿Qué palabra clave se utiliza para heredar una clase en Java?</enunciado>
         <opciones>
             <opcion>a) this</opcion>
@@ -1706,7 +1707,7 @@
         <explicacion>La palabra clave 'extends' se utiliza para heredar de una clase base.</explicacion>
     </pregunta>
 
-    <pregunta id="141">
+    <pregunta>
         <enunciado>¿Qué estructura se usa para seleccionar múltiples opciones en Java?</enunciado>
         <opciones>
             <opcion>a) if</opcion>
@@ -1718,7 +1719,7 @@
         <explicacion>La estructura 'switch' permite seleccionar múltiples casos según el valor de una expresión.</explicacion>
     </pregunta>
 
-    <pregunta id="142">
+    <pregunta>
         <enunciado>¿Cuál es el valor predeterminado de un boolean en Java?</enunciado>
         <opciones>
             <opcion>a) true</opcion>
@@ -1730,7 +1731,7 @@
         <explicacion>En Java, las variables boolean por defecto se inicializan como false.</explicacion>
     </pregunta>
 
-    <pregunta id="143">
+    <pregunta>
         <enunciado>¿Qué operador se utiliza para comparar igualdad en Java?</enunciado>
         <opciones>
             <opcion>a) =</opcion>
@@ -1742,7 +1743,7 @@
         <explicacion>'==' se usa para comparar valores primitivos. Para objetos, se recomienda usar equals().</explicacion>
     </pregunta>
 
-    <pregunta id="144">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes no es una palabra reservada en Java?</enunciado>
         <opciones>
             <opcion>a) static</opcion>
@@ -1754,7 +1755,7 @@
         <explicacion>'define' no es una palabra reservada en Java, aunque lo es en otros lenguajes como C.</explicacion>
     </pregunta>
 
-    <pregunta id="145">
+    <pregunta>
         <enunciado>¿Qué clase se utiliza para leer datos desde la consola?</enunciado>
         <opciones>
             <opcion>a) InputReader</opcion>
@@ -1766,7 +1767,7 @@
         <explicacion>Scanner es la clase comúnmente usada para leer datos desde consola en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="146">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes estructuras es una clase contenedora?</enunciado>
         <opciones>
             <opcion>a) Array</opcion>
@@ -1778,7 +1779,7 @@
         <explicacion>List es una interfaz de colección que representa una lista ordenada de elementos.</explicacion>
     </pregunta>
 
-    <pregunta id="147">
+    <pregunta>
         <enunciado>¿Cuál es la salida de System.out.println(3 + "4")?</enunciado>
         <opciones>
             <opcion>a) 7</opcion>
@@ -1790,7 +1791,7 @@
         <explicacion>Se concatena 3 con el String "4", dando como resultado "34".</explicacion>
     </pregunta>
 
-    <pregunta id="148">
+    <pregunta>
         <enunciado>¿Qué significa que Java sea un lenguaje fuertemente tipado?</enunciado>
         <opciones>
             <opcion>a) Que se puede cambiar el tipo de una variable libremente.</opcion>
@@ -1802,7 +1803,7 @@
         <explicacion>En Java todos los tipos deben ser declarados explícitamente y no se permite el cambio de tipo implícito en la mayoría de los casos.</explicacion>
     </pregunta>
 
-    <pregunta id="149">
+    <pregunta>
         <enunciado>Una interfaz sirve para:</enunciado>
         <opciones>
             <opcion>a) Almacenar datos numéricos.</opcion>
@@ -1814,7 +1815,7 @@
         <explicacion>Las interfaces definen un contrato que debe implementarse en las clases.</explicacion>
     </pregunta>
 
-    <pregunta id="150">
+    <pregunta>
         <enunciado>Una interfaz puede heredar de:</enunciado>
         <opciones>
             <opcion>a) Una clase.</opcion>
@@ -1826,7 +1827,7 @@
         <explicacion>En Java, una interfaz puede heredar de múltiples interfaces.</explicacion>
     </pregunta>
 
-    <pregunta id="151">
+    <pregunta>
         <enunciado>Un método declarado, pero no implementado, en una interfaz se llama:</enunciado>
         <opciones>
             <opcion>a) Método estático.</opcion>
@@ -1838,7 +1839,7 @@
         <explicacion>Son métodos abstractos porque no tienen cuerpo, solo la firma.</explicacion>
     </pregunta>
 
-    <pregunta id="152">
+    <pregunta>
         <enunciado>En una interfaz se pueden definir:</enunciado>
         <opciones>
             <opcion>a) Sólo atributos.</opcion>
@@ -1850,7 +1851,7 @@
         <explicacion>Desde Java 8, una interfaz puede contener métodos default y estáticos, además de constantes.</explicacion>
     </pregunta>
 
-    <pregunta id="153">
+    <pregunta>
         <enunciado>El criterio de orden natural en una clase es:</enunciado>
         <opciones>
             <opcion>a) El criterio más lógico.</opcion>
@@ -1862,7 +1863,7 @@
         <explicacion>El método compareTo() define el orden natural cuando una clase implementa Comparable.</explicacion>
     </pregunta>
 
-    <pregunta id="154">
+    <pregunta>
         <enunciado>La interfaz Comparator se implementa en:</enunciado>
         <opciones>
             <opcion>a) Una clase que queremos ordenar.</opcion>
@@ -1874,7 +1875,7 @@
         <explicacion>Comparator es una interfaz funcional que define objetos que comparan otros objetos.</explicacion>
     </pregunta>
 
-    <pregunta id="155">
+    <pregunta>
         <enunciado>El método compare() es invocado por:</enunciado>
         <opciones>
             <opcion>a) Un objeto que queremos comparar.</opcion>
@@ -1886,7 +1887,7 @@
         <explicacion>El método compare() pertenece a la interfaz Comparator, y se invoca desde un objeto que implementa esta interfaz para comparar dos objetos.</explicacion>
     </pregunta>
 
-    <pregunta id="156">
+    <pregunta>
         <enunciado>Una excepción en Java:</enunciado>
         <opciones>
             <opcion>a) Se produce cuando un disco está defectuoso.</opcion>
@@ -1899,7 +1900,7 @@
     </pregunta>
 
 
-    <pregunta id="157">
+    <pregunta>
         <enunciado>Una excepción comprobada es:</enunciado>
         <opciones>
             <opcion>a) Una excepción que hemos reparado.</opcion>
@@ -1911,7 +1912,7 @@
         <explicacion>Son aquellas que el compilador fuerza a capturar o declarar con `throws`.</explicacion>
     </pregunta>
 
-    <pregunta id="158">
+    <pregunta>
         <enunciado>Cuando llegamos al final de un flujo de entrada de tipo FileReader, el método read():</enunciado>
         <opciones>
             <opcion>a) Muestra el mensaje: End of File</opcion>
@@ -1923,7 +1924,7 @@
         <explicacion>`read()` devuelve -1 cuando se llega al final del archivo.</explicacion>
     </pregunta>
 
-    <pregunta id="159">
+    <pregunta>
         <enunciado>La palabra reservada finally:</enunciado>
         <opciones>
             <opcion>a) Termina la ejecución de un programa.</opcion>
@@ -1935,7 +1936,7 @@
         <explicacion>`finally` siempre se ejecuta, ocurra o no una excepción.</explicacion>
     </pregunta>
 
-    <pregunta id="160">
+    <pregunta>
         <enunciado>Un flujo de tipo BufferedReader:</enunciado>
         <opciones>
             <opcion>a) Crea un archivo de texto con búfer.</opcion>
@@ -1947,7 +1948,7 @@
         <explicacion>Se usa para leer texto de manera eficiente, línea por línea.</explicacion>
     </pregunta>
 
-    <pregunta id="161">
+    <pregunta>
         <enunciado>La clase Scanner:</enunciado>
         <opciones>
             <opcion>a) Solo permite leer texto de cualquier flujo de texto.</opcion>
@@ -1959,7 +1960,7 @@
         <explicacion>Scanner puede leer de consola, archivos, cadenas, etc.</explicacion>
     </pregunta>
 
-    <pregunta id="162">
+    <pregunta>
         <enunciado>Para cambiar de línea al escribir en el flujo salida de tipo BufferedWriter debemos ejecutar:</enunciado>
         <opciones>
             <opcion>a) salida.write(“\n”)</opcion>
@@ -1971,7 +1972,7 @@
         <explicacion>`BufferedWriter.newLine()` agrega una nueva línea de forma segura y portátil.</explicacion>
     </pregunta>
 
-    <pregunta id="163">
+    <pregunta>
         <enunciado>Nos tenemos que asegurar de que todos los flujos abiertos deben cerrarse antes de que termine la aplicación...</enunciado>
         <opciones>
             <opcion>a) Porque se quedarían abiertos hasta que se apague el ordenador.</opcion>
@@ -1983,7 +1984,7 @@
         <explicacion>Cerrar los flujos garantiza que los datos se escriben correctamente y se libera memoria.</explicacion>
     </pregunta>
 
-    <pregunta id="164">
+    <pregunta>
         <enunciado>Los flujos se cierran:</enunciado>
         <opciones>
             <opcion>a) Con el método close().</opcion>
@@ -1995,7 +1996,7 @@
         <explicacion>`close()` es el método estándar para cerrar flujos en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="165">
+    <pregunta>
         <enunciado>Apertura de flujos con recursos:</enunciado>
         <opciones>
             <opcion>a) Consiste en abrir flujos asociados con varios archivos a la vez.</opcion>
@@ -2007,7 +2008,7 @@
         <explicacion>Java 7 introdujo `try-with-resources`, que cierra automáticamente los recursos.</explicacion>
     </pregunta>
 
-    <pregunta id="166">
+    <pregunta>
         <enunciado>¿Para qué sirve la clase File en Java?</enunciado>
         <opciones>
             <opcion>a) Para crear interfaces gráficas.</opcion>
@@ -2019,7 +2020,7 @@
         <explicacion>La clase `File` permite manejar rutas, comprobar existencia de archivos, crear o borrar ficheros y directorios.</explicacion>
     </pregunta>
 
-    <pregunta id="167">
+    <pregunta>
         <enunciado>¿Qué método se utiliza para comprobar si un archivo existe?</enunciado>
         <opciones>
             <opcion>a) existsFile()</opcion>
@@ -2031,7 +2032,7 @@
         <explicacion>El método `exists()` de la clase `File` retorna true si el archivo o carpeta existe.</explicacion>
     </pregunta>
 
-    <pregunta id="168">
+    <pregunta>
         <enunciado>¿Qué clase se usa para escribir texto en un archivo?</enunciado>
         <opciones>
             <opcion>a) FileReader</opcion>
@@ -2043,7 +2044,7 @@
         <explicacion>`FileWriter` se usa para escribir caracteres en un archivo.</explicacion>
     </pregunta>
 
-    <pregunta id="169">
+    <pregunta>
         <enunciado>¿Con qué clase combinamos BufferedWriter para mejorar el rendimiento al escribir archivos?</enunciado>
         <opciones>
             <opcion>a) Scanner</opcion>
@@ -2055,7 +2056,7 @@
         <explicacion>`BufferedWriter` se usa junto con `FileWriter` para mejorar el rendimiento mediante búfer de escritura.</explicacion>
     </pregunta>
 
-    <pregunta id="170">
+    <pregunta>
         <enunciado>¿Qué diferencia hay entre FileWriter y FileOutputStream?</enunciado>
         <opciones>
             <opcion>a) FileWriter escribe bytes, FileOutputStream caracteres.</opcion>
@@ -2067,7 +2068,7 @@
         <explicacion>`FileWriter` es para texto (caracteres) y `FileOutputStream` para datos binarios (bytes).</explicacion>
     </pregunta>
 
-    <pregunta id="171">
+    <pregunta>
         <enunciado>¿Qué clase se utiliza para leer objetos guardados en un archivo binario?</enunciado>
         <opciones>
             <opcion>a) ObjectOutputStream</opcion>
@@ -2079,7 +2080,7 @@
         <explicacion>`ObjectInputStream` se usa para leer objetos previamente serializados con `ObjectOutputStream`.</explicacion>
     </pregunta>
 
-    <pregunta id="172">
+    <pregunta>
         <enunciado>Para que un objeto pueda guardarse en un archivo binario, su clase debe:</enunciado>
         <opciones>
             <opcion>a) Extender la clase File.</opcion>
@@ -2091,7 +2092,7 @@
         <explicacion>La interfaz `Serializable` marca que los objetos de esa clase se pueden guardar como secuencia de bytes.</explicacion>
     </pregunta>
 
-    <pregunta id="173">
+    <pregunta>
         <enunciado>¿Cuál es el propósito de try-with-resources?</enunciado>
         <opciones>
             <opcion>a) Evitar errores de compilación.</opcion>
@@ -2103,7 +2104,7 @@
         <explicacion>Es una forma segura de manejar recursos que necesitan cerrarse automáticamente.</explicacion>
     </pregunta>
 
-    <pregunta id="174">
+    <pregunta>
         <enunciado>¿Qué clase permite leer archivos binarios byte a byte?</enunciado>
         <opciones>
             <opcion>a) FileInputStream</opcion>
@@ -2115,7 +2116,7 @@
         <explicacion>`FileInputStream` permite acceder a los archivos binarios como flujo de bytes.</explicacion>
     </pregunta>
 
-    <pregunta id="175">
+    <pregunta>
         <enunciado>¿Los ficheros binarios se diferencian de los de texto en que...?</enunciado>
         <opciones>
             <opcion>a) Solo tienen ceros y unos.</opcion>
@@ -2127,7 +2128,7 @@
         <explicacion>Los archivos binarios permiten guardar datos primitivos y objetos, no solo texto plano.</explicacion>
     </pregunta>
 
-    <pregunta id="176">
+    <pregunta>
         <enunciado>Si queremos guardar una cadena de caracteres en un flujo binario de tipo ObjectOutputStream, usaremos:</enunciado>
         <opciones>
             <opcion>a) writeString().</opcion>
@@ -2139,7 +2140,7 @@
         <explicacion>Con writeObject() puedes guardar cualquier objeto, incluyendo String, si implementa Serializable.</explicacion>
     </pregunta>
 
-    <pregunta id="177">
+    <pregunta>
         <enunciado>Para guardar una tabla del tipo int[] en un fichero binario con ObjectOutputStream, usaremos:</enunciado>
         <opciones>
             <opcion>a) writeInt().</opcion>
@@ -2151,7 +2152,7 @@
         <explicacion>Las tablas también son objetos en Java, así que deben guardarse con writeObject().</explicacion>
     </pregunta>
 
-    <pregunta id="178">
+    <pregunta>
         <enunciado>Si queremos leer una tabla de cadenas de caracteres de un flujo ObjectInputStream, escribiremos:</enunciado>
         <opciones>
             <opcion>a) String[] tabla = (String[]) entrada.readObject();</opcion>
@@ -2163,7 +2164,7 @@
         <explicacion>Hay que hacer un casting correcto al tipo deseado (String[]), porque readObject() devuelve un Object.</explicacion>
     </pregunta>
 
-    <pregunta id="179">
+    <pregunta>
         <enunciado>Un flujo de tipo ObjectInputStream permite leer de:</enunciado>
         <opciones>
             <opcion>a) Cualquier archivo de Windows.</opcion>
@@ -2175,7 +2176,7 @@
         <explicacion>Solo puede leer archivos binarios serializados previamente con ObjectOutputStream.</explicacion>
     </pregunta>
 
-    <pregunta id="180">
+    <pregunta>
         <enunciado>Un flujo de tipo ObjectInputStream permite acceder a:</enunciado>
         <opciones>
             <opcion>a) Solo archivos del disco duro.</opcion>
@@ -2187,7 +2188,7 @@
         <explicacion>Puede leer datos desde archivos, sockets u otros flujos, siempre que el contenido sea compatible.</explicacion>
     </pregunta>
 
-    <pregunta id="181">
+    <pregunta>
         <enunciado>Si guardamos una cadena de caracteres usando ObjectOutputStream, podemos leerla directamente del archivo:</enunciado>
         <opciones>
             <opcion>a) Usando un procesador de texto.</opcion>
@@ -2199,7 +2200,7 @@
         <explicacion>Los datos binarios solo se pueden leer correctamente desde Java mediante ObjectInputStream.</explicacion>
     </pregunta>
 
-    <pregunta id="182">
+    <pregunta>
         <enunciado>Si guardamos una serie de objetos con ObjectOutputStream, los recuperaremos:</enunciado>
         <opciones>
             <opcion>a) En el mismo orden en que se guardaron.</opcion>
@@ -2211,7 +2212,7 @@
         <explicacion>La serialización conserva el orden de escritura, y deben recuperarse en el mismo orden.</explicacion>
     </pregunta>
 
-    <pregunta id="183">
+    <pregunta>
         <enunciado>Los flujos binarios se cierran:</enunciado>
         <opciones>
             <opcion>a) Con el método close().</opcion>
@@ -2223,7 +2224,7 @@
         <explicacion>Como en otros flujos, close() es el método correcto para liberar recursos.</explicacion>
     </pregunta>
 
-    <pregunta id="184">
+    <pregunta>
         <enunciado>¿Hay que cerrar los flujos binarios?</enunciado>
         <opciones>
             <opcion>a) Siempre.</opcion>
@@ -2235,7 +2236,7 @@
         <explicacion>Es una buena práctica cerrar siempre los flujos para liberar recursos y evitar pérdida de datos.</explicacion>
     </pregunta>
 
-    <pregunta id="185">
+    <pregunta>
         <enunciado>¿Qué es Collection?</enunciado>
         <opciones>
             <opcion>a) Una interfaz.</opcion>
@@ -2247,7 +2248,7 @@
         <explicacion>Collection es una interfaz raíz del marco de colecciones de Java que agrupa tipos como List, Set y Queue.</explicacion>
     </pregunta>
 
-    <pregunta id="186">
+    <pregunta>
         <enunciado>¿Para qué sirven los tipos genéricos?</enunciado>
         <opciones>
             <opcion>a) Usar objetos de la clase Object.</opcion>
@@ -2259,7 +2260,7 @@
         <explicacion>Los genéricos permiten definir estructuras con tipos de datos específicos, aumentando la seguridad y evitando conversiones.</explicacion>
     </pregunta>
 
-    <pregunta id="187">
+    <pregunta>
         <enunciado>¿Para qué sirve una lista?</enunciado>
         <opciones>
             <opcion>a) Guardar datos primitivos.</opcion>
@@ -2271,7 +2272,7 @@
         <explicacion>Las listas (List) permiten almacenar datos en orden y con posibles repeticiones.</explicacion>
     </pregunta>
 
-    <pregunta id="188">
+    <pregunta>
         <enunciado>Un conjunto es una colección de elementos:</enunciado>
         <opciones>
             <opcion>a) Que no admiten orden.</opcion>
@@ -2283,7 +2284,7 @@
         <explicacion>Un conjunto (Set) se define por la pertenencia, sin duplicados.</explicacion>
     </pregunta>
 
-    <pregunta id="189">
+    <pregunta>
         <enunciado>ArrayList y LinkedList se diferencian:</enunciado>
         <opciones>
             <opcion>a) En el número de elementos.</opcion>
@@ -2295,7 +2296,7 @@
         <explicacion>ArrayList tiene mejor acceso aleatorio, LinkedList es mejor para inserciones o eliminaciones frecuentes.</explicacion>
     </pregunta>
 
-    <pregunta id="190">
+    <pregunta>
         <enunciado>Los métodos de la interfaz Set:</enunciado>
         <opciones>
             <opcion>a) Son los mismos que los de List.</opcion>
@@ -2307,7 +2308,7 @@
         <explicacion>Set hereda de Collection, por lo tanto, sus métodos básicos son los mismos.</explicacion>
     </pregunta>
 
-    <pregunta id="191">
+    <pregunta>
         <enunciado>Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):</enunciado>
         <opciones>
             <opcion>a) Devuelve un conjunto ordenado con los elementos de a.</opcion>
@@ -2319,7 +2320,7 @@
         <explicacion>TreeSet ordena automáticamente los elementos del ArrayList que se le pasa.</explicacion>
     </pregunta>
 
-    <pregunta id="192">
+    <pregunta>
         <enunciado>¿Qué es Collections?</enunciado>
         <opciones>
             <opcion>a) Una clase cuyos objetos están repetidos.</opcion>
@@ -2331,7 +2332,7 @@
         <explicacion>Collections es una clase utilitaria con métodos estáticos como sort(), reverse(), etc.</explicacion>
     </pregunta>
 
-    <pregunta id="193">
+    <pregunta>
         <enunciado>Un mapa en Java es:</enunciado>
         <opciones>
             <opcion>a) Un gráfico con las relaciones de herencia entre interfaces.</opcion>
@@ -2343,7 +2344,7 @@
         <explicacion>Los mapas (Map) almacenan datos en pares clave-valor.</explicacion>
     </pregunta>
 
-    <pregunta id="194">
+    <pregunta>
         <enunciado>Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:</enunciado>
         <opciones>
             <opcion>a) put().</opcion>
@@ -2355,7 +2356,7 @@
         <explicacion>put(clave, nuevoValor) actualiza o inserta una nueva entrada en el mapa.</explicacion>
     </pregunta>
 
-    <pregunta id="195">
+    <pregunta>
         <enunciado>¿Qué es Collection?</enunciado>
         <opciones>
             <opcion>a) Una interfaz.</opcion>
@@ -2367,7 +2368,7 @@
         <explicacion>Collection es una interfaz raíz del marco de colecciones de Java que agrupa tipos como List, Set y Queue.</explicacion>
     </pregunta>
 
-    <pregunta id="196">
+    <pregunta>
         <enunciado>¿Para qué sirven los tipos genéricos?</enunciado>
         <opciones>
             <opcion>a) Usar objetos de la clase Object.</opcion>
@@ -2379,7 +2380,7 @@
         <explicacion>Los genéricos permiten definir estructuras con tipos de datos específicos, aumentando la seguridad y evitando conversiones.</explicacion>
     </pregunta>
 
-    <pregunta id="197">
+    <pregunta>
         <enunciado>¿Para qué sirve una lista?</enunciado>
         <opciones>
             <opcion>a) Guardar datos primitivos.</opcion>
@@ -2391,7 +2392,7 @@
         <explicacion>Las listas (List) permiten almacenar datos en orden y con posibles repeticiones.</explicacion>
     </pregunta>
 
-    <pregunta id="198">
+    <pregunta>
         <enunciado>Un conjunto es una colección de elementos:</enunciado>
         <opciones>
             <opcion>a) Que no admiten orden.</opcion>
@@ -2403,7 +2404,7 @@
         <explicacion>Un conjunto (Set) se define por la pertenencia, sin duplicados.</explicacion>
     </pregunta>
 
-    <pregunta id="199">
+    <pregunta>
         <enunciado>ArrayList y LinkedList se diferencian:</enunciado>
         <opciones>
             <opcion>a) En el número de elementos.</opcion>
@@ -2415,7 +2416,7 @@
         <explicacion>ArrayList tiene mejor acceso aleatorio, LinkedList es mejor para inserciones o eliminaciones frecuentes.</explicacion>
     </pregunta>
 
-    <pregunta id="200">
+    <pregunta>
         <enunciado>Los métodos de la interfaz Set:</enunciado>
         <opciones>
             <opcion>a) Son los mismos que los de List.</opcion>
@@ -2427,7 +2428,7 @@
         <explicacion>Set hereda de Collection, por lo tanto, sus métodos básicos son los mismos.</explicacion>
     </pregunta>
 
-    <pregunta id="201">
+    <pregunta>
         <enunciado>Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):</enunciado>
         <opciones>
             <opcion>a) Devuelve un conjunto ordenado con los elementos de a.</opcion>
@@ -2439,7 +2440,7 @@
         <explicacion>TreeSet ordena automáticamente los elementos del ArrayList que se le pasa.</explicacion>
     </pregunta>
 
-    <pregunta id="202">
+    <pregunta>
         <enunciado>¿Qué es Collections?</enunciado>
         <opciones>
             <opcion>a) Una clase cuyos objetos están repetidos.</opcion>
@@ -2451,7 +2452,7 @@
         <explicacion>Collections es una clase utilitaria con métodos estáticos como sort(), reverse(), etc.</explicacion>
     </pregunta>
 
-    <pregunta id="203">
+    <pregunta>
         <enunciado>Un mapa en Java es:</enunciado>
         <opciones>
             <opcion>a) Un gráfico con las relaciones de herencia entre interfaces.</opcion>
@@ -2463,7 +2464,7 @@
         <explicacion>Los mapas (Map) almacenan datos en pares clave-valor.</explicacion>
     </pregunta>
 
-    <pregunta id="204">
+    <pregunta>
         <enunciado>Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:</enunciado>
         <opciones>
             <opcion>a) put().</opcion>
@@ -2475,7 +2476,7 @@
         <explicacion>put(clave, nuevoValor) actualiza o inserta una nueva entrada en el mapa.</explicacion>
     </pregunta>
 
-    <pregunta id="205">
+    <pregunta>
         <enunciado>Sobre una subclase es correcto afirmar que:</enunciado>
         <opciones>
             <opcion>a) Tiene menos atributos que su superclase.</opcion>
@@ -2487,7 +2488,7 @@
         <explicacion>Una subclase hereda los miembros públicos y protegidos de su superclase, no los privados.</explicacion>
     </pregunta>
 
-    <pregunta id="206">
+    <pregunta>
         <enunciado>En relación con las clases abstractas es correcto señalar que:</enunciado>
         <opciones>
             <opcion>a) Implementan todos sus métodos.</opcion>
@@ -2499,7 +2500,7 @@
         <explicacion>Las clases abstractas pueden tener métodos implementados y atributos, pero deben tener al menos un método abstracto.</explicacion>
     </pregunta>
 
-    <pregunta id="207">
+    <pregunta>
         <enunciado>¿En qué consiste la sustitución u overriding?</enunciado>
         <opciones>
             <opcion>a) En sustituir un método heredado por otro implementado en la propia clase.</opcion>
@@ -2511,7 +2512,7 @@
         <explicacion>Overriding es redefinir un método heredado en una subclase con una nueva implementación.</explicacion>
     </pregunta>
 
-    <pregunta id="208">
+    <pregunta>
         <enunciado>Sobre la clase Object es cierto indicar que:</enunciado>
         <opciones>
             <opcion>a) Es abstracta.</opcion>
@@ -2523,7 +2524,7 @@
         <explicacion>Object es la superclase de todas las clases en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="209">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</enunciado>
         <opciones>
             <opcion>a) Hay que implementarlo, ya que es abstracto.</opcion>
@@ -2535,7 +2536,7 @@
         <explicacion>Se hereda de Object, pero se recomienda sobrescribirlo para una comparación personalizada.</explicacion>
     </pregunta>
 
-    <pregunta id="210">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para mostrar la información que nos interesa de un objeto.</opcion>
@@ -2547,7 +2548,7 @@
         <explicacion>toString() sirve para devolver una representación textual personalizada de un objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="211">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</enunciado>
         <opciones>
             <opcion>a) Convierte los objetos en clases.</opcion>
@@ -2559,7 +2560,7 @@
         <explicacion>getClass() devuelve la clase real del objeto en tiempo de ejecución.</explicacion>
     </pregunta>
 
-    <pregunta id="212">
+    <pregunta>
         <enunciado>Una clase puede heredar:</enunciado>
         <opciones>
             <opcion>a) De una clase.</opcion>
@@ -2571,7 +2572,7 @@
         <explicacion>En Java solo se permite heredar de una única clase (herencia simple).</explicacion>
     </pregunta>
 
-    <pregunta id="213">
+    <pregunta>
         <enunciado>La selección dinámica de métodos:</enunciado>
         <opciones>
             <opcion>a) Se produce cuando una variable cambia de valor durante la ejecución de un programa.</opcion>
@@ -2583,7 +2584,7 @@
         <explicacion>Esto es polimorfismo: permite ejecutar la versión del método correspondiente al tipo real del objeto.</explicacion>
     </pregunta>
 
-    <pregunta id="214">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</enunciado>
         <opciones>
             <opcion>a) Sirve para llamar al constructor de la superclase.</opcion>
@@ -2595,7 +2596,7 @@
         <explicacion>super() se usa para llamar al constructor de la clase base desde una subclase.</explicacion>
     </pregunta>
 
-    <pregunta id="215">
+    <pregunta>
         <enunciado>¿Cuál es el tipo de retorno del método main en Java?</enunciado>
         <opciones>
             <opcion>a) void</opcion>
@@ -2606,7 +2607,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método main debe ser public static void main(String[] args), por eso retorna void.</explicacion>
     </pregunta>
-    <pregunta id="216">
+    <pregunta>
         <enunciado>¿Qué es el overriding (sobreescritura)?</enunciado>
         <opciones>
             <opcion>a) Repetir un método en la subclase con la misma firma.</opcion>
@@ -2618,7 +2619,7 @@
         <explicacion>El overriding consiste en redefinir un método heredado en una subclase, manteniendo la misma firma (nombre, parámetros y tipo de retorno).</explicacion>
     </pregunta>
 
-    <pregunta id="217">
+    <pregunta>
         <enunciado>¿Qué condiciones debe cumplir un método para ser sobrescrito?</enunciado>
         <opciones>
             <opcion>a) Mismo nombre</opcion>
@@ -2630,7 +2631,7 @@
         <explicacion>Para sobrescribir un método, debe tener el mismo nombre, tipo de retorno y lista de parámetros. El modificador de acceso no puede ser más restrictivo.</explicacion>
     </pregunta>
 
-    <pregunta id="218">
+    <pregunta>
         <enunciado>¿Qué es el overloading (sobrecarga)?</enunciado>
         <opciones>
             <opcion>a) Crear múltiples métodos con el mismo nombre pero distintos parámetros.</opcion>
@@ -2642,7 +2643,7 @@
         <explicacion>La sobrecarga permite definir múltiples métodos con el mismo nombre, pero con diferentes listas de parámetros (número o tipo).</explicacion>
     </pregunta>
 
-    <pregunta id="219">
+    <pregunta>
         <enunciado>¿Qué es necesario para hacer un cast explícito?</enunciado>
         <opciones>
             <opcion>a) Que haya relación de herencia entre clases.</opcion>
@@ -2654,7 +2655,7 @@
         <explicacion>Para realizar un cast explícito, los tipos deben ser compatibles, ya sea por herencia o implementación de interfaces.</explicacion>
     </pregunta>
 
-    <pregunta id="220">
+    <pregunta>
         <enunciado>¿Qué operador comprueba si un objeto pertenece a una clase?</enunciado>
         <opciones>
             <opcion>a) instanceOf</opcion>
@@ -2666,7 +2667,7 @@
         <explicacion>El operador `instanceof` verifica si un objeto es una instancia de una clase o de una subclase.</explicacion>
     </pregunta>
 
-    <pregunta id="221">
+    <pregunta>
         <enunciado>¿Cuál es la diferencia entre this y super?</enunciado>
         <opciones>
             <opcion>a) this accede a la clase actual.</opcion>
@@ -2678,7 +2679,7 @@
         <explicacion>`this` se refiere a la instancia actual de la clase, mientras que `super` se utiliza para acceder a miembros de la clase padre.</explicacion>
     </pregunta>
 
-        <pregunta id="222">
+        <pregunta>
             <enunciado>¿Cuál es la salida del siguiente código?
                     Persona p = new Persona("Ana", "López", "123456");
                     System.out.println(p.getNombre()); 
@@ -2692,7 +2693,7 @@
             <respuesta>a</respuesta>
             <explicacion>La salida será "Ana" si la clase `Persona` tiene un método `getNombre()` correctamente implementado que devuelve el atributo `nombre` inicializado en el constructor.</explicacion>
         </pregunta>
-        <pregunta id="223">
+        <pregunta>
             <enunciado>¿Cuál es la salida del siguiente código?
                 class A {
                     int x = 10;
@@ -2722,7 +2723,7 @@
             <respuesta>b</respuesta>
             <explicacion>La salida es "Clase B: 20" porque el método `mostrar()` es sobrescrito en la clase `B`. Aunque la referencia es de tipo `A`, el objeto real es de tipo `B`, por lo que se ejecuta el método de la clase `B` debido al polimorfismo.</explicacion>
         </pregunta>
-        <pregunta id="224">
+        <pregunta>
             <enunciado>¿Cuál es la salida del siguiente código?
                 class A {
                     int x = 10;
@@ -2752,7 +2753,7 @@
             <respuesta>b</respuesta>
             <explicacion>La salida es "Clase B: 20" porque el método `mostrar()` es sobrescrito en la clase `B`. Aunque la referencia es de tipo `A`, el objeto real es de tipo `B`, por lo que se ejecuta el método de la clase `B` debido al polimorfismo.</explicacion>
         </pregunta>
-        <pregunta id="225">
+        <pregunta>
             <enunciado>¿Qué salida produce este código?
                 public class Test {
                     public static void main(String[] args) {
@@ -2771,7 +2772,7 @@
             <respuesta>b</respuesta>
             <explicacion>En la primera línea, `a + b` se evalúa como 15 antes de concatenar con "Resultado", dando "15Resultado". En la segunda línea, "Resultado" se concatena con `a` y luego con `b`, resultando en "Resultado510".</explicacion>
         </pregunta>
-        <pregunta id="226">
+        <pregunta>
             <enunciado>¿Qué sucede al ejecutar este código?
                 class Padre {
                     void saludar() {
@@ -2800,7 +2801,7 @@
             <explicacion>La salida es "Hola desde Hijo" porque el método `saludar()` es sobrescrito en la clase `Hijo`. Aunque la referencia es de tipo `Padre`, el objeto real es de tipo `Hijo`, por lo que se ejecuta el método de la clase `Hijo` debido al polimorfismo.</explicacion>
         </pregunta>
 
-    <pregunta id="227">
+    <pregunta>
         <enunciado>¿Cuál de estas clases implementa una estructura LIFO?</enunciado>
         <opciones>
             <opcion>a) Array</opcion>
@@ -2812,7 +2813,7 @@
         <explicacion>La clase `Stack` implementa una estructura LIFO (Last In, First Out), donde el último elemento en entrar es el primero en salir.</explicacion>
     </pregunta>
 
-    <pregunta id="228">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre los arrays en Java es verdadera?</enunciado>
         <opciones>
             <opcion>a) No se puede acceder a un array con un índice numérico</opcion>
@@ -2824,7 +2825,7 @@
         <explicacion>En Java, el tamaño de un array es fijo una vez que se crea. No puede cambiar dinámicamente.</explicacion>
     </pregunta>
 
-    <pregunta id="229">
+    <pregunta>
         <enunciado>¿Cuál es el método adecuado para añadir un elemento a una ArrayList?</enunciado>
         <opciones>
             <opcion>a) put()</opcion>
@@ -2836,7 +2837,7 @@
         <explicacion>El método `add()` se utiliza para añadir elementos a una `ArrayList` en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="230">
+    <pregunta>
         <enunciado>¿Cuál es la forma correcta de declarar y crear un array de enteros con 10 elementos?</enunciado>
         <opciones>
             <opcion>a) array = int[10];</opcion>
@@ -2848,7 +2849,7 @@
         <explicacion>La forma correcta de declarar y crear un array de enteros con 10 elementos es `int[] array = new int[10];`.</explicacion>
     </pregunta>
 
-    <pregunta id="231">
+    <pregunta>
         <enunciado>¿Cuál es la interfaz que implementan todas las colas en Java?</enunciado>
         <opciones>
             <opcion>a) Queue</opcion>
@@ -2860,7 +2861,7 @@
         <explicacion>La interfaz `Queue` es implementada por todas las clases que representan colas en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="232">
+    <pregunta>
         <enunciado>¿Qué sucede al ejecutar este código?
             interface A {
                 void saludar();
@@ -2881,7 +2882,7 @@
         <explicacion>La clase `B` implementa correctamente la interfaz `A` y sobrescribe el método `saludar()`. Al ejecutarlo, imprime "Hola".</explicacion>
     </pregunta>
 
-    <pregunta id="233">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
             stack.push(10);
@@ -2898,7 +2899,7 @@
         <explicacion>El método `peek()` devuelve el último elemento añadido a la pila sin eliminarlo. En este caso, devuelve 20.</explicacion>
     </pregunta>
 
-    <pregunta id="234">
+    <pregunta>
         <enunciado>¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?</enunciado>
         <opciones>
             <opcion>a) class MiClase implements MiInterfaz</opcion>
@@ -2910,7 +2911,7 @@
         <explicacion>La palabra clave `implements` se utiliza para que una clase implemente una interfaz en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="235">
+    <pregunta>
         <enunciado>¿Cuál es una característica de una clase abstracta?</enunciado>
         <opciones>
             <opcion>a) Puede tener métodos abstractos y concretos</opcion>
@@ -2922,7 +2923,7 @@
         <explicacion>Una clase abstracta puede tener métodos abstractos (sin implementación) y métodos concretos (con implementación).</explicacion>
     </pregunta>
 
-    <pregunta id="236">
+    <pregunta>
         <enunciado>¿Qué sucede al ejecutar este código?
             interface A {
                 void saludar();
@@ -2943,7 +2944,7 @@
         <explicacion>La clase `B` implementa correctamente la interfaz `A` y sobrescribe el método `saludar()`. Al ejecutarlo, imprime "Hola".</explicacion>
     </pregunta>
 
-    <pregunta id="237">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
             stack.push(10);
@@ -2960,7 +2961,7 @@
         <explicacion>El método `peek()` devuelve el último elemento añadido a la pila sin eliminarlo. En este caso, devuelve 20.</explicacion>
     </pregunta>
 
-    <pregunta id="238">
+    <pregunta>
         <enunciado>¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?</enunciado>
         <opciones>
             <opcion>a) class MiClase implements MiInterfaz</opcion>
@@ -2972,7 +2973,7 @@
         <explicacion>La palabra clave `implements` se utiliza para que una clase implemente una interfaz en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="239">
+    <pregunta>
         <enunciado>¿Cuál es una característica de una clase abstracta?</enunciado>
         <opciones>
             <opcion>a) Puede tener métodos abstractos y concretos</opcion>
@@ -2985,7 +2986,7 @@
     </pregunta>
 
 
-    <pregunta id="240">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
             Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
@@ -3005,7 +3006,7 @@
         <explicacion>El método `poll()` elimina y devuelve el primer elemento de la cola. Se añaden 1 y 2 a la pila, y `pop()` elimina y devuelve el último elemento añadido, que es 2.</explicacion>
     </pregunta>
 
-    <pregunta id="241">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Stack&lt;String&gt; historial = new Stack&lt;&gt;();
             historial.push("Escribir línea 1");
@@ -3023,7 +3024,7 @@
         <explicacion>El método `pop()` elimina el último elemento añadido ("Escribir línea 2"). Luego, `peek()` devuelve el elemento en la cima de la pila, que es "Escribir línea 1".</explicacion>
     </pregunta>
 
-    <pregunta id="242">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             LinkedList&lt;Integer&gt; numeros = new LinkedList&lt;&gt;();
             numeros.addFirst(10);
@@ -3040,7 +3041,7 @@
         <explicacion>Se añaden dos elementos a la lista (10 al principio y 20 al final). El método `size()` devuelve el número total de elementos, que es 2.</explicacion>
     </pregunta>
 
-    <pregunta id="243">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
@@ -3058,7 +3059,7 @@
         <explicacion>`pop()` elimina y devuelve 10 de la pila, y `peek()` devuelve 20 de la cola sin eliminarlo. La suma es 30.</explicacion>
     </pregunta>
 
-    <pregunta id="244">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
             Stack&lt;String&gt; pila = new Stack&lt;&gt;();
@@ -3075,7 +3076,7 @@
         <respuesta>c</respuesta>
         <explicacion>`get(0)` devuelve "X" de la lista, y `peek()` devuelve "Y" de la pila. La concatenación resulta en "XY".</explicacion>
     </pregunta>
-    <pregunta id="245">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             pila.push(5);
@@ -3093,7 +3094,7 @@
         <explicacion>El método `pop()` elimina el último elemento añadido (10). Luego, `peek()` devuelve el elemento en la cima de la pila, que es 5.</explicacion>
     </pregunta>
 
-    <pregunta id="246">
+    <pregunta>
         <enunciado>¿Qué método de LinkedList añade un elemento al principio de la lista?</enunciado>
         <opciones>
             <opcion>a) add()</opcion>
@@ -3105,7 +3106,7 @@
         <explicacion>El método `addFirst()` de LinkedList añade un elemento al principio de la lista.</explicacion>
     </pregunta>
 
-    <pregunta id="247">
+    <pregunta>
         <enunciado>¿Qué método elimina el último elemento en una Stack?</enunciado>
         <opciones>
             <opcion>a) getLast()</opcion>
@@ -3117,7 +3118,7 @@
         <explicacion>El método `pop()` elimina y devuelve el último elemento añadido a la pila (LIFO).</explicacion>
     </pregunta>
 
-    <pregunta id="248">
+    <pregunta>
         <enunciado>abstract class Figura {
             abstract double area();
         }
@@ -3135,7 +3136,7 @@
         <explicacion>La clase `Cuadrado` debe implementar el método `area()` porque es abstracto en la clase `Figura`. De lo contrario, se produce un error de compilación.</explicacion>
     </pregunta>
 
-    <pregunta id="249">
+    <pregunta>
         <enunciado>¿Qué método se utiliza para ver el primer elemento de una Queue sin eliminarlo?</enunciado>
         <opciones>
             <opcion>a) pop()</opcion>
@@ -3146,7 +3147,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `peek()` devuelve el primer elemento de la cola sin eliminarlo.</explicacion>
     </pregunta>
-     <pregunta id="250">
+     <pregunta>
          <enunciado>¿Cuál es la salida del siguiente código?
              LinkedList&lt;String&gt; lista = new LinkedList&lt;&gt;();
              Stack&lt;String&gt; pila = new Stack&lt;&gt;();
@@ -3165,7 +3166,7 @@
          <explicacion>El método `pop()` elimina y devuelve el último elemento añadido a la pila ("Collections"), que luego se añade a la lista. La salida es `[Java, Collections]`.</explicacion>
      </pregunta>
 
-     <pregunta id="251">
+     <pregunta>
          <enunciado>¿Cuál es la salida del siguiente código?
              ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
              lista.add("A");
@@ -3183,7 +3184,7 @@
          <explicacion>`get(1)` devuelve el elemento en la posición 1 de la lista, que es "B".</explicacion>
      </pregunta>
 
-     <pregunta id="252">
+     <pregunta>
          <enunciado>¿Cuál es la salida del siguiente código?
              ArrayList&lt;Integer&gt; numeros = new ArrayList&lt;&gt;();
              numeros.add(1);
@@ -3202,7 +3203,7 @@
          <explicacion>El método `remove(1)` elimina el elemento en la posición 1 (el número 2). La lista resultante es `[1, 3]`.</explicacion>
      </pregunta>
 
-     <pregunta id="253">
+     <pregunta>
          <enunciado>¿Cuál es la salida del siguiente código?
              ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
              LinkedList&lt;String&gt; linked = new LinkedList&lt;&gt;();
@@ -3220,7 +3221,7 @@
          <explicacion>`get(0)` devuelve "uno" de la lista y "dos" del linked list. La salida es "uno-dos".</explicacion>
      </pregunta>
 
-     <pregunta id="254">
+     <pregunta>
          <enunciado>¿Qué sucede si accedes a un índice que no existe en un ArrayList?</enunciado>
          <opciones>
              <opcion>a) Se lanza una excepción IndexOutOfBoundsException</opcion>
@@ -3232,7 +3233,7 @@
          <explicacion>Acceder a un índice fuera de rango en un ArrayList lanza una excepción `IndexOutOfBoundsException`.</explicacion>
      </pregunta>
 
-     <pregunta id="255">
+     <pregunta>
         <enunciado>¿Cuál de estas sentencias crea correctamente un objeto de la clase `Alumno`?</enunciado>
         <opciones>
             <opcion>a) Alumno alumno();</opcion>
@@ -3244,7 +3245,7 @@
         <explicacion>La sintaxis correcta para crear un objeto en Java es `Clase nombreObjeto = new Clase();`. En este caso, `Alumno alumno = new Alumno();`.</explicacion>
     </pregunta>
 
-    <pregunta id="256">
+    <pregunta>
         <enunciado>¿Qué imprimirá el siguiente fragmento?
             int[][] matriz = {
                 {1,2,3},{4,5,6}
@@ -3261,7 +3262,7 @@
         <explicacion>El elemento en la posición `matriz[1][2]` corresponde al valor 6, ya que está en la segunda fila y tercera columna.</explicacion>
     </pregunta>
 
-    <pregunta id="257">
+    <pregunta>
         <enunciado>¿Qué imprimirá este código?
             public static void imprime(int n) {
                 n = 2 * n;
@@ -3283,7 +3284,7 @@
         <explicacion>El valor de `n` dentro del método `imprime` es una copia del original, por lo que no afecta al valor de `n` en `main`. Se imprime 20 y luego 10.</explicacion>
     </pregunta>
 
-    <pregunta id="258">
+    <pregunta>
         <enunciado>¿Qué método de Scanner lee un número entero?</enunciado>
         <opciones>
             <opcion>a) next()</opcion>
@@ -3295,7 +3296,7 @@
         <explicacion>El método `nextInt()` de la clase `Scanner` se utiliza para leer un número entero desde la entrada estándar.</explicacion>
     </pregunta>
 
-    <pregunta id="259">
+    <pregunta>
         <enunciado>¿Qué método de Stack devuelve el elemento del tope SIN eliminarlo?</enunciado>
         <opciones>
             <opcion>a) pop()</opcion>
@@ -3306,7 +3307,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `peek()` devuelve el elemento en la cima de la pila sin eliminarlo.</explicacion>
     </pregunta>
-    <pregunta id="260">
+    <pregunta>
         <enunciado>¿Qué método se ejecuta al arrancar una aplicación Java?</enunciado>
         <opciones>
             <opcion>a) init()</opcion>
@@ -3318,7 +3319,7 @@
         <explicacion>El método `main()` es el punto de entrada de una aplicación Java. Debe estar definido como `public static void main(String[] args)`.</explicacion>
     </pregunta>
 
-    <pregunta id="261">
+    <pregunta>
         <enunciado>¿Qué mostrará este código?
             int[] valores = new int[4];
             System.out.println(valores[1]);
@@ -3333,7 +3334,7 @@
         <explicacion>En Java, los arrays de enteros se inicializan automáticamente con ceros. Por lo tanto, `valores[1]` imprime 0.</explicacion>
     </pregunta>
 
-    <pregunta id="262">
+    <pregunta>
         <enunciado>¿Qué muestra este código?
             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
             lista.add("A");
@@ -3350,7 +3351,7 @@
         <explicacion>`get(1)` devuelve el elemento en la posición 1 de la lista, que es "B".</explicacion>
     </pregunta>
 
-    <pregunta id="263">
+    <pregunta>
         <enunciado>¿Qué muestra este código?
             class Animal {
                 void sonido() { System.out.println("Sonido genérico"); }
@@ -3371,7 +3372,7 @@
         <explicacion>El método `sonido()` es sobrescrito en la clase `Perro`. Aunque la referencia es de tipo `Animal`, el objeto real es de tipo `Perro`, por lo que se ejecuta el método de la clase `Perro` debido al polimorfismo.</explicacion>
     </pregunta>
 
-    <pregunta id="264">
+    <pregunta>
         <enunciado>¿Qué muestra este fragmento de código?
             public static int suma(int a, int b) {
                 return a + b;
@@ -3387,7 +3388,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `suma` devuelve la suma de los dos parámetros, que en este caso es 2 + 3 = 5.</explicacion>
     </pregunta>
-    <pregunta id="265">
+    <pregunta>
         <enunciado>¿Qué ocurre cuando un parámetro se pasa "por valor" en Java?</enunciado>
         <opciones>
             <opcion>a) Se pasa la referencia al objeto original.</opcion>
@@ -3399,7 +3400,7 @@
         <explicacion>En Java, los parámetros se pasan por valor. Esto significa que se copia el valor del argumento y los cambios realizados dentro del método no afectan al valor original.</explicacion>
     </pregunta>
 
-    <pregunta id="266">
+    <pregunta>
         <enunciado>¿Qué ocurre si un atributo es declarado como `private`?</enunciado>
         <opciones>
             <opcion>a) Solo puede ser accedido desde métodos estáticos.</opcion>
@@ -3411,7 +3412,7 @@
         <explicacion>El modificador `private` restringe el acceso a los atributos únicamente dentro de la clase donde se declaran.</explicacion>
     </pregunta>
 
-    <pregunta id="267">
+    <pregunta>
         <enunciado>¿Qué ocurre si un flujo no se cierra adecuadamente en Java?</enunciado>
         <opciones>
             <opcion>a) Se lanza una excepción Checked automáticamente.</opcion>
@@ -3423,7 +3424,7 @@
         <explicacion>Si un flujo no se cierra, los datos pueden no guardarse correctamente y los recursos asociados, como archivos o memoria, no se liberan, lo que puede causar fugas de recursos.</explicacion>
     </pregunta>
 
-    <pregunta id="268">
+    <pregunta>
         <enunciado>¿Qué ocurre si una subclase quiere llamar al constructor de su superclase?</enunciado>
         <opciones>
             <opcion>a) No es posible llamar al constructor de la superclase.</opcion>
@@ -3435,7 +3436,7 @@
         <explicacion>Para llamar al constructor de la superclase, se utiliza la palabra clave `super()` y debe ser la primera línea en el constructor de la subclase.</explicacion>
     </pregunta>
 
-    <pregunta id="269">
+    <pregunta>
         <enunciado>¿Qué palabra clave indica que un método en Java no devuelve ningún valor?</enunciado>
         <opciones>
             <opcion>a) void</opcion>
@@ -3446,7 +3447,7 @@
         <respuesta>a</respuesta>
         <explicacion>La palabra clave `void` se utiliza para declarar que un método no devuelve ningún valor.</explicacion>
     </pregunta>
-    <pregunta id="270">
+    <pregunta>
         <enunciado>¿Qué palabra reservada se utiliza para referirse al objeto actual dentro de sus propios métodos?</enunciado>
         <opciones>
             <opcion>a) object</opcion>
@@ -3458,7 +3459,7 @@
         <explicacion>La palabra clave `this` se utiliza para referirse al objeto actual dentro de sus propios métodos o constructores.</explicacion>
     </pregunta>
 
-    <pregunta id="271">
+    <pregunta>
         <enunciado>¿Qué realiza la sentencia `return` en un método?</enunciado>
         <opciones>
             <opcion>a) Sale del método y devuelve un valor opcionalmente.</opcion>
@@ -3470,7 +3471,7 @@
         <explicacion>La sentencia `return` finaliza la ejecución de un método y, opcionalmente, devuelve un valor al llamador.</explicacion>
     </pregunta>
 
-    <pregunta id="272">
+    <pregunta>
         <enunciado>¿Qué resultado muestra este código?
             Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             pila.push(1);
@@ -3488,7 +3489,7 @@
         <explicacion>El método `peek()` devuelve el último elemento añadido a la pila sin eliminarlo. En este caso, devuelve 3.</explicacion>
     </pregunta>
 
-    <pregunta id="273">
+    <pregunta>
         <enunciado>¿Qué sucede si no se define ningún constructor en una clase?</enunciado>
         <opciones>
             <opcion>a) Hay que llamar manualmente a un método init().</opcion>
@@ -3500,7 +3501,7 @@
         <explicacion>Si no se define ningún constructor, Java crea automáticamente un constructor por defecto que no realiza ninguna acción específica.</explicacion>
     </pregunta>
 
-    <pregunta id="274">
+    <pregunta>
         <enunciado>¿Qué tipo de herencia permite Java directamente entre clases?</enunciado>
         <opciones>
             <opcion>a) Circular</opcion>
@@ -3511,7 +3512,7 @@
         <respuesta>b</respuesta>
         <explicacion>Java permite únicamente herencia simple entre clases, es decir, una clase solo puede heredar directamente de una única superclase.</explicacion>
     </pregunta>
-    <pregunta id="275">
+    <pregunta>
         <enunciado>¿Qué valor tendrá datos[2] tras ejecutar este código?
             int[] datos = {8, 10, 2, 3, 5};
         </enunciado>
@@ -3525,7 +3526,7 @@
         <explicacion>El índice 2 en el array `datos` corresponde al tercer elemento, que es 2.</explicacion>
     </pregunta>
 
-    <pregunta id="276">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes opciones es CORRECTA sobre Stack en Java?</enunciado>
         <opciones>
             <opcion>a) No permite elementos duplicados.</opcion>
@@ -3537,7 +3538,7 @@
         <explicacion>La clase `Stack` en Java sigue el principio LIFO (Last In, First Out), donde el último elemento en entrar es el primero en salir.</explicacion>
     </pregunta>
 
-    <pregunta id="277">
+    <pregunta>
         <enunciado>¿Cuál de los siguientes métodos añade un elemento al final de un ArrayList?</enunciado>
         <opciones>
             <opcion>a) insert()</opcion>
@@ -3549,7 +3550,7 @@
         <explicacion>El método `add()` se utiliza para añadir elementos al final de un `ArrayList` en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="278">
+    <pregunta>
         <enunciado>¿Cuál es la diferencia principal entre while y do-while?</enunciado>
         <opciones>
             <opcion>a) do-while siempre se ejecuta al menos una vez.</opcion>
@@ -3561,7 +3562,7 @@
         <explicacion>En un bucle `do-while`, el bloque de código se ejecuta al menos una vez antes de evaluar la condición.</explicacion>
     </pregunta>
 
-    <pregunta id="279">
+    <pregunta>
         <enunciado>¿Para qué sirve un compilador en programación?</enunciado>
         <opciones>
             <opcion>a) Para interpretar línea a línea un programa.</opcion>
@@ -3572,7 +3573,7 @@
         <respuesta>c</respuesta>
         <explicacion>Un compilador traduce el código fuente escrito por el programador a código máquina que puede ser ejecutado por el procesador.</explicacion>
     </pregunta>
-    <pregunta id="280">
+    <pregunta>
         <enunciado>¿Qué afirmación es CORRECTA sobre las clases abstractas en Java?</enunciado>
         <opciones>
             <opcion>a) Todos sus métodos deben ser estáticos.</opcion>
@@ -3584,7 +3585,7 @@
         <explicacion>Las clases abstractas no se pueden instanciar directamente, pero pueden ser extendidas por otras clases. Además, pueden contener métodos abstractos y concretos.</explicacion>
     </pregunta>
 
-    <pregunta id="281">
+    <pregunta>
         <enunciado>¿Qué clase permite leer datos desde la consola de una manera sencilla?</enunciado>
         <opciones>
             <opcion>a) Scanner</opcion>
@@ -3596,7 +3597,7 @@
         <explicacion>La clase `Scanner` es ampliamente utilizada para leer datos desde la consola de manera sencilla en Java.</explicacion>
     </pregunta>
 
-    <pregunta id="282">
+    <pregunta>
         <enunciado>¿Qué clase se usa para leer caracteres de forma eficiente mediante búfer en Java?</enunciado>
         <opciones>
             <opcion>a) OutputStreamWriter</opcion>
@@ -3608,7 +3609,7 @@
         <explicacion>`BufferedReader` se utiliza para leer caracteres de manera eficiente mediante un búfer, lo que mejora el rendimiento.</explicacion>
     </pregunta>
 
-    <pregunta id="283">
+    <pregunta>
         <enunciado>¿Qué define mejor un getter en una clase Java?</enunciado>
         <opciones>
             <opcion>a) Un constructor con parámetros.</opcion>
@@ -3620,7 +3621,7 @@
         <explicacion>Un getter es un método que permite acceder al valor de un atributo privado desde fuera de la clase.</explicacion>
     </pregunta>
 
-    <pregunta id="284">
+    <pregunta>
         <enunciado>¿Qué devuelve el método equals() de la clase Arrays?</enunciado>
         <opciones>
             <opcion>a) True si dos arrays son iguales en tamaño y contenido.</opcion>
@@ -3631,7 +3632,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `Arrays.equals()` devuelve `true` si dos arrays tienen el mismo tamaño y contenido, comparando elemento por elemento.</explicacion>
     </pregunta>
-    <pregunta id="285">
+    <pregunta>
         <enunciado>¿Qué es el código fuente?</enunciado>
         <opciones>
             <opcion>a) El compilador de Java.</opcion>
@@ -3643,7 +3644,7 @@
         <explicacion>El código fuente es el programa escrito por el programador en un lenguaje de alto nivel, como Java, antes de ser compilado.</explicacion>
     </pregunta>
 
-    <pregunta id="286">
+    <pregunta>
         <enunciado>¿Qué es un array en Java?</enunciado>
         <opciones>
             <opcion>a) Una colección de datos de tipos diferentes.</opcion>
@@ -3655,7 +3656,7 @@
         <explicacion>Un array en Java es una colección de elementos del mismo tipo, organizados en posiciones indexadas, comenzando desde 0.</explicacion>
     </pregunta>
 
-    <pregunta id="287">
+    <pregunta>
         <enunciado>¿Qué es un ArrayList en Java?</enunciado>
         <opciones>
             <opcion>a) Una colección de tamaño fijo.</opcion>
@@ -3667,7 +3668,7 @@
         <explicacion>Un `ArrayList` es una lista dinámica en Java que puede cambiar de tamaño automáticamente al añadir o eliminar elementos.</explicacion>
     </pregunta>
 
-    <pregunta id="288">
+    <pregunta>
         <enunciado>¿Qué estructura de control ejecuta un bloque de instrucciones si una condición es verdadera?</enunciado>
         <opciones>
             <opcion>a) do-while</opcion>
@@ -3679,7 +3680,7 @@
         <explicacion>La estructura `if` evalúa una condición y ejecuta un bloque de código solo si la condición es verdadera.</explicacion>
     </pregunta>
 
-    <pregunta id="289">
+    <pregunta>
         <enunciado>¿Qué estructura de datos utiliza una Queue?</enunciado>
         <opciones>
             <opcion>a) Random Access</opcion>
@@ -3690,7 +3691,7 @@
         <respuesta>d</respuesta>
         <explicacion>Una `Queue` utiliza la estructura FIFO (First In First Out), donde el primer elemento en entrar es el primero en salir.</explicacion>
     </pregunta>
-    <pregunta id="290">
+    <pregunta>
         <enunciado>¿Qué hace el método `poll()` en una Queue en Java?</enunciado>
         <opciones>
             <opcion>a) Devuelve el último elemento sin eliminarlo.</opcion>
@@ -3702,7 +3703,7 @@
         <explicacion>El método `poll()` elimina y devuelve el primer elemento de la cola. Si la cola está vacía, devuelve `null`.</explicacion>
     </pregunta>
 
-    <pregunta id="291">
+    <pregunta>
         <enunciado>¿Qué hace este código?
             int numero = 1;
             while (numero &lt;= 3) {
@@ -3720,7 +3721,7 @@
         <explicacion>El bucle `while` imprime los valores de `numero` desde 1 hasta 3, incrementando en cada iteración.</explicacion>
     </pregunta>
 
-    <pregunta id="292">
+    <pregunta>
         <enunciado>¿Qué hace este método recursivo correctamente escrito?
             void imprimir(int x) {
                 if (x &gt; 0) {
@@ -3739,7 +3740,7 @@
         <explicacion>El método recursivo primero llama a sí mismo con `x - 1` hasta llegar a 0, y luego imprime los valores desde 1 hasta `x` en orden ascendente.</explicacion>
     </pregunta>
 
-    <pregunta id="293">
+    <pregunta>
         <enunciado>¿Qué imprimirá el siguiente código?
             Persona p = new Persona("Ana", "García", "555123");
             System.out.println(p.getNombre());
@@ -3754,7 +3755,7 @@
         <explicacion>El método `getNombre()` devuelve el nombre del objeto `Persona`, que en este caso es "Ana".</explicacion>
     </pregunta>
 
-    <pregunta id="294">
+    <pregunta>
         <enunciado>¿Qué imprimirá el siguiente fragmento de código?
             for (int i = 0; i &lt; 3; i++) {
                 System.out.println(i);
@@ -3771,7 +3772,7 @@
     </pregunta>
 
 
-    <pregunta id="295">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones describe mejor el polimorfismo en Java?</enunciado>
         <opciones>
             <opcion>a) La sobrecarga de operadores.</opcion>
@@ -3782,7 +3783,7 @@
         <respuesta>b</respuesta>
         <explicacion>El polimorfismo permite que una variable, función u objeto adopte múltiples formas, como cuando un método sobrescrito se ejecuta según el tipo real del objeto.</explicacion>
     </pregunta>
-    <pregunta id="296">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones es verdadera sobre el uso de la palabra clave super en Java?</enunciado>
         <opciones>
             <opcion>a) Se usa para definir métodos abstractos.</opcion>
@@ -3793,7 +3794,7 @@
         <respuesta>d</respuesta>
         <explicacion>La palabra clave `super` se utiliza en una subclase para acceder a los métodos y variables de su clase padre.</explicacion>
     </pregunta>
-    <pregunta id="297">
+    <pregunta>
         <enunciado>¿Cuál es el método para agregar un elemento a un ArrayList en Java?</enunciado>
         <opciones>
             <opcion>a) add()</opcion>
@@ -3804,7 +3805,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `add()` se utiliza para agregar un elemento al final de un `ArrayList` en Java.</explicacion>
     </pregunta>
-    <pregunta id="298">
+    <pregunta>
         <enunciado>¿Cuál es el modificador de acceso más restrictivo en Java?</enunciado>
         <opciones>
             <opcion>a) protected</opcion>
@@ -3815,7 +3816,7 @@
         <respuesta>c</respuesta>
         <explicacion>El modificador `private` es el más restrictivo en Java, ya que limita el acceso únicamente a la clase donde se declara.</explicacion>
     </pregunta>
-    <pregunta id="299">
+    <pregunta>
         <enunciado>¿Cuál es el modificador de acceso predeterminado si no se especifica ninguno en Java?</enunciado>
         <opciones>
             <opcion>a) default</opcion>
@@ -3826,7 +3827,7 @@
         <respuesta>a</respuesta>
         <explicacion>El modificador de acceso predeterminado en Java se conoce como "default" (sin palabra clave explícita) y permite el acceso solo dentro del mismo paquete.</explicacion>
     </pregunta>
-    <pregunta id="300">
+    <pregunta>
         <enunciado>¿Cuál es el propósito de la interfaz?
             interface Dibujable {
                 void dibujar();
@@ -3846,7 +3847,7 @@
         <respuesta>b</respuesta>
         <explicacion>El propósito de una interfaz es definir un contrato que las clases que la implementen deben cumplir, asegurando que implementen los métodos definidos en la interfaz.</explicacion>
     </pregunta>
-    <pregunta id="301">
+    <pregunta>
         <enunciado>¿Cuál es la forma correcta de crear un ArrayList en Java?</enunciado>
         <opciones>
             <opcion>a) ArrayList&lt;Integer&gt; list = new ArrayList&lt;String&gt;();</opcion>
@@ -3857,7 +3858,7 @@
         <respuesta>b</respuesta>
         <explicacion>La forma correcta de crear un `ArrayList` es especificando el mismo tipo genérico en ambos lados, como `ArrayList&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();`. Los tipos primitivos como `int` no son válidos, se debe usar su clase envolvente (`Integer`).</explicacion>
     </pregunta>
-    <pregunta id="302">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes afirmaciones es correcta sobre las diferencias entre una clase abstracta y una interfaz en Java?</enunciado>
         <opciones>
             <opcion>a) Una clase abstracta puede tener métodos con implementación, mientras que una interfaz solo puede tener métodos abstractos.</opcion>
@@ -3868,7 +3869,7 @@
         <respuesta>a</respuesta>
         <explicacion>Una clase abstracta puede tener métodos con implementación y métodos abstractos. Desde Java 8, las interfaces también pueden tener métodos con implementación (default y static), pero históricamente solo contenían métodos abstractos.</explicacion>
     </pregunta>
-    <pregunta id="303">
+    <pregunta>
         <enunciado>¿Cuál es la salida del programa?
             public class Recursiva {
                 public static int factorial(int n) {
@@ -3889,7 +3890,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `factorial` calcula el factorial de un número de forma recursiva. Para `factorial(5)`, el cálculo es 5 * 4 * 3 * 2 * 1, lo que da como resultado 120.</explicacion>
     </pregunta>
-    <pregunta id="304">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código recursivo al ser llamado con metodoRecursivo(4)?
             public class Main {
                 public static void main(String[] args) {
@@ -3915,7 +3916,7 @@
         <respuesta>b</respuesta>
         <explicacion>El método `metodoRecursivo` calcula el factorial de un número de forma recursiva. Para `metodoRecursivo(4)`, el cálculo es 4 * 3 * 2 * 1, lo que da como resultado 24.</explicacion>
     </pregunta>
-    <pregunta id="305">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             public class Main {
                 public static void main(String[] args) {
@@ -3937,7 +3938,7 @@
         <respuesta>b</respuesta>
         <explicacion>El código intercambia los valores de `x` e `y` sin usar una variable temporal. Al final, `x` toma el valor original de `y` (10) y `y` toma el valor original de `x` (5).</explicacion>
     </pregunta>
-    <pregunta id="306">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             String pattern = "a*b";
             String text = "aaaaab";
@@ -3953,7 +3954,7 @@
         <respuesta>c</respuesta>
         <explicacion>El método `matches` verifica si el texto coincide con el patrón. El patrón `"a*b"` significa "cero o más 'a' seguidas de una 'b'". El texto `"aaaaab"` cumple con este patrón, por lo que el resultado es `true`.</explicacion>
     </pregunta>
-    <pregunta id="307">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código?
             public class Ciclo {
                 public static void main(String[] args) {
@@ -3972,7 +3973,7 @@
         <respuesta>d</respuesta>
         <explicacion>El bucle `for` comienza en 1 y se ejecuta mientras `i` sea menor o igual a 3, incrementando `i` en cada iteración. La salida es "1 2 3".</explicacion>
     </pregunta>
-    <pregunta id="308">
+    <pregunta>
         <enunciado>¿Qué clase en Java se utiliza para leer datos de un archivo de texto?</enunciado>
         <opciones>
             <opcion>a) FileInputStream</opcion>
@@ -3983,7 +3984,7 @@
         <respuesta>b</respuesta>
         <explicacion>La clase `FileReader` se utiliza para leer datos de un archivo de texto en Java, caracter por caracter.</explicacion>
     </pregunta>
-    <pregunta id="309">
+    <pregunta>
         <enunciado>¿Qué estructura de datos en Java permite almacenar pares de clave y valor?</enunciado>
         <opciones>
             <opcion>a) a y b son correctas.</opcion>
@@ -3994,7 +3995,7 @@
         <respuesta>b</respuesta>
         <explicacion>La estructura `HashMap` permite almacenar pares de clave y valor en Java, proporcionando acceso rápido a los valores mediante las claves.</explicacion>
     </pregunta>
-    <pregunta id="310">
+    <pregunta>
         <enunciado>¿Qué hace este código?
             public class Hilo extends Thread {
                 public void run() {
@@ -4015,7 +4016,7 @@
         <respuesta>b</respuesta>
         <explicacion>El método `run()` se ejecuta manualmente como un método normal, no como un hilo independiente. Para ejecutar un hilo, se debe usar el método `start()`.</explicacion>
     </pregunta>
-    <pregunta id="311">
+    <pregunta>
         <enunciado>¿Qué imprime el código?
             public class Contador {
                 private static int cuenta = 0;
@@ -4041,7 +4042,7 @@
         <respuesta>c</respuesta>
         <explicacion>El atributo `cuenta` es estático, por lo que es compartido por todas las instancias de la clase. Cada vez que se crea un nuevo objeto `Contador`, el constructor incrementa `cuenta`. Al final, se han creado dos objetos, por lo que `cuenta` vale 2.</explicacion>
     </pregunta>
-    <pregunta id="312">
+    <pregunta>
         <enunciado>¿Qué imprime el siguiente código?
             public class Main {
                 public static void main(String[] args) {
@@ -4061,7 +4062,7 @@
         <respuesta>a</respuesta>
         <explicacion>El código concatena las cadenas `"hello"` y `"world"`, formando `"helloworld"`. La longitud de esta cadena es 11, que es lo que imprime el método `length()`.</explicacion>
     </pregunta>
-    <pregunta id="313">
+    <pregunta>
         <enunciado>¿Qué imprime este código?
             public class Incremento {
                 public static void main(String[] args) {
@@ -4079,7 +4080,7 @@
         <respuesta>a</respuesta>
         <explicacion>El operador `++a` incrementa el valor de `a` antes de que se utilice en la expresión. Por lo tanto, `a` pasa de 5 a 6, y se imprime 6.</explicacion>
     </pregunta>
-    <pregunta id="314">
+    <pregunta>
         <enunciado>¿Qué imprime este código?
             public class Suma {
                 public static int suma(int[] numeros) {
@@ -4104,7 +4105,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `suma` calcula la suma de los elementos del array `numeros`. En este caso, la suma de `{1, 2, 3}` es `1 + 2 + 3 = 6`, por lo que imprime `6`.</explicacion>
     </pregunta>
-    <pregunta id="315">
+    <pregunta>
         <enunciado>¿Qué imprime este programa?
             import java.util.ArrayList;
             public class Lista {
@@ -4125,7 +4126,7 @@
         <respuesta>d</respuesta>
         <explicacion>`get(0)` devuelve el primer elemento de la lista, que es "uno".</explicacion>
     </pregunta>
-    <pregunta id="316">
+    <pregunta>
         <enunciado>¿Qué imprime este programa?
             import java.util.HashMap;
             public class Mapa {
@@ -4145,7 +4146,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `put` agrega un par clave-valor al `HashMap`. El método `get("clave")` devuelve el valor asociado a la clave "clave", que es `100`.</explicacion>
     </pregunta>
-    <pregunta id="317">
+    <pregunta>
         <enunciado>¿Qué imprime este código?
             public class StringTest {
                 public static void main(String[] args) {
@@ -4164,7 +4165,7 @@
         <respuesta>b</respuesta>
         <explicacion>En Java, las cadenas literales que tienen el mismo contenido se almacenan en el pool de cadenas, por lo que `s1` y `s2` apuntan al mismo objeto. Por lo tanto, `s1 == s2` devuelve `true`.</explicacion>
     </pregunta>
-    <pregunta id="318">
+    <pregunta>
         <enunciado>¿Qué mensaje imprime este código?
             public class Excepcion {
                 public static void main(String[] args) {
@@ -4185,7 +4186,7 @@
         <respuesta>a</respuesta>
         <explicacion>El código lanza una excepción `ArithmeticException` debido a la división por cero. El bloque `catch` captura esta excepción y muestra el mensaje "Error aritmético".</explicacion>
     </pregunta>
-    <pregunta id="319">
+    <pregunta>
         <enunciado>¿Qué método de la clase String se usa para convertir todas las letras de una cadena a minúsculas?</enunciado>
         <opciones>
             <opcion>a) toLowerCase()</opcion>
@@ -4196,7 +4197,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `toLowerCase()` de la clase `String` convierte todas las letras de una cadena a minúsculas.</explicacion>
     </pregunta>
-    <pregunta id="320">
+    <pregunta>
         <enunciado>¿Qué método se usa para cerrar un archivo después de escribir en él usando la clase FileWriter?</enunciado>
         <opciones>
             <opcion>a) end()</opcion>
@@ -4207,7 +4208,7 @@
         <respuesta>b</respuesta>
         <explicacion>El método `close()` se utiliza para cerrar un archivo y liberar los recursos asociados después de escribir en él con la clase `FileWriter`.</explicacion>
     </pregunta>
-    <pregunta id="321">
+    <pregunta>
         <enunciado>¿Qué método se utiliza para obtener la longitud de un array en Java?</enunciado>
         <opciones>
             <opcion>a) length</opcion>
@@ -4218,7 +4219,7 @@
         <respuesta>a</respuesta>
         <explicacion>En Java, los arrays tienen un atributo llamado `length` (sin paréntesis) que devuelve la cantidad de elementos en el array.</explicacion>
     </pregunta>
-    <pregunta id="322">
+    <pregunta>
         <enunciado>¿Qué método se utiliza para obtener un valor a partir de una clave en un HashMap en Java?</enunciado>
         <opciones>
             <opcion>a) get()</opcion>
@@ -4229,7 +4230,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `get()` de la clase `HashMap` se utiliza para obtener el valor asociado a una clave específica.</explicacion>
     </pregunta>
-    <pregunta id="323">
+    <pregunta>
         <enunciado>¿Qué palabra clave se utiliza para definir una clase que no puede ser extendida?</enunciado>
         <opciones>
             <opcion>a) final</opcion>
@@ -4240,7 +4241,7 @@
         <respuesta>a</respuesta>
         <explicacion>La palabra clave `final` se utiliza para declarar una clase que no puede ser extendida. Esto significa que no se pueden crear subclases a partir de ella.</explicacion>
     </pregunta>
-    <pregunta id="324">
+    <pregunta>
         <enunciado>¿Qué palabra clave se utiliza para implementar una interfaz en una clase en Java?</enunciado>
         <opciones>
             <opcion>a) extends</opcion>
@@ -4251,7 +4252,7 @@
         <respuesta>c</respuesta>
         <explicacion>La palabra clave `implements` se utiliza para que una clase implemente una interfaz en Java.</explicacion>
     </pregunta>
-    <pregunta id="325">
+    <pregunta>
         <enunciado>¿Qué realiza este código?
             import java.io.*;
             public class Lectura {
@@ -4274,7 +4275,7 @@
         <respuesta>a</respuesta>
         <explicacion>El código utiliza `BufferedReader` para leer un archivo de texto línea por línea y las imprime en la consola. El método `readLine()` devuelve cada línea del archivo hasta que no haya más líneas (retorna `null`).</explicacion>
     </pregunta>
-    <pregunta id="326">
+    <pregunta>
         <enunciado>¿Qué representa la clase Figura?</enunciado>
         <codigo>
             abstract class Figura {
@@ -4299,7 +4300,7 @@
         <respuesta>d</respuesta>
         <explicacion>La clase `Figura` es una clase abstracta que define un método abstracto `area()`. Sirve como base para que las clases derivadas, como `Circulo`, implementen el método `area()` según sus propias características.</explicacion>
     </pregunta>
-    <pregunta id="327">
+    <pregunta>
         <enunciado>¿Qué representa PI?</enunciado>
         <codigo>
             public class Constantes {
@@ -4318,7 +4319,7 @@
         <respuesta>b</respuesta>
         <explicacion>`PI` es una constante porque está declarada como `static final`, lo que significa que su valor no puede cambiar y pertenece a la clase en lugar de a una instancia.</explicacion>
     </pregunta>
-    <pregunta id="328">
+    <pregunta>
         <enunciado>¿Qué resultado imprime este código?
             public class Comparar {
                 public static void main(String[] args) {
@@ -4337,7 +4338,7 @@
         <respuesta>a</respuesta>
         <explicacion>El método `equals()` compara el contenido de las cadenas. Aunque `a` y `b` son diferentes objetos, tienen el mismo contenido ("hola"), por lo que `a.equals(b)` devuelve `true`.</explicacion>
     </pregunta>
-    <pregunta id="329">
+    <pregunta>
         <enunciado>¿Qué salida produce este código?
             public class Persona {
                 private String nombre;
@@ -4362,7 +4363,7 @@
         <respuesta>b</respuesta>
         <explicacion>El constructor de la clase `Persona` inicializa el atributo `nombre` con el valor "Ana". Al llamar al método `saludar()`, se imprime "Hola, soy Ana".</explicacion>
     </pregunta>
-    <pregunta id="330">
+    <pregunta>
         <enunciado>¿Qué se imprime?</enunciado>
         <codigo>
             class A {
@@ -4388,7 +4389,7 @@
         <respuesta>d</respuesta>
         <explicacion>Cuando se crea un objeto de la clase `B`, primero se ejecuta el constructor de la clase padre `A` y luego el constructor de la clase `B`. Por lo tanto, la salida es "Constructor A\nConstructor B".</explicacion>
     </pregunta>
-    <pregunta id="331">
+    <pregunta>
         <enunciado>¿Qué se imprime?</enunciado>
         <codigo>
             public class Animal {
@@ -4416,7 +4417,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `sonido()` es sobrescrito en la clase `Gato`. Aunque la referencia es de tipo `Animal`, el objeto real es de tipo `Gato`, por lo que se ejecuta el método sobrescrito en la clase `Gato`, imprimiendo "Miau".</explicacion>
     </pregunta>
-    <pregunta id="332">
+    <pregunta>
         <enunciado>¿Qué se imprime?</enunciado>
         <codigo>
             public class Main {
@@ -4435,7 +4436,7 @@
         <respuesta>d</respuesta>
         <explicacion>El método `substring(5)` devuelve la subcadena que comienza en el índice 5 (basado en 0) hasta el final de la cadena. En este caso, imprime "Mundo".</explicacion>
     </pregunta>
-    <pregunta id="333">
+    <pregunta>
         <enunciado>¿Qué valor se imprime?</enunciado>
         <codigo>
             public class Prueba {
@@ -4454,7 +4455,7 @@
         <respuesta>a</respuesta>
         <explicacion>El índice 2 en el array `numeros` corresponde al tercer elemento, que es 3. Por lo tanto, se imprime 3.</explicacion>
     </pregunta> 
-    <pregunta id="334">
+    <pregunta>
         <enunciado>¿Qué es la recursividad en programación?</enunciado>
         <opciones>
             <opcion>a) Un método que se llama a sí mismo.</opcion>
@@ -4465,7 +4466,7 @@
         <respuesta>a</respuesta>
         <explicacion>La recursividad es una técnica en programación donde un método se llama a sí mismo para resolver un problema dividiéndolo en subproblemas más pequeños.</explicacion>
     </pregunta>
-    <pregunta id="335">
+    <pregunta>
         <enunciado>¿Cuál es la salida?</enunciado>
         <codigo>
             public class Ciclo {
@@ -4485,7 +4486,7 @@
         <respuesta>d</respuesta>
         <explicacion>El bucle `for` comienza en 1 y se ejecuta mientras `i` sea menor o igual a 3, incrementando `i` en cada iteración. La salida es "1 2 3".</explicacion>
     </pregunta>
-    <pregunta id="336">
+    <pregunta>
         <enunciado>¿Cuál es la primera fase del ciclo de vida del software?</enunciado>
         <opciones>
             <opcion>a) Pruebas</opcion>
@@ -4496,7 +4497,7 @@
         <respuesta>c</respuesta>
         <explicacion>La primera fase del ciclo de vida del software es el análisis de requisitos, donde se identifican las necesidades y expectativas del cliente para el sistema.</explicacion>
     </pregunta>
-    <pregunta id="337">
+    <pregunta>
         <enunciado>¿Qué tipo de dato debe tener una variable para almacenar el valor de una letra?</enunciado>
         <opciones>
             <opcion>a) boolean</opcion>
@@ -4507,7 +4508,7 @@
         <respuesta>d</respuesta>
         <explicacion>El tipo de dato `char` se utiliza para almacenar un único carácter, como una letra.</explicacion>
     </pregunta>
-    <pregunta id="338">
+    <pregunta>
         <enunciado>¿Qué tipo de dato en Java se usa para representar valores decimales?</enunciado>
         <opciones>
             <opcion>a) char</opcion>
@@ -4518,7 +4519,7 @@
         <respuesta>c</respuesta>
         <explicacion>El tipo de dato `double` se utiliza para representar números decimales en Java.</explicacion>
     </pregunta>
-    <pregunta id="339">
+    <pregunta>
         <enunciado>¿Cuál es la convención para nombrar una variable en Java?</enunciado>
         <opciones>
             <opcion>a) Puede comenzar con un número</opcion>
@@ -4529,7 +4530,7 @@
         <respuesta>d</respuesta>
         <explicacion>La convención en Java es que los nombres de las variables comiencen con una letra minúscula y usen camelCase para separar palabras.</explicacion>
     </pregunta>
-    <pregunta id="340">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes opciones es un tipo de dato primitivo en Java?</enunciado>
         <opciones>
             <opcion>a) String</opcion>
@@ -4540,7 +4541,7 @@
         <respuesta>c</respuesta>
         <explicacion>`char` es un tipo de dato primitivo en Java que se utiliza para representar un único carácter.</explicacion>
     </pregunta>
-    <pregunta id="341">
+    <pregunta>
         <enunciado>¿Para qué se usa la palabra clave final en Java?</enunciado>
         <opciones>
             <opcion>a) Para iniciar un bucle</opcion>
@@ -4551,7 +4552,7 @@
         <respuesta>b</respuesta>
         <explicacion>La palabra clave `final` se utiliza para declarar constantes en Java, es decir, valores que no pueden cambiar después de ser inicializados.</explicacion>
     </pregunta>
-    <pregunta id="342">
+    <pregunta>
         <enunciado>¿Qué valor puede almacenar un dato de tipo boolean en Java?</enunciado>
         <opciones>
             <opcion>a) true o false</opcion>
@@ -4562,7 +4563,7 @@
         <respuesta>a</respuesta>
         <explicacion>Un dato de tipo `boolean` en Java solo puede almacenar los valores `true` o `false`.</explicacion>
     </pregunta>
-    <pregunta id="343">
+    <pregunta>
         <enunciado>¿Cuál es el operador correcto para realizar una multiplicación en Java?</enunciado>
         <opciones>
             <opcion>a) &lt; </opcion>
@@ -4573,7 +4574,7 @@
         <respuesta>c</respuesta>
         <explicacion>El operador `*` se utiliza para realizar multiplicaciones en Java.</explicacion>
     </pregunta>
-    <pregunta id="344">
+    <pregunta>
         <enunciado>¿Qué es el "casteo" en Java?</enunciado>
         <opciones>
             <opcion>a) Crear una nueva clase</opcion>
@@ -4584,7 +4585,7 @@
         <respuesta>c</respuesta>
         <explicacion>El "casteo" en Java se refiere a convertir un tipo de dato en otro, ya sea de forma implícita o explícita.</explicacion>
     </pregunta>
-    <pregunta id="345">
+    <pregunta>
         <enunciado>¿Cuál es el valor de la variable resultado después de esta operación? `int resultado = 10 / 3;`</enunciado>
         <opciones>
             <opcion>a) 0</opcion>
@@ -4595,7 +4596,7 @@
         <respuesta>b</respuesta>
         <explicacion>En Java, la división entre enteros devuelve un resultado entero. Por lo tanto, `10 / 3` da como resultado `3`.</explicacion>
     </pregunta>
-    <pregunta id="346">
+    <pregunta>
         <enunciado>¿Cuál es la función de System.out.println en Java?</enunciado>
         <opciones>
             <opcion>a) Define una variable</opcion>
@@ -4606,7 +4607,7 @@
         <respuesta>d</respuesta>
         <explicacion>`System.out.println` se utiliza para imprimir texto en la consola y, al finalizar, inserta automáticamente una nueva línea.</explicacion>
     </pregunta>
-    <pregunta id="347">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes opciones es un ejemplo de ejercicio práctico de entrada y salida de datos en Java?</enunciado>
         <opciones>
             <opcion>a) Definir una variable sin mostrarla en pantalla</opcion>
@@ -4617,7 +4618,7 @@
         <respuesta>d</respuesta>
         <explicacion>Un ejercicio práctico de entrada y salida de datos en Java podría ser calcular el promedio de tres números ingresados por el usuario, ya que implica leer datos y mostrar resultados.</explicacion>
     </pregunta>
-    <pregunta id="348">
+    <pregunta>
         <enunciado>¿Qué resultado genera el siguiente código? `System.out.println("Hola, mundo!");`</enunciado>
         <opciones>
             <opcion>a) Imprime "Hola, mundo!" en la consola</opcion>
@@ -4628,7 +4629,7 @@
         <respuesta>a</respuesta>
         <explicacion>El código `System.out.println("Hola, mundo!");` imprime el texto "Hola, mundo!" en la consola y luego inserta una nueva línea.</explicacion>
     </pregunta>
-    <pregunta id="349">
+    <pregunta>
         <enunciado>¿Para qué se usa la clase Scanner en Java?</enunciado>
         <opciones>
             <opcion>a) Para leer datos de entrada desde la consola</opcion>
@@ -4639,7 +4640,7 @@
         <respuesta>a</respuesta>
         <explicacion>La clase `Scanner` se utiliza para leer datos de entrada desde la consola, como números, cadenas o caracteres.</explicacion>
     </pregunta>
-    <pregunta id="350">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes líneas de código es correcta para crear un objeto Scanner?</enunciado>
         <opciones>
             <opcion>a) Scanner entrada = Scanner(System.out);</opcion>
@@ -4650,7 +4651,7 @@
         <respuesta>b</respuesta>
         <explicacion>La forma correcta de crear un objeto `Scanner` es `Scanner entrada = new Scanner(System.in);`, donde `System.in` representa la entrada estándar (teclado).</explicacion>
     </pregunta>
-    <pregunta id="351">
+    <pregunta>
         <enunciado>¿Qué método se usa para leer una cadena de texto ingresada por el usuario con Scanner?</enunciado>
         <opciones>
             <opcion>a) nextDouble()</opcion>
@@ -4661,7 +4662,7 @@
         <respuesta>c</respuesta>
         <explicacion>El método `nextLine()` de la clase `Scanner` se utiliza para leer una línea completa de texto ingresada por el usuario.</explicacion>
     </pregunta>
-    <pregunta id="352">
+    <pregunta>
         <enunciado>¿Cuál es el propósito de System.out.print en comparación con System.out.println?</enunciado>
         <opciones>
             <opcion>a) Imprime texto en mayúsculas automáticamente</opcion>
@@ -4672,7 +4673,7 @@
         <respuesta>c</respuesta>
         <explicacion>`System.out.print` imprime texto en la consola sin añadir una nueva línea al final, a diferencia de `System.out.println` que sí lo hace.</explicacion>
     </pregunta>
-    <pregunta id="353">
+    <pregunta>
         <enunciado>¿Cómo se puede capturar un número entero ingresado por el usuario en la consola usando Scanner?</enunciado>
         <opciones>
             <opcion>a) entrada.nextDouble();</opcion>
@@ -4683,7 +4684,7 @@
         <respuesta>b</respuesta>
         <explicacion>El método `nextInt()` de la clase `Scanner` se utiliza para capturar un número entero ingresado por el usuario.</explicacion>
     </pregunta>
-    <pregunta id="354">
+    <pregunta>
         <enunciado>¿Qué ocurrirá si el usuario ingresa un valor no numérico cuando se espera un número entero con nextInt()?</enunciado>
         <opciones>
             <opcion>a) Se lanza una excepción InputMismatchException</opcion>
@@ -4694,7 +4695,7 @@
         <respuesta>a</respuesta>
         <explicacion>Si el usuario ingresa un valor no numérico cuando se espera un número entero con `nextInt()`, se lanza una excepción `InputMismatchException`.</explicacion>
     </pregunta>
-    <pregunta id="355">
+    <pregunta>
         <enunciado>¿Cuál es la salida del siguiente código? `System.out.print("Java "); System.out.print("es"); System.out.println("genial!");`</enunciado>
         <opciones>
             <opcion>a) genial!</opcion>
@@ -4705,7 +4706,7 @@
         <respuesta>b</respuesta>
         <explicacion>El código imprime "Java es genial!" en una sola línea. `System.out.print` no añade una nueva línea, mientras que `System.out.println` sí lo hace al final.</explicacion>
     </pregunta>
-    <pregunta id="356">
+    <pregunta>
         <enunciado>¿Cuál es el resultado de la expresión 10 % 3 en Java?</enunciado>
         <opciones>
             <opcion>a) 1</opcion>
@@ -4716,7 +4717,7 @@
         <respuesta>a</respuesta>
         <explicacion>El operador `%` devuelve el residuo de la división. En este caso, `10 % 3` da como resultado `1`.</explicacion>
     </pregunta>
-    <pregunta id="357">
+    <pregunta>
         <enunciado>¿Qué hace el operador % en Java?</enunciado>
         <opciones>
             <opcion>a) Compara dos valores</opcion>
@@ -4727,7 +4728,7 @@
         <respuesta>d</respuesta>
         <explicacion>El operador `%` en Java devuelve el residuo de una división entre dos números.</explicacion>
     </pregunta>
-    <pregunta id="358">
+    <pregunta>
         <enunciado>¿Qué hace el operador += en Java?</enunciado>
         <opciones>
             <opcion>a) Asigna un valor absoluto a una variable</opcion>
@@ -4738,7 +4739,7 @@
         <respuesta>c</respuesta>
         <explicacion>El operador `+=` suma un valor a una variable y asigna el resultado a esa misma variable. Por ejemplo, `x += 5` es equivalente a `x = x + 5`.</explicacion>
     </pregunta>
-    <pregunta id="359">
+    <pregunta>
         <enunciado>Si x = 5, ¿cuál es el valor de x después de ejecutar x++?</enunciado>
         <opciones>
             <opcion>a) 6</opcion>
@@ -4749,7 +4750,7 @@
         <respuesta>a</respuesta>
         <explicacion>El operador `x++` incrementa el valor de `x` en 1 después de usar su valor actual. Por lo tanto, si `x = 5`, después de `x++`, el valor de `x` será `6`.</explicacion>
     </pregunta>
-    <pregunta id="360">
+    <pregunta>
         <enunciado>¿Cuál es la diferencia entre x++ y ++x en Java?</enunciado>
         <opciones>
             <opcion>a) No hay diferencia</opcion>
@@ -4760,7 +4761,7 @@
         <respuesta>c</respuesta>
         <explicacion>El operador `x++` incrementa el valor de `x` después de usarlo, mientras que `++x` incrementa el valor de `x` antes de usarlo.</explicacion>
     </pregunta>
-    <pregunta id="361">
+    <pregunta>
         <enunciado>¿Qué operador se usa para verificar si dos valores son iguales en una expresión lógica?</enunciado>
         <opciones>
             <opcion>a) !=</opcion>
@@ -4771,7 +4772,7 @@
         <respuesta>b</respuesta>
         <explicacion>El operador `==` se utiliza para comparar si dos valores son iguales en una expresión lógica.</explicacion>
     </pregunta>
-    <pregunta id="362">
+    <pregunta>
         <enunciado>¿Qué valor tiene la variable resultado después de la siguiente operación? `int resultado = 20 / 4 * 2 + 3;`</enunciado>
         <opciones>
             <opcion>a) 15</opcion>
@@ -4782,7 +4783,7 @@
         <respuesta>b</respuesta>
         <explicacion>La operación se evalúa como `20 / 4 = 5`, luego `5 * 2 = 10`, y finalmente `10 + 3 = 13`. Por lo tanto, el valor de `resultado` es `13`.</explicacion>
     </pregunta>
-    <pregunta id="363">
+    <pregunta>
         <enunciado>¿Cuál de los siguientes operadores se usa para negar una expresión booleana?</enunciado>
         <opciones>
             <opcion>a) &lt;&lt;</opcion>
@@ -4793,7 +4794,7 @@
         <respuesta>d</respuesta>
         <explicacion>El operador `!` se utiliza para negar una expresión booleana, invirtiendo su valor.</explicacion>
     </pregunta>
-    <pregunta id="364">
+    <pregunta>
         <enunciado>Si `x = 10`, ¿qué resultado tiene `x -= 3;`?</enunciado>
         <opciones>
             <opcion>a) x = 7</opcion>
@@ -4804,7 +4805,7 @@
         <respuesta>a</respuesta>
         <explicacion>La operación `x -= 3` es equivalente a `x = x - 3`. Si `x` comienza con el valor `10`, el resultado será `7`.</explicacion>
     </pregunta>
-    <pregunta id="365">
+    <pregunta>
         <enunciado>¿Qué valor tiene la expresión `true || false` en Java?</enunciado>
         <opciones>
             <opcion>a) null</opcion>
@@ -4815,7 +4816,7 @@
         <respuesta>c</respuesta>
         <explicacion>La expresión `true || false` evalúa a `true` porque el operador `||` (OR lógico) devuelve `true` si al menos una de las condiciones es verdadera.</explicacion>
     </pregunta>
-    <pregunta id="366">
+    <pregunta>
         <enunciado>¿Qué es un algoritmo?</enunciado>
         <opciones>
             <opcion>a) Una secuencia de instrucciones para resolver un problema</opcion>
@@ -4826,7 +4827,7 @@
         <respuesta>a</respuesta>
         <explicacion>Un algoritmo es una secuencia de pasos o instrucciones diseñadas para resolver un problema o realizar una tarea específica.</explicacion>
     </pregunta>
-    <pregunta id="367">
+    <pregunta>
         <enunciado>¿Cuál de estos ejemplos representa la conversión de pseudocódigo en código Java? Pseudocódigo: "Iniciar -&lt;definir variable x = 10 -&lt; mostrar x -&lt; Fin"</enunciado>
         <opciones>
             <opcion>a) System.out.println(x);</opcion>
@@ -4837,7 +4838,7 @@
         <respuesta>c</respuesta>
         <explicacion>El pseudocódigo se traduce a `int x = 10; System.out.println(x);` en Java, donde se define una variable y se imprime su valor.</explicacion>
     </pregunta>
-    <pregunta id="368">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes opciones describe mejor un pseudocódigo?</enunciado>
         <opciones>
             <opcion>a) Texto sin estructura</opcion>
@@ -4848,7 +4849,7 @@
         <respuesta>d</respuesta>
         <explicacion>El pseudocódigo es una representación simplificada y detallada de los pasos de un algoritmo, escrita en un lenguaje natural o semiformal.</explicacion>
     </pregunta>
-    <pregunta id="369">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes estructuras es común en un pseudocódigo?</enunciado>
         <opciones>
             <opcion>a) if-else, for, while</opcion>
@@ -4859,7 +4860,7 @@
         <respuesta>c</respuesta>
         <explicacion>En pseudocódigo, las estructuras comunes incluyen "Start", "Process" y "End" para representar el inicio, el proceso y el final de un algoritmo.</explicacion>
     </pregunta>
-    <pregunta id="370">
+    <pregunta>
         <enunciado>¿Qué es lo primero que se debe hacer antes de escribir un algoritmo en Java?</enunciado>
         <opciones>
             <opcion>a) Configurar una base de datos</opcion>
@@ -4870,7 +4871,7 @@
         <respuesta>b</respuesta>
         <explicacion>Escribir un pseudocódigo ayuda a planificar la lógica del algoritmo antes de implementarlo en un lenguaje de programación como Java.</explicacion>
     </pregunta>
-    <pregunta id="371">
+    <pregunta>
         <enunciado>¿Cuál es la función del pseudocódigo en el desarrollo de un algoritmo?</enunciado>
         <opciones>
             <opcion>a) Ayudar a los desarrolladores a visualizar la lógica antes de programar</opcion>
@@ -4881,7 +4882,7 @@
         <respuesta>a</respuesta>
         <explicacion>El pseudocódigo permite a los desarrolladores visualizar y estructurar la lógica de un algoritmo antes de implementarlo en un lenguaje de programación.</explicacion>
     </pregunta>
-    <pregunta id="372">
+    <pregunta>
         <enunciado>¿Qué estructura de control de flujo se usa para tomar decisiones en Java?</enunciado>
         <opciones>
             <opcion>a) if-else</opcion>
@@ -4892,7 +4893,7 @@
         <respuesta>a</respuesta>
         <explicacion>La estructura `if-else` se utiliza para tomar decisiones en Java, ejecutando diferentes bloques de código según se cumpla o no una condición.</explicacion>
     </pregunta>
-    <pregunta id="373">
+    <pregunta>
         <enunciado>¿Cuál de los siguientes es un ejemplo de pseudocódigo para sumar dos números y mostrar el resultado?</enunciado>
         <opciones>
             <opcion>a) Sumar dos números y mostrar el resultado</opcion>
@@ -4903,7 +4904,7 @@
         <respuesta>b</respuesta>
         <explicacion>El pseudocódigo correcto es: "Inicio -&lt; a = 5, b = 3 -&lt; c = a + b -&lt; Mostrar c -&lt; Fin", ya que describe los pasos de forma clara y estructurada.</explicacion>
     </pregunta>
-    <pregunta id="374">
+    <pregunta>
         <enunciado>Al convertir un algoritmo en código Java, ¿cuál es el paso principal?</enunciado>
         <opciones>
             <opcion>a) Cambiar todos los nombres de las variables</opcion>
@@ -4914,7 +4915,7 @@
         <respuesta>d</respuesta>
         <explicacion>El paso principal al convertir un algoritmo en código Java es traducir el pseudocódigo a instrucciones de Java utilizando la sintaxis correcta.</explicacion>
     </pregunta>
-    <pregunta id="375">
+    <pregunta>
         <enunciado>¿Cuál de las siguientes es una práctica común en ejercicios de lógica básica en Java?</enunciado>
         <opciones>
             <opcion>a) Definir solo variables estáticas</opcion>

@@ -26,11 +26,12 @@ public class Main {
             Pregunta p = iter.next();
             totalPreguntas++;
 
-            System.out.println("\n--- Pregunta " + totalPreguntas + " ---");
+            // Mostrar el ID de la pregunta junto con el enunciado
+            System.out.println("\n--- Pregunta " + totalPreguntas + " (ID: " + p.id + ") ---");
             System.out.println(p.enunciado);
             char letra = 'a';
             for (String opcion : p.opciones) {
-                System.out.println(" " + opcion);
+                System.out.println(" " + letra + ") " + opcion);
                 letra++;
             }
 
