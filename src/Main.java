@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<Pregunta> preguntas = LectorXML.leerPreguntasDesdeXML("src/preguntas.xml");
+        List<Pregunta> preguntas = LectorXML.leerPreguntasDesdeXML("preguntas.xml");
         if (preguntas.isEmpty()) {
             System.out.println("No se pudieron cargar preguntas.");
             return;
