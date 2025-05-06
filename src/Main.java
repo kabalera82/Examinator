@@ -36,7 +36,7 @@ public class Main {
             }
 
             System.out.print("Tu respuesta (a/b/c/d o 0 para salir): ");
-            String respuestaUsuario = scanner.nextLine().trim().toLowerCase();
+            String respuestaUsuario = scanner.nextLine().trim().toLowerCase(); // Leer la respuesta del usuario, quitar espacios y convertir a minúsculas.
 
             if (respuestaUsuario.equals("0")) {
                 fin = true;

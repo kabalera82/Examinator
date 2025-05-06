@@ -135,7 +135,7 @@
             <opcion>c) 0 1 2 3</opcion>
             <opcion>d) No compila</opcion>
         </opciones>
-        <respuesta>b</respuesta>
+        <respuesta>a</respuesta>
         <explicacion>El código imprime 0 1 2 porque el bucle while incrementa i desde 0 hasta 2, deteniéndose cuando i es igual a 3.</explicacion>
     </pregunta>
 
@@ -198,15 +198,17 @@
         <respuesta>b</respuesta>
         <explicacion>El modificador `private` restringe el acceso a los métodos o atributos solo dentro de la misma clase.</explicacion>
     </pregunta>
+
     <pregunta id="17">
-        <enunciado>Cual será la salida del siguiente codigo
-            public class Test{
-                public static void main(String args[]){
+        <enunciado>¿Cuál será la salida del siguiente código?
+
+            public class Test {
+                public static void main(String args[]) {
                     int x = 5;
-                    if (x&gt;2){
-                        if(x&lt;10){
+                    if (x &gt; 2) {
+                        if (x &lt; 10) {
                             System.out.println("A");
-                        }else{
+                        } else {
                             System.out.println("B");
                         }
                     }
@@ -217,11 +219,12 @@
             <opcion>a) A</opcion>
             <opcion>b) B</opcion>
             <opcion>c) A B</opcion>
-            <opcion>d) No compila</opcion>
+            <opcion>d) No imprime nada</opcion>
         </opciones>
-        <respuesta>c</respuesta>
-        <explicacion>La primera condición if (x &gt; 2) es verdadera porque 5 &lt; 2 Dentro del primer if, la segunda condición if (x &lt; 10) también es verdadera porque 5 &lt; 10. Por lo tanto, se ejecuta System.out.println("A"); y se imprime A</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>El valor de `x` es 5. La primera condición `x &gt; 2` es verdadera, y dentro de ella la segunda condición `x &lt; 10` también es verdadera, por lo que se imprime solo "A".</explicacion>
     </pregunta>
+
     
     <pregunta id="18">
         <enunciado>¿Cuál es la diferencia entre while y do-while?</enunciado>
@@ -353,28 +356,37 @@
     </pregunta>
 
     <pregunta id="29">
-        <enunciado>¿Qué afirmaciones son verdaderas sobre super?</enunciado>
+        <enunciado>¿Para qué se utiliza principalmente la palabra clave `super` en Java?</enunciado>
         <opciones>
-            <opcion>a) Se usa para acceder a métodos de la superclase.</opcion>
-            <opcion>b) Se usa para heredar una clase.</opcion>
-            <opcion>c) Debe ser la primera línea en un constructor al invocar superclase.</opcion>
-            <opcion>d) Solo puede usarse en clases abstractas.</opcion>
+            <opcion>a) Para acceder a métodos y atributos de la superclase.</opcion>
+            <opcion>b) Para heredar una clase.</opcion>
+            <opcion>c) Para declarar una clase como abstracta.</opcion>
+            <opcion>d) Para evitar la sobrecarga de métodos.</opcion>
         </opciones>
-        <respuesta>a, c</respuesta>
-        <explicacion>`super` se utiliza para acceder a métodos y atributos de la superclase, y debe ser la primera línea en un constructor al invocar al constructor de la superclase.</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>La palabra clave `super` se usa principalmente para acceder a métodos y atributos de la superclase desde una subclase, y también para invocar explícitamente el constructor de la superclase.  
+    La opción b es incorrecta porque la herencia en Java se establece con la palabra clave `extends`, no `super`.  
+    La opción c es incorrecta porque para declarar una clase abstracta se usa la palabra clave `abstract`.  
+    La opción d es incorrecta porque la sobrecarga de métodos no se controla ni se evita usando `super`; la sobrecarga ocurre cuando hay varios métodos con el mismo nombre pero diferentes parámetros.</explicacion>
     </pregunta>
 
+
     <pregunta id="30">
-        <enunciado>¿Qué es una clase abstracta?</enunciado>
+        <enunciado>¿Cuál es una característica fundamental de una clase abstracta en Java?</enunciado>
         <opciones>
-            <opcion>a) Puede tener métodos sin implementar.</opcion>
-            <opcion>b) No puede tener métodos concretos.</opcion>
-            <opcion>c) No puede ser instanciada.</opcion>
-            <opcion>d) Siempre debe extenderse.</opcion>
+            <opcion>a) Siempre debe extender otra clase abstracta.</opcion>
+            <opcion>b) No puede contener métodos concretos.</opcion>
+            <opcion>c) No puede ser instanciada directamente.</opcion>
+            <opcion>d) Solo puede declararse en interfaces.</opcion>
         </opciones>
-        <respuesta>a, c</respuesta>
-        <explicacion>Una clase abstracta puede tener métodos sin implementar y no puede ser instanciada directamente. Puede contener métodos concretos y no siempre debe extenderse.</explicacion>
+        <respuesta>c</respuesta>
+        <explicacion>La característica fundamental de una clase abstracta es que no puede ser instanciada directamente.  
+    La opción a es incorrecta porque una clase abstracta no está obligada a extender otra clase abstracta; puede existir por sí sola.  
+    La opción b es incorrecta porque una clase abstracta puede contener tanto métodos abstractos (sin implementar) como métodos concretos (implementados).  
+    La opción d es incorrecta porque las clases abstractas se declaran como clases normales, no dentro de interfaces (aunque una interfaz puede tener clases internas estáticas).</explicacion>
     </pregunta>
+
+
     <pregunta id="31">
         <enunciado>¿Qué operador se utiliza para comparar igualdad en Java?</enunciado>
         <opciones>
@@ -481,13 +493,13 @@
     <pregunta id="40">
         <enunciado>La siguiente expresión, donde interviene la variable booleana a: 3!=3 || a || 1&lt;2, resulta:</enunciado>
         <opciones>
-            <opcion>a) Dependerá del valor a</opcion>
+            <opcion>a) Dependerá del valor de a</opcion>
             <opcion>b) Cierto</opcion>
             <opcion>c) Falso</opcion>
             <opcion>d) No se puede evaluar</opcion>
         </opciones>
         <respuesta>b</respuesta>
-        <explicacion>Aunque 3!=3 es falso, 1&amp;;2 es verdadero, por lo que el resultado es true (corto circuito lógico).</explicacion>
+        <explicacion>Aunque `3!=3` es falso, la última parte `1&lt;2` es verdadera, por lo que toda la expresión resulta verdadera debido al operador `||` (OR lógico), sin importar el valor de `a`.</explicacion>
     </pregunta>
 
     <pregunta id="41">
@@ -526,15 +538,15 @@
     </pregunta>
 
     <pregunta id="44">
-        <enunciado>¿Qué valor toma la variable a en la siguiente expresión: a = 1&lt;2 ? 3 : 4?</enunciado>
+        <enunciado>¿Qué valor toma la variable `a` en la siguiente expresión: <code>a = 1 &lt; 2</code>?</enunciado>
         <opciones>
-            <opcion>a) 1</opcion>
-            <opcion>b) 2</opcion>
-            <opcion>c) 3</opcion>
-            <opcion>d) 4</opcion>
+            <opcion>a) 0</opcion>
+            <opcion>b) 1</opcion>
+            <opcion>c) true</opcion>
+            <opcion>d) false</opcion>
         </opciones>
         <respuesta>c</respuesta>
-        <explicacion>Como 1&lt;2 es true, se ejecuta el primer valor: 3.</explicacion>
+        <explicacion>La expresión `1 &lt; 2` evalúa a `true` en Java, por lo que la variable `a` tomará el valor `true` si es de tipo boolean.</explicacion>
     </pregunta>
 
     <pregunta id="45">
@@ -571,8 +583,8 @@
             <opcion>d) a = 4;</opcion>
         </opciones>
         <respuesta>d</respuesta>
-        <explicacion>a comienza con el valor 0. Al evaluar switch (a + 1), el resultado es 1, por lo que entra en el case 1. y continua por la ausencia de break. suma 1 y sale resultado a = 4</explicacion>
-    </pregunta>
+        <explicacion>El valor inicial de `a` es 0. Se evalúa `switch(1)`, entrando en el `case 1`, donde `a = 3`. No hay `break`, así que continúa al `case 2`, donde se hace `a++` (pasa de 3 a 4), y finalmente rompe el bucle. Resultado final: a = 4.</explicacion>
+        </pregunta>
     <pregunta id="47">
         <enunciado>¿Qué es una clase en Java?</enunciado>
         <opciones>
@@ -632,16 +644,18 @@
     </pregunta>
 
     <pregunta id="52">
-        <enunciado>¿Qué afirmaciones sobre constructores son verdaderas?</enunciado>
+        <enunciado>¿Para qué sirve la interfaz `List` en Java?</enunciado>
         <opciones>
-            <opcion>a) Pueden tener el mismo nombre que la clase.</opcion>
-            <opcion>b) Pueden tener valor de retorno distinto de void.</opcion>
-            <opcion>c) Un constructor hijo no puede llamar a un constructor padre. El método está sobre escrito.</opcion>
-            <opcion>d) Se pueden sobrecargar.</opcion>
+            <opcion>a) Permite almacenar elementos ordenados y duplicados.</opcion>
+            <opcion>b) No permite almacenar elementos duplicados.</opcion>
+            <opcion>c) Solo puede almacenar tipos primitivos.</opcion>
+            <opcion>d) No mantiene ningún orden en los elementos.</opcion>
         </opciones>
-        <respuesta>a, d</respuesta>
-        <explicacion>Los constructores tienen el mismo nombre que la clase y pueden sobrecargarse, pero no tienen valor de retorno.</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>La interfaz `List` permite almacenar una colección ordenada de elementos, donde se pueden incluir duplicados.</explicacion>
     </pregunta>
+
+
 
     <pregunta id="53">
         <enunciado>¿Qué sucede si no se define un constructor en una clase?</enunciado>
@@ -726,16 +740,18 @@
     </pregunta>
 
     <pregunta id="60">
-        <enunciado>¿Qué afirmaciones sobre constructores son verdaderas?</enunciado>
+        <enunciado>¿Cuál es una característica del tipo `Set` en Java?</enunciado>
         <opciones>
-            <opcion>a) Pueden tener el mismo nombre que la clase.</opcion>
-            <opcion>b) Pueden tener valor de retorno distinto de void.</opcion>
-            <opcion>c) Un constructor hijo no puede llamar a un constructor padre. El método está sobre escrito.</opcion>
-            <opcion>d) Se pueden sobrecargar.</opcion>
+            <opcion>a) No permite elementos duplicados.</opcion>
+            <opcion>b) Almacena los elementos en orden.</opcion>
+            <opcion>c) Permite claves y valores.</opcion>
+            <opcion>d) Solo puede almacenar cadenas.</opcion>
         </opciones>
-        <respuesta>a, d</respuesta>
-        <explicacion>Los constructores tienen el mismo nombre que la clase y pueden sobrecargarse, pero no tienen valor de retorno.</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>Un `Set` en Java es una colección que no permite elementos duplicados y no garantiza un orden específico.</explicacion>
     </pregunta>
+
+
 
     <pregunta id="61">
         <enunciado>¿Qué sucede si no se define un constructor en una clase?</enunciado>
@@ -1097,15 +1113,15 @@
     </pregunta>
 
     <pregunta id="91">
-        <enunciado>La forma de invocar al recolector de basura es:</enunciado>
+        <enunciado>¿Cuál es la forma correcta de sugerir la ejecución del recolector de basura en Java?</enunciado>
         <opciones>
-            <opcion>a) Mediante System.garbageCollector()</opcion>
+            <opcion>a) Mediante System.gc()</opcion>
             <opcion>b) Mediante el operador new</opcion>
             <opcion>c) Mediante Arrays.garbageCollector()</opcion>
-            <opcion>d) Ninguna de las anteriores respuestas es correcta</opcion>
+            <opcion>d) No es posible sugerir al recolector de basura.</opcion>
         </opciones>
-        <respuesta>d</respuesta>
-        <explicacion>El recolector de basura puede sugerirse con `System.gc()`, pero no se garantiza su ejecución inmediata.</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>La forma correcta de sugerir la ejecución del recolector de basura en Java es usando `System.gc()`. Aunque esto solicita al sistema la recolección, no garantiza que ocurra inmediatamente.</explicacion>
     </pregunta>
 
     <pregunta id="92">
@@ -1233,7 +1249,7 @@
         <enunciado>La forma correcta de comparar alfabéticamente dos cadenas es mediante:</enunciado>
         <opciones>
             <opcion>a) El operador ==</opcion>
-            <opcion>b) El método equal() de String</opcion>
+            <opcion>b) El método equals() de String</opcion>
             <opcion>c) El método equal() de Character</opcion>
             <opcion>d) Todas permiten comparar dos cadenas</opcion>
         </opciones>
