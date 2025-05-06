@@ -3138,7 +3138,8 @@
             <opcion>d) Ninguno, es opcional</opcion>
         </opciones>
         <respuesta>c</respuesta>
-        <explicacion>La clase `Cuadrado` debe implementar el método `area()` porque es abstracto en la clase `Figura`. De lo contrario, se produce un error de compilación.</explicacion>
+        <explicacion>La clase `Cuadrado` debe implementar el método `area()` porque es abstracto en la clase `Figura`. Si no lo hace, la clase `Cuadrado` también debería declararse como abstracta; de lo contrario, se producirá un error de compilación.</explicacion>
+</pregunta>
     </pregunta>
 
     <pregunta id="249">
@@ -5260,5 +5261,49 @@
         <respuesta>c</respuesta>
         <explicacion>Se produce una excepción de tipo `ArithmeticException` por la división entre cero. El bloque `catch` imprime "Error aritmético", y el bloque `finally` siempre se ejecuta, imprimiendo "Finalizado".</explicacion>
     </pregunta>
+    <pregunta id="401">
+        <enunciado>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
+
+            abstract class Figura {
+                abstract double area();
+            }
+            class Circulo extends Figura {
+                double radio;
+                Circulo(double radio) {
+                    this.radio = radio;
+                }
+                // Falta el método area()
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) equals()</opcion>
+            <opcion>b) toString()</opcion>
+            <opcion>c) area(), de lo contrario hay error</opcion>
+            <opcion>d) Ninguno, es opcional</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>La clase `Circulo` debe implementar el método `area()` porque es abstracto en la clase `Figura`. Si no lo hace, la clase `Circulo` también debería declararse como abstracta; de lo contrario, se producirá un error de compilación.</explicacion>
+    </pregunta>
+    <pregunta id="402">
+        <enunciado>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
+
+            abstract class Figura {
+                abstract double area();
+            }
+            class Cuadrado extends Figura {
+                // Falta el método area()
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) Ninguno, es opcional</opcion>
+            <opcion>b) toString</opcion>
+            <opcion>c) area(), de lo contrario hay error</opcion>
+            <opcion>d) equals</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>La clase `Cuadrado` debe implementar el método `area()` porque está declarado como abstracto en la clase `Figura`. Si no lo implementa, la clase `Cuadrado` también debería ser abstracta; de lo contrario, se producirá un error de compilación.</explicacion>
+</pregunta>
+
 
 </preguntas>
+
