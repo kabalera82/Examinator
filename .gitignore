@@ -24,5 +24,3 @@ hs_err_pid*
 replay_pid*
 
 # Ignorar archivos y carpetas específicas
-.idea/
-out/
