@@ -12,15 +12,15 @@ public class Main {
         int totalPreguntasDisponibles = preguntas.size();
         System.out.println("Total de preguntas disponibles: " + totalPreguntasDisponibles);
 
-        Scanner scanner = new Scanner(System.in);
-        Collections.shuffle(preguntas);
+        Scanner scanner = new Scanner(System.in); 
+        Collections.shuffle(preguntas); // Mezclar preguntas para el examen
 
         int totalPreguntas = 0;
         int aciertos = 0;
         int fallos = 0;
         boolean fin = false;
 
-        Iterator<Pregunta> iter = preguntas.iterator();
+        Iterator<Pregunta> iter = preguntas.iterator(); // Usar un iterador para recorrer las preguntas
 
         while (!fin && iter.hasNext()) {
             Pregunta p = iter.next();
@@ -31,7 +31,7 @@ public class Main {
             System.out.println(p.enunciado);
             char letra = 'a';
             for (String opcion : p.opciones) {
-                System.out.println(" " + letra + ") " + opcion);
+                System.out.println(opcion);
                 letra++;
             }
 
