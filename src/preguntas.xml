@@ -2827,7 +2827,7 @@
             <opcion>d) El tamaño del array es fijo una vez creado</opcion>
         </opciones>
         <respuesta>d</respuesta>
-        <explicacion>En Java, el tamaño de un array es fijo una vez que se crea. No puede cambiar dinámicamente.</explicacion>
+        <explicacion>En Java, el tamaño de un array es fijo una vez que se crea, son homogéneos y no puede cambiar dinámicamente.</explicacion>
     </pregunta>
 
     <pregunta id="229">
@@ -4932,235 +4932,333 @@
         <explicacion>En ejercicios de lógica básica en Java, es común utilizar estructuras condicionales y bucles para resolver problemas simples, ya que permiten controlar el flujo del programa.</explicacion>
     </pregunta>
     <pregunta id="376">
-    <enunciado>¿Qué palabra clave se usa para heredar una clase en Java?</enunciado>
-    <opciones>
-        <opcion>a) this</opcion>
-        <opcion>b) extends</opcion>
-        <opcion>c) implements</opcion>
-        <opcion>d) inherit</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>La palabra clave 'extends' permite heredar una clase en Java, lo que significa que la nueva clase adquiere propiedades y métodos de la clase padre.</explicacion>
-</pregunta>
-<pregunta id="377">
-    <enunciado>¿Cuál es el tipo de dato utilizado para representar números decimales en Java?</enunciado>
-    <opciones>
-        <opcion>a) int</opcion>
-        <opcion>b) float</opcion>
-        <opcion>c) boolean</opcion>
-        <opcion>d) char</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>El tipo 'float' se usa en Java para almacenar números decimales de precisión simple.</explicacion>
-</pregunta>
-<pregunta id="378">
-    <enunciado>¿Cuál de estas NO es una estructura de control en Java?</enunciado>
-    <opciones>
-        <opcion>a) for</opcion>
-        <opcion>b) switch</opcion>
-        <opcion>c) repeat</opcion>
-        <opcion>d) while</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>Java no tiene la estructura 'repeat'; las estructuras de control válidas incluyen 'for', 'while', y 'switch'.</explicacion>
-</pregunta>
-<pregunta id="379">
-    <enunciado>¿Qué método se ejecuta primero al iniciar un programa en Java?</enunciado>
-    <opciones>
-        <opcion>a) start()</opcion>
-        <opcion>b) run()</opcion>
-        <opcion>c) main()</opcion>
-        <opcion>d) init()</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>El método 'main()' es el punto de entrada de cualquier programa Java y se ejecuta primero al iniciar.</explicacion>
-</pregunta>
-<pregunta id="380">
-    <enunciado>¿Qué significa JVM?</enunciado>
-    <opciones>
-        <opcion>a) Java Virtual Machine</opcion>
-        <opcion>b) Java Variable Memory</opcion>
-        <opcion>c) Java Visual Mode</opcion>
-        <opcion>d) Java Version Manager</opcion>
-    </opciones>
-    <respuesta>a</respuesta>
-    <explicacion>JVM significa 'Java Virtual Machine', que es la máquina virtual que ejecuta programas Java.</explicacion>
-</pregunta>
-<pregunta id="381">
-    <enunciado>¿Cuál es la salida de: System.out.println(3 + "4")?</enunciado>
-    <opciones>
-        <opcion>a) 7</opcion>
-        <opcion>b) 34</opcion>
-        <opcion>c) Error</opcion>
-        <opcion>d) 43</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>En Java, concatenar un número con una cadena convierte el número a cadena, por lo que la salida es '34'.</explicacion>
-</pregunta>
-<pregunta id="382">
-    <enunciado>¿Qué operador se usa para comparar dos valores en Java?</enunciado>
-    <opciones>
-        <opcion>a) =</opcion>
-        <opcion>b) ==</opcion>
-        <opcion>c) !=</opcion>
-        <opcion>d) equals</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>El operador '==' se utiliza para comparar si dos valores primitivos son iguales en Java.</explicacion>
-</pregunta>
-<pregunta id="383">
-    <enunciado>¿Qué estructura se utiliza para capturar errores en Java?</enunciado>
-    <opciones>
-        <opcion>a) if-else</opcion>
-        <opcion>b) try-catch</opcion>
-        <opcion>c) switch</opcion>
-        <opcion>d) do-while</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>La estructura 'try-catch' se utiliza para manejar excepciones y errores en Java.</explicacion>
-</pregunta>
-<pregunta id="384">
-    <enunciado>¿Cuál es el modificador de acceso más restrictivo en Java?</enunciado>
-    <opciones>
-        <opcion>a) private</opcion>
-        <opcion>b) public</opcion>
-        <opcion>c) protected</opcion>
-        <opcion>d) default</opcion>
-    </opciones>
-    <respuesta>a</respuesta>
-    <explicacion>El modificador 'private' es el más restrictivo, ya que solo permite el acceso dentro de la misma clase.</explicacion>
-</pregunta>
-<pregunta id="385">
-    <enunciado>¿Cuál de estos NO es un tipo de dato primitivo en Java?</enunciado>
-    <opciones>
-        <opcion>a) char</opcion>
-        <opcion>b) String</opcion>
-        <opcion>c) int</opcion>
-        <opcion>d) boolean</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>'String' no es un tipo de dato primitivo en Java; es un objeto de la clase String.</explicacion>
-</pregunta>
-<pregunta id="386">
-    <enunciado>¿Qué instrucción se usa para salir de un bucle en Java?</enunciado>
-    <opciones>
-        <opcion>a) stop</opcion>
-        <opcion>b) exit</opcion>
-        <opcion>c) break</opcion>
-        <opcion>d) return</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>La instrucción 'break' se utiliza para salir anticipadamente de un bucle en Java.</explicacion>
-</pregunta>
-<pregunta id="387">
-    <enunciado>¿Qué tipo de dato se usa para valores verdadero/falso en Java?</enunciado>
-    <opciones>
-        <opcion>a) boolean</opcion>
-        <opcion>b) int</opcion>
-        <opcion>c) byte</opcion>
-        <opcion>d) double</opcion>
-    </opciones>
-    <respuesta>a</respuesta>
-    <explicacion>El tipo de dato 'boolean' se usa para representar valores verdadero o falso en Java.</explicacion>
-</pregunta>
-<pregunta id="388">
-    <enunciado>¿Qué palabra se utiliza para crear una instancia de clase en Java?</enunciado>
-    <opciones>
-        <opcion>a) define</opcion>
-        <opcion>b) init</opcion>
-        <opcion>c) new</opcion>
-        <opcion>d) create</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>La palabra 'new' se usa para crear una nueva instancia de una clase en Java.</explicacion>
-</pregunta>
-<pregunta id="389">
-    <enunciado>¿Qué paquete se importa para usar la clase ArrayList en Java?</enunciado>
-    <opciones>
-        <opcion>a) java.utils</opcion>
-        <opcion>b) java.list</opcion>
-        <opcion>c) java.util</opcion>
-        <opcion>d) java.collection</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>El paquete correcto para ArrayList es 'java.util'.</explicacion>
-</pregunta>
-<pregunta id="390">
-    <enunciado>¿Qué significa POO en Java?</enunciado>
-    <opciones>
-        <opcion>a) Programación Ordenada y Optimizada</opcion>
-        <opcion>b) Programación Orientada a Objetos</opcion>
-        <opcion>c) Procesamiento Óptimo de Objetos</opcion>
-        <opcion>d) Programa Organizado de Objetos</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>POO significa 'Programación Orientada a Objetos', un paradigma central en Java.</explicacion>
-</pregunta>
-<pregunta id="391">
-    <enunciado>¿Cuál es el valor por defecto de un boolean en Java?</enunciado>
-    <opciones>
-        <opcion>a) true</opcion>
-        <opcion>b) false</opcion>
-        <opcion>c) null</opcion>
-        <opcion>d) 0</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>El valor por defecto de un boolean en Java es 'false'.</explicacion>
-</pregunta>
-<pregunta id="392">
-    <enunciado>¿Cuál es el símbolo del operador OR lógico en Java?</enunciado>
-    <opciones>
-        <opcion>a) &&</opcion>
-        <opcion>b) !</opcion>
-        <opcion>c) ||</opcion>
-        <opcion>d) &amp;</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>El símbolo '||' representa el operador OR lógico en Java.</explicacion>
-</pregunta>
-<pregunta id="393">
-    <enunciado>¿Qué clase se usa para mostrar datos por consola en Java?</enunciado>
-    <opciones>
-        <opcion>a) Scanner</opcion>
-        <opcion>b) System</opcion>
-        <opcion>c) System.out</opcion>
-        <opcion>d) Console</opcion>
-    </opciones>
-    <respuesta>c</respuesta>
-    <explicacion>'System.out' se usa para imprimir datos en la consola en Java.</explicacion>
-</pregunta>
-<pregunta id="394">
-    <enunciado>¿Cuál de las siguientes es una interfaz en Java?</enunciado>
-    <opciones>
-        <opcion>a) ArrayList</opcion>
-        <opcion>b) Runnable</opcion>
-        <opcion>c) Math</opcion>
-        <opcion>d) StringBuilder</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>'Runnable' es una interfaz que define un solo método run(), usada para la ejecución de hilos.</explicacion>
-</pregunta>
-<pregunta id="395">
-    <enunciado>¿Qué palabra reservada impide que una clase sea heredada en Java?</enunciado>
-    <opciones>
-        <opcion>a) abstract</opcion>
-        <opcion>b) final</opcion>
-        <opcion>c) static</opcion>
-        <opcion>d) const</opcion>
-    </opciones>
-    <respuesta>b</respuesta>
-    <explicacion>La palabra clave 'final' evita que una clase pueda ser heredada.</explicacion>
-</pregunta>
-<pregunta id="396">
-    <enunciado>¿Qué método convierte una cadena en un entero en Java?</enunciado>
-    <opciones>
-        <opcion>a) parseInt()</opcion>
-        <opcion>b) toInt()</opcion>
-        <opcion>c) int()</opcion>
-        <opcion>d) valueOfInt()</opcion>
-    </opciones>
-    <respuesta>a</respuesta>
-    <explicacion>El método 'parseInt()' de la clase Integer convierte una cadena en un valor entero.</explicacion>
-</pregunta>
+        <enunciado>¿Qué palabra clave se usa para heredar una clase en Java?</enunciado>
+        <opciones>
+            <opcion>a) this</opcion>
+            <opcion>b) extends</opcion>
+            <opcion>c) implements</opcion>
+            <opcion>d) inherit</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>La palabra clave 'extends' permite heredar una clase en Java, lo que significa que la nueva clase adquiere propiedades y métodos de la clase padre.</explicacion>
+    </pregunta>
+    <pregunta id="377">
+        <enunciado>¿Cuál es el tipo de dato utilizado para representar números decimales en Java?</enunciado>
+        <opciones>
+            <opcion>a) int</opcion>
+            <opcion>b) float</opcion>
+            <opcion>c) boolean</opcion>
+            <opcion>d) char</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>El tipo 'float' se usa en Java para almacenar números decimales de precisión simple.</explicacion>
+    </pregunta>
+    <pregunta id="378">
+        <enunciado>¿Cuál de estas NO es una estructura de control en Java?</enunciado>
+        <opciones>
+            <opcion>a) for</opcion>
+            <opcion>b) switch</opcion>
+            <opcion>c) repeat</opcion>
+            <opcion>d) while</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>Java no tiene la estructura 'repeat'; las estructuras de control válidas incluyen 'for', 'while', y 'switch'.</explicacion>
+    </pregunta>
+    <pregunta id="379">
+        <enunciado>¿Qué método se ejecuta primero al iniciar un programa en Java?</enunciado>
+        <opciones>
+            <opcion>a) start()</opcion>
+            <opcion>b) run()</opcion>
+            <opcion>c) main()</opcion>
+            <opcion>d) init()</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>El método 'main()' es el punto de entrada de cualquier programa Java y se ejecuta primero al iniciar.</explicacion>
+    </pregunta>
+    <pregunta id="380">
+        <enunciado>¿Qué significa JVM?</enunciado>
+        <opciones>
+            <opcion>a) Java Virtual Machine</opcion>
+            <opcion>b) Java Variable Memory</opcion>
+            <opcion>c) Java Visual Mode</opcion>
+            <opcion>d) Java Version Manager</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>JVM significa 'Java Virtual Machine', que es la máquina virtual que ejecuta programas Java.</explicacion>
+    </pregunta>
+    <pregunta id="381">
+        <enunciado>¿Cuál es la salida de: System.out.println(3 + "4")?</enunciado>
+        <opciones>
+            <opcion>a) 7</opcion>
+            <opcion>b) 34</opcion>
+            <opcion>c) Error</opcion>
+            <opcion>d) 43</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>En Java, concatenar un número con una cadena convierte el número a cadena, por lo que la salida es '34'.</explicacion>
+    </pregunta>
+    <pregunta id="382">
+        <enunciado>¿Qué operador se usa para comparar dos valores en Java?</enunciado>
+        <opciones>
+            <opcion>a) =</opcion>
+            <opcion>b) ==</opcion>
+            <opcion>c) !=</opcion>
+            <opcion>d) equals</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>El operador '==' se utiliza para comparar si dos valores primitivos son iguales en Java.</explicacion>
+    </pregunta>
+    <pregunta id="383">
+        <enunciado>¿Qué estructura se utiliza para capturar errores en Java?</enunciado>
+        <opciones>
+            <opcion>a) if-else</opcion>
+            <opcion>b) try-catch</opcion>
+            <opcion>c) switch</opcion>
+            <opcion>d) do-while</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>La estructura 'try-catch' se utiliza para manejar excepciones y errores en Java.</explicacion>
+    </pregunta>
+    <pregunta id="384">
+        <enunciado>¿Cuál es el modificador de acceso más restrictivo en Java?</enunciado>
+        <opciones>
+            <opcion>a) private</opcion>
+            <opcion>b) public</opcion>
+            <opcion>c) protected</opcion>
+            <opcion>d) default</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>El modificador 'private' es el más restrictivo, ya que solo permite el acceso dentro de la misma clase.</explicacion>
+    </pregunta>
+    <pregunta id="385">
+        <enunciado>¿Cuál de estos NO es un tipo de dato primitivo en Java?</enunciado>
+        <opciones>
+            <opcion>a) char</opcion>
+            <opcion>b) String</opcion>
+            <opcion>c) int</opcion>
+            <opcion>d) boolean</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>'String' no es un tipo de dato primitivo en Java; es un objeto de la clase String.</explicacion>
+    </pregunta>
+    <pregunta id="386">
+        <enunciado>¿Qué instrucción se usa para salir de un bucle en Java?</enunciado>
+        <opciones>
+            <opcion>a) stop</opcion>
+            <opcion>b) exit</opcion>
+            <opcion>c) break</opcion>
+            <opcion>d) return</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>La instrucción 'break' se utiliza para salir anticipadamente de un bucle en Java.</explicacion>
+    </pregunta>
+    <pregunta id="387">
+        <enunciado>¿Qué tipo de dato se usa para valores verdadero/falso en Java?</enunciado>
+        <opciones>
+            <opcion>a) boolean</opcion>
+            <opcion>b) int</opcion>
+            <opcion>c) byte</opcion>
+            <opcion>d) double</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>El tipo de dato 'boolean' se usa para representar valores verdadero o falso en Java.</explicacion>
+    </pregunta>
+    <pregunta id="388">
+        <enunciado>¿Qué palabra se utiliza para crear una instancia de clase en Java?</enunciado>
+        <opciones>
+            <opcion>a) define</opcion>
+            <opcion>b) init</opcion>
+            <opcion>c) new</opcion>
+            <opcion>d) create</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>La palabra 'new' se usa para crear una nueva instancia de una clase en Java.</explicacion>
+    </pregunta>
+    <pregunta id="389">
+        <enunciado>¿Qué paquete se importa para usar la clase ArrayList en Java?</enunciado>
+        <opciones>
+            <opcion>a) java.utils</opcion>
+            <opcion>b) java.list</opcion>
+            <opcion>c) java.util</opcion>
+            <opcion>d) java.collection</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>El paquete correcto para ArrayList es 'java.util'.</explicacion>
+    </pregunta>
+    <pregunta id="390">
+        <enunciado>¿Qué significa POO en Java?</enunciado>
+        <opciones>
+            <opcion>a) Programación Ordenada y Optimizada</opcion>
+            <opcion>b) Programación Orientada a Objetos</opcion>
+            <opcion>c) Procesamiento Óptimo de Objetos</opcion>
+            <opcion>d) Programa Organizado de Objetos</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>POO significa 'Programación Orientada a Objetos', un paradigma central en Java.</explicacion>
+    </pregunta>
+    <pregunta id="391">
+        <enunciado>¿Cuál es el valor por defecto de un boolean en Java?</enunciado>
+        <opciones>
+            <opcion>a) true</opcion>
+            <opcion>b) false</opcion>
+            <opcion>c) null</opcion>
+            <opcion>d) 0</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>El valor por defecto de un boolean en Java es 'false'.</explicacion>
+    </pregunta>
+    <pregunta id="392">
+        <enunciado>¿Cuál es el símbolo del operador OR lógico en Java?</enunciado>
+        <opciones>
+            <opcion>a) &&</opcion>
+            <opcion>b) !</opcion>
+            <opcion>c) ||</opcion>
+            <opcion>d) &amp;</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>El símbolo '||' representa el operador OR lógico en Java.</explicacion>
+    </pregunta>
+    <pregunta id="393">
+        <enunciado>¿Qué clase se usa para mostrar datos por consola en Java?</enunciado>
+        <opciones>
+            <opcion>a) Scanner</opcion>
+            <opcion>b) System</opcion>
+            <opcion>c) System.out</opcion>
+            <opcion>d) Console</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>'System.out' se usa para imprimir datos en la consola en Java.</explicacion>
+    </pregunta>
+    <pregunta id="394">
+        <enunciado>¿Cuál de las siguientes es una interfaz en Java?</enunciado>
+        <opciones>
+            <opcion>a) ArrayList</opcion>
+            <opcion>b) Runnable</opcion>
+            <opcion>c) Math</opcion>
+            <opcion>d) StringBuilder</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>'Runnable' es una interfaz que define un solo método run(), usada para la ejecución de hilos.</explicacion>
+    </pregunta>
+    <pregunta id="395">
+        <enunciado>¿Qué palabra reservada impide que una clase sea heredada en Java?</enunciado>
+        <opciones>
+            <opcion>a) abstract</opcion>
+            <opcion>b) final</opcion>
+            <opcion>c) static</opcion>
+            <opcion>d) const</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>La palabra clave 'final' evita que una clase pueda ser heredada.</explicacion>
+    </pregunta>
+    <pregunta id="396">
+        <enunciado>¿Qué método convierte una cadena en un entero en Java?</enunciado>
+        <opciones>
+            <opcion>a) parseInt()</opcion>
+            <opcion>b) toInt()</opcion>
+            <opcion>c) int()</opcion>
+            <opcion>d) valueOfInt()</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>El método 'parseInt()' de la clase Integer convierte una cadena en un valor entero.</explicacion>
+    </pregunta>
+    <pregunta id="397">
+        <enunciado>¿Qué se imprime al ejecutar el siguiente código?
+            public class Sobrecarga {
+                void mostrar(int a) {
+                    System.out.println("int");
+                }
+                void mostrar(double a) {
+                    System.out.println("double");
+                }
+                public static void main(String[] args) {
+                    Sobrecarga s = new Sobrecarga();
+                    s.mostrar(5);
+                }
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) int</opcion>
+            <opcion>b) double</opcion>
+            <opcion>c) Error de compilación</opcion>
+            <opcion>d) No imprime nada</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>El método `mostrar(int a)` es llamado porque el argumento `5` es un entero. Aunque hay una versión sobrecargada para `double`, Java elige la coincidencia exacta si está disponible.</explicacion>
+    </pregunta>
+    <pregunta id="398">
+        <enunciado>¿Qué se imprime al ejecutar el siguiente código?
+            interface Animal {
+                void sonido();
+            }
+            class Perro implements Animal {
+                public void sonido() {
+                    System.out.println("Guau");
+                }
+                void ladrar() {
+                    System.out.println("El perro ladra");
+                }
+            }
+            public class Test {
+                public static void main(String[] args) {
+                    Animal a = new Perro();
+                    a.sonido();
+                    // a.ladrar();  // Línea comentada
+                }
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) Guau</opcion>
+            <opcion>b) El perro ladra</opcion>
+            <opcion>c) Guau seguido de El perro ladra</opcion>
+            <opcion>d) Error de compilación</opcion>
+        </opciones>
+        <respuesta>a</respuesta>
+        <explicacion>El método `sonido()` se ejecuta e imprime "Guau". Aunque el objeto es de tipo `Perro`, está referenciado como `Animal`, por lo que no se puede acceder directamente al método `ladrar()` sin hacer un casting. La línea que haría eso está comentada, por lo que no hay error.</explicacion>
+    </pregunta>
+    <pregunta id="399">
+        <enunciado>¿Qué se imprime al ejecutar el siguiente código?
+            public class Prioridad {
+                public static void main(String[] args) {
+                    int a = 5;
+                    int b = 10;
+                    int c = a++ + --b;
+                    System.out.println(c);
+                }
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) 15</opcion>
+            <opcion>b) 14</opcion>
+            <opcion>c) 16</opcion>
+            <opcion>d) 13</opcion>
+        </opciones>
+        <respuesta>b</respuesta>
+        <explicacion>Primero se evalúa `--b` (predecremento), bajando `b` a 9, y luego `a++` (postincremento), usando 5 antes de incrementarlo a 6. La suma es 5 + 9 = 14.</explicacion>
+    </pregunta>
+    <pregunta id="400">
+        <enunciado>¿Qué sucede al ejecutar este código?
+            public class Excepcion {
+                public static void main(String[] args) {
+                    try {
+                        int x = 10 / 0;
+                        System.out.println("Resultado: " + x);
+                    } catch (ArithmeticException e) {
+                        System.out.println("Error aritmético");
+                    } finally {
+                        System.out.println("Finalizado");
+                    }
+                }
+            }
+        </enunciado>
+        <opciones>
+            <opcion>a) Resultado: 0</opcion>
+            <opcion>b) Error aritmético</opcion>
+            <opcion>c) Error aritmético seguido de Finalizado</opcion>
+            <opcion>d) Solo Finalizado</opcion>
+        </opciones>
+        <respuesta>c</respuesta>
+        <explicacion>Se produce una excepción de tipo `ArithmeticException` por la división entre cero. El bloque `catch` imprime "Error aritmético", y el bloque `finally` siempre se ejecuta, imprimiendo "Finalizado".</explicacion>
+    </pregunta>
 
 </preguntas>
