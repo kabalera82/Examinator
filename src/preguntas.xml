@@ -2643,12 +2643,12 @@
     <pregunta id="217">
         <enunciado>¿Qué condiciones debe cumplir un método para ser sobrescrito?</enunciado>
         <opciones>
-            <opcion>a) Mismo nombre</opcion>
-            <opcion>b) Mismo tipo de retorno</opcion>
-            <opcion>c) Misma lista de parámetros</opcion>
-            <opcion>d) Puede cambiar modificador de acceso a más restrictivo</opcion>
+            <opcion>a) Mismo nombre, tipo de retorno y lista de parámetros</opcion>
+            <opcion>b) Solo el mismo nombre</opcion>
+            <opcion>c) Puede cambiar el tipo de retorno</opcion>
+            <opcion>d) Puede cambiar el modificador de acceso a más restrictivo</opcion>
         </opciones>
-        <respuesta>a, b, c</respuesta>
+        <respuesta>a</respuesta>
         <explicacion>Para sobrescribir un método, debe tener el mismo nombre, tipo de retorno y lista de parámetros. El modificador de acceso no puede ser más restrictivo.</explicacion>
     </pregunta>
 
@@ -2691,14 +2691,15 @@
     <pregunta id="221">
         <enunciado>¿Cuál es la diferencia entre this y super?</enunciado>
         <opciones>
-            <opcion>a) this accede a la clase actual.</opcion>
-            <opcion>b) super accede a la clase padre.</opcion>
-            <opcion>c) this se usa en constructores de la superclase.</opcion>
-            <opcion>d) super permite acceder a métodos privados.</opcion>
+            <opcion>a) this accede a la clase actual y super a la clase padre.</opcion>
+            <opcion>b) this accede a la clase padre.</opcion>
+            <opcion>c) super accede a métodos privados.</opcion>
+            <opcion>d) this solo se usa en constructores.</opcion>
         </opciones>
-        <respuesta>a, b</respuesta>
-        <explicacion>`this` se refiere a la instancia actual de la clase, mientras que `super` se utiliza para acceder a miembros de la clase padre.</explicacion>
+        <respuesta>a</respuesta>
+        <explicacion>`this` se refiere a la instancia actual de la clase, y `super` permite acceder a miembros heredados de la clase padre. Ninguno accede a métodos privados ni se limita solo a constructores.</explicacion>
     </pregunta>
+
 
         <pregunta id="222">
             <enunciado>¿Cuál es la salida del siguiente código?
