@@ -1,73 +1,75 @@
+import javax.swing.*;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         List<Pregunta> preguntas = LectorXML.leerPreguntasDesdeXML("preguntas.xml");
         if (preguntas.isEmpty()) {
-            System.out.println("No se pudieron cargar preguntas.");
+            JOptionPane.showMessageDialog(null, "No se pudieron cargar preguntas.");
             return;
         }
 
-        // Total de preguntas en el archivo XML
         int totalPreguntasDisponibles = preguntas.size();
-        System.out.println("Total de preguntas disponibles: " + totalPreguntasDisponibles);
+        JOptionPane.showMessageDialog(null, "Total de preguntas disponibles: " + totalPreguntasDisponibles);
 
-        Scanner scanner = new Scanner(System.in); 
-        Collections.shuffle(preguntas); // Mezclar preguntas para el examen
+        Collections.shuffle(preguntas);
 
         int totalPreguntas = 0;
         int aciertos = 0;
         int fallos = 0;
         boolean fin = false;
 
-        Iterator<Pregunta> iter = preguntas.iterator(); // Usar un iterador para recorrer las preguntas
+        Iterator<Pregunta> iter = preguntas.iterator();
 
         while (!fin && iter.hasNext()) {
             Pregunta p = iter.next();
             totalPreguntas++;
 
-            // Mostrar el ID de la pregunta junto con el enunciado
-            System.out.println("\n--- Pregunta " + totalPreguntas + " (ID: " + p.id + ") ---");
-            System.out.println(p.enunciado);
-            char letra = 'a';
+            StringBuilder preguntaBuilder = new StringBuilder();
+            preguntaBuilder.append("--- Pregunta ").append(totalPreguntas)
+                    .append(" (ID: ").append(p.id).append(") ---\n")
+                    .append(p.enunciado).append("\n");
+
+
             for (String opcion : p.opciones) {
-                System.out.println(opcion);
-                letra++;
+                preguntaBuilder.append(opcion).append("\n");
+                ;
             }
 
-            System.out.print("Tu respuesta (a/b/c/d o 0 para salir): ");
-            String respuestaUsuario = scanner.nextLine().trim().toLowerCase(); // Leer la respuesta del usuario, quitar espacios y convertir a minúsculas.
+            String respuestaUsuario = JOptionPane.showInputDialog(
+                    null,
+                    preguntaBuilder.toString() + "\nTu respuesta (a/b/c/d o 0 para salir):"
+            );
 
-            if (respuestaUsuario.equals("0")) {
+            if (respuestaUsuario == null || respuestaUsuario.trim().equals("0")) {
                 fin = true;
                 break;
             }
 
+            respuestaUsuario = respuestaUsuario.trim().toLowerCase();
+
             if (p.esCorrecta(respuestaUsuario)) {
-                System.out.println("✅ ¡Correcto!");
+                JOptionPane.showMessageDialog(null, "✅ ¡Correcto!");
                 aciertos++;
             } else {
-                System.out.println("❌ Incorrecto. La respuesta correcta era: " + p.respuestaCorrecta);
+                JOptionPane.showMessageDialog(null, "❌ Incorrecto. La respuesta correcta era: " + p.respuestaCorrecta);
                 fallos++;
             }
 
-            System.out.println("📝 Explicación: " + p.explicacion);
+            JOptionPane.showMessageDialog(null, "📝 Explicación: " + p.explicacion);
         }
 
-        // Calcular nota final
         double puntuacionCruda = aciertos - (fallos / 3.0);
         if (puntuacionCruda < 0) puntuacionCruda = 0;
 
         double notaFinal = (puntuacionCruda * 10.0) / totalPreguntas;
         if (notaFinal > 10) notaFinal = 10;
 
-        // Resultado final
-        System.out.println("\n=== Resultados ===");
-        System.out.println("Preguntas respondidas: " + totalPreguntas);
-        System.out.println("Aciertos: " + aciertos);
-        System.out.println("Fallos: " + fallos);
-        System.out.printf("Nota final: %.2f\n", notaFinal);
+        String resultadoFinal = String.format(
+                "=== Resultados ===\nPreguntas respondidas: %d\nAciertos: %d\nFallos: %d\nNota final: %.2f",
+                totalPreguntas, aciertos, fallos, notaFinal
+        );
 
-        scanner.close();
+        JOptionPane.showMessageDialog(null, resultadoFinal);
     }
 }

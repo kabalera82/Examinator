@@ -23,4 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-# Ignorar archivos y carpetas específicas
+# IntelliJ IDEA project files
+.idea/
+*.iml
+out/
